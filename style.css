@@ -1500,4 +1500,244 @@ button:focus{
 }
 /* big-info-service! */
 
+/* how-affect */
+
+.how-affect {
+    background: #f3f5f6;
+    height: 680px;
+    display: flex;
+    align-items: center;
+}
+
+.container-how-affect{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.how-affect-text {
+    font-family: 'Stolzl Book';
+    font-size: 35px;
+    
+
+}
+
+.wrapper-affect {
+    display: flex;
+}
+
+.bad-affect{
+    flex: 1;
+    background: #fafafb;
+    border-radius: 20px;
+    padding-left: 42px;
+    padding: 35px 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 364px;
+    margin-top: 50px;
+    margin: 50px 15px 0 0;
+}
+
+.bad-affect-text {
+    font-family: 'Stolzl Book';
+    color: rgba(120, 120, 120, 255);
+}
+
+.bad-affect-list {
+    list-style: none;;
+}
+
+.bad-affect-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 310px;
+    margin: 10px 0;
+    
+
+}
+
+.bad-affect-item p {
+    font-size: 12px;
+    color: rgba(120, 120, 120, 255);
+    margin-right: 50px;
+}
+
+.good-affect{
+    flex:1;
+    background: #ffffff;
+    border-radius: 20px;
+    padding-left: 42px;
+    padding: 35px 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 364px;
+    margin: 50px 0 0 15px;
+    
+}
+
+.good-affect-list {
+    list-style: none;;
+}
+
+.good-affect-text{
+    font-family: 'Stolzl Book';
+}
+
+.good-affect-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 310px;
+    margin: 10px 0;
+    
+}
+
+.good-affect-item p {
+    font-size: 12px;
+    color: rgba(120, 120, 120, 255);
+    margin-right: 50px;
+}
+
+/* how-affect! */
+
+/* dev-stage */
+
+.dev-stage{
+    background: url(images/dev-stage-fon.png);
+    height: 478px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+.container-dev-stage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.dev-stage-title {
+    display: block;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.dev-stage-sub-title {
+    display: block;
+    font-size: 24px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.dev-stage-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 130px
+}
+
+.dev-stage-items {
+    flex:1;
+    border-radius:20px;
+    background: #f3f5f6;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 25px;
+    position: relative;
+}
+
+.number-dev-stage {
+    font-family: 'Stolzl Book';
+    font-size: 33px;
+}
+
+.dev-stage-text {
+    font-family: 'Stolzl Book';
+    font-size: 11px; 
+}
+
+.decor{
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+/* dev-stage! */
+
+/* complex-analysis */
+.complex-analysis {
+    height: 469px;
+    background: #f3f5f6;
+}
+
+.container-complex-analysis { 
+    display: flex;
+    height: 100%;
+}
+
+.wrapper-analysis-title {
+ flex: 2.3;
+ display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.analysis-title {
+display: block;
+font-family: 'Stolzl Book';
+font-size: 41px;
+margin-bottom: 11px;
+}
+
+.analysis-sub-title {
+    display: block;
+    font-family: 'Stolzl Light';
+    font-size: 23px;
+    color: rgba(120, 120, 120, 255);
+    margin: 11px 0 20px 0;
+}
+
+.analysis-text {
+    display: block;
+    font-family: 'Stolzl Light';
+    color: rgba(120, 120, 120, 255);
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+.analysis-list {
+    flex: 1.2;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.analysis-item-check {
+    margin: 0 15px;
+}
+
+.analysis-item{
+    background: #fff;
+    height: 65px;
+    border-radius: 20px;
+    margin: 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.analysis-item-text{
+    display: inline-block;
+    font-family: 'Stolzl Book';
+    color: rgba(29, 15, 28, 255);
+    font-size: 14px;
+}
+
+/* complex-analysis! */
+
 /* BRANDING!! */
