@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Stolzl Book';
+    src: url(./fonts/StolzlBook.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Stolzl Light';
+    src: url(./fonts/StolzlLight.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --violet: #260063;
+    --blue-light: rgba(68,174,255);
+    --blue-dark: rgb(75,38,239);
+    --grey: #787878;
+    --grey-light: #F3F5F6;
+    --grey-dark: #1D0F1C;
+
+    --font-book: 'Stolzl Book', Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: 'Stolzl Light', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+}
+input,textarea:focus{
+    outline: none;
+}
+textarea {
+    border-radius: 25px;
+    resize: none;
+}
+
+img {
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+*[data-paroller-factor] {
+    position: absolute;
+}
+
+/* ! header */
+
+.header {
+    min-height: 149px;
+    background: url(./images/header-bg.png) no-repeat center top;
+    display: flex;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    flex: 1;
+    align-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.header-nav-list__link {
+    margin: 0 17px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+
+.header-nav-list__link:hover {
+    color: var(--blue-light);
+}
+
+.header-phone {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.social-links__item-logo {
+    width: 30px;
+    max-height: 15px;
+    fill: #fff;
+}
+
+.social-links__item:hover .social-links__item-logo {
+    fill: var(--blue-light);
+}
+
+.header-social-links {
+    justify-content: center;
+}
+
+.header-social-links .social-links__item {
+    margin: 5px 0;
+}
+
+.header-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 220px;
+}
+
+.header-bottom-info__title,
+.header-bottom-info__subtitle {
+    display: block;
+    font-family: var(--font-book);
+}
+
+.header-bottom-info__title {
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.header-bottom-info__subtitle {
+    margin-bottom: 30px;
+    font-size: 25px;
+    color: #9CACF0;
+}
+
+.header-bottom-info__btn {
+    width: 270px;
+    font-size: 18px;
+}
+
+/* header ! */
+
+/* services-branding */
+
+.services-branding{
+    display: flex;
+    justify-content: center;
+    background: url(images/branding-services.png) no-repeat;
+    height: 745px;
+    align-items: center;
+}
+
+.container{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.design_choice{
+    align-self: center;
+    font-family:'Stolzl Book';
+    font-size: 40px;
+}
+
+.branding{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    max-width: 230px;
+    border-radius: 15px;
+    margin-right: 5.5px;
+    justify-content: space-between;
+}
+.wrapper{
+    display: flex;
+}
+.wrapper-right{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+
+}
+
+.wrapper-services{
+    margin: 28px;
+}
+
+.wrapper-branding-info{
+    margin-top: 35px;
+}
+
+.services-lists{
+    display: flex;
+    flex: 1;
+}
+.services-name{
+    font-family:'Stolzl Book';
+    font-size: 21px;
+    margin:6px 0;
+    display: block;
+}
+.slogan{
+    font-family:'Stolzl Light';
+    font-size:13px;
+    color: #787878;
+    margin-bottom: 25px;
+    display: block;
+}
+.branding-smal-img{
+    margin: 25px 0 50px 0;
+}
+.btn-more-branding{
+    margin: 22px 28px;
+    border: 0px;
+    background-color: #fff;
+    text-decoration: underline;
+    align-self: end;
+
+}
+.btn-more-branding:focus{
+    outline: none;
+}
+.about-branding{
+    flex: 3.5;
+    display: flex;
+}
+.services-items{
+    list-style: none;
+    background: #fff;
+    border-radius: 15px; 
+    margin: 0 5.5px;
+    flex:1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.services-items a{
+    color: black;
+}
+.about-brandoing-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 38px;
+}
+.about-brandoing-info-title{
+    font-family: 'Stolzl Book';
+    font-size: 40px;
+    display: block;
+    margin: 10px 0;
+}
+.about-brandoing-info-slogan{
+    font-size: 28px;
+    display: block;
+    margin: 10px 0;
+}
+.about-brandoing-info-we-top{
+    font-size: 20px;
+    border-left:3px solid #5867f5; 
+    padding-left: 17px;
+    display: block;
+    margin: 10px 0;
+}
+.cost{
+    border-radius: 30px;
+    border: 0px;
+    background:linear-gradient(to right, #4929f0, #4ecaeb);
+    min-height: 65px;
+    font-family: 'Stolzl Book';
+    font-size: 17px;
+    color: #fff;
+}
+.cost:focus{
+    outline: none;
+}
+
+
+/* services-branding! */
+
+
+/* info-about-services */
+
+.info-about-services{
+    display: flex;
+    justify-content: center; 
+}
+
+.container-info-about{
+    flex-direction: row;
+}
+.services-this{
+    margin: 0 15px;
+    flex: 1.5;
+}
+.services-this-text{
+    display: block;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.services-this-definition{
+    display: block;
+    font-family: 'Stolzl Light';
+    font-size: 24px;
+}
+
+.show-cases{
+    border-radius: 30px;
+    border:1px solid black;
+    background:#ffffff;
+    height: 65px;
+    width: 100%;
+}
+
+.show-cases:focus{
+    outline: none;
+
+}
+
+.info-services-img{
+    margin: 0 15px;
+    flex:2;
+}
+
+.services-why{
+    margin: 0 15px;
+    flex:1;
+}
+
+.services-why-text{
+    font-family: 'Stolzl Book';
+    font-size: 18px;
+}
+
+.services-why-list{
+    position: relative;
+    z-index: 2;
+    list-style: none;
+}
+
+.services-why-items-text{
+    position: relative;
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    padding-left: 25px;
+    text-decoration: none;
+    color: var(---grey);
+}
+
+.services-why-items-text::before{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 20px;
+    height: 2px;
+    background: var(--grey);
+    transition: all .25s;
+    transform-origin: center center;
+}
+
+.services-why-items-text:hover {
+    color: var(--blue-dark);
+}
+
+.services-why-items-text:hover::before {
+    background: linear-gradient(to right, var(--blue-dark), var(--blue-light));
+    transform: rotate(-45deg);
+}
+/* info-about-service! */
+
+
+
