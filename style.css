@@ -1505,6 +1505,7 @@ button:focus{
 /* how-affect */
 
 .how-affect {
+    position: relative;
     background: #f3f5f6;
     height: 680px;
     display: flex;
@@ -1609,8 +1610,9 @@ button:focus{
 /* dev-stage */
 
 .dev-stage{
-    background: url(images/dev-stage-fon.png);
+    position: relative;
     height: 478px;
+    background: url(images/dev-stage-fon.png);
     /* display: flex;
     flex-direction: column;
     justify-content: space-around; */
@@ -1949,6 +1951,7 @@ background-position-x: 15px;
 
 /* price */
 .price {
+    position: relative;
     background: url(images/price-fon.png) no-repeat;
 }
 
@@ -2079,5 +2082,44 @@ input[type="checkbox"]:checked + label {
     font-family: 'Stolzl Book';
     font-size: 16px;
 }
+
+/* parroler */
+
+.header__paroller-1 {
+    top: 50px;
+    left: 65%;
+}
+
+.service-about__paroller-1 {
+    top: 85%;
+    left: 90%;
+}
+
+.big-info__paroller-1 {
+    z-index: 99999;
+    top: 90%;
+    left: 0px;
+}
+
+.dev-stage__paroller-1 {
+    top: 65%;
+    left: 92%;
+}
+
+.price__paroller-1 {
+    top: 60%;
+    left: 10%;
+}
+
+.price__paroller-2 {
+    top: 83%;
+    left: 5%;
+}
+
+.price__paroller-3 {
+    top: 82%;
+    left: 81%;
+}
+/* parroler! */
 /* price! */
 /* BRANDING!! */
