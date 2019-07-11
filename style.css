@@ -1361,6 +1361,7 @@ button:focus{
     display: flex;
     justify-content: space-between;
     margin-left: 38px;
+    padding-top: 35px;
 }
 
 .sml-info-service-text{
@@ -1415,10 +1416,11 @@ button:focus{
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 83px 15px 0 15px;
 }
 
 .services-this{
-    margin: 0 15px;
+    /* margin: 0 15px; */
     flex: 1.5;
 }
 
@@ -1643,7 +1645,9 @@ button:focus{
 .dev-stage-items {
     flex:1;
     border-radius:20px;
-    background: #f3f5f6;
+    background:#f3f5f6 url(images/left-dev-stage.png) no-repeat;
+    background-position-x: -15px;
+    background-position-y: -15px;
     margin: 0 15px;
     display: flex;
     flex-direction: column;
@@ -1651,6 +1655,19 @@ button:focus{
     padding: 0 25px;
     position: relative;
 }
+
+.dev-stage-items::after{
+    content: ' ';
+    position: absolute;
+    left: 100%;
+    width: 31px;
+    height: 5px;
+    background: #f3f5f6;
+}
+.dev-stage-items:last-child:after{
+    content: none;
+}
+
 
 .number-dev-stage {
     font-family: 'Stolzl Book';
@@ -1711,7 +1728,7 @@ margin-bottom: 11px;
 }
 
 .analysis-list {
-    flex: 1.2;
+    flex: 1.5;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -1722,22 +1739,345 @@ margin-bottom: 11px;
     margin: 0 15px;
 }
 
-.analysis-item{
-    background: #fff;
+.analysis-item{ 
+    background: #fff url(images/check.png) no-repeat;
+    background-position-y: center;
+background-position-x: 15px;   
     height: 65px;
     border-radius: 20px;
     margin: 5px 15px;
     display: flex;
     align-items: center;
+    padding-left: 66px;
 }
 
-.analysis-item-text{
+.analysis-item-text {
     display: inline-block;
     font-family: 'Stolzl Book';
     color: rgba(29, 15, 28, 255);
     font-size: 14px;
 }
 
+
 /* complex-analysis! */
 
+/* components-branding */
+
+.components-branding {
+    background: url(images/comp-branding-fon.png) no-repeat;
+    padding: 85px 0 125px 0;
+
+}
+
+.container-comp-branding{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.comp-branding-title {
+    display: block;
+    width: 344px;
+    text-align: right;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.comp-branding-sub-title { 
+    display: block;
+    width: 415px;
+    margin: 17px 0 75px 0;
+    text-align: right;
+    font-family: 'Stolzl Light';
+    font-size: 15px;
+    color: rgba(204, 204, 204, 255);
+}
+
+.comp-branding-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    
+}
+
+.comp-branding-items {
+    margin: 13px 0;
+    background: url(images/dash.png) no-repeat;
+    background-position: 100%;
+    position: relative;
+}
+
+/* .comp-branding-items::after{
+    content: '';
+    width: 
+} */
+
+.comp-branding-items-text {
+    margin-right: 51px;
+    font-family: 'Stolzl Light';
+    font-size: 20px;
+    color: rgba(255, 255, 255, 255);
+}
+/* components-branding! */
+
+/* brand-dev */
+
+.brand-dev {
+    background: url(images/brand-dev-fon.png) no-repeat;
+}
+
+.container-brand-dev {
+    display: flex;
+    flex-direction: column; 
+    padding: 169px 0 91px 0;
+    align-items: end;
+    
+
+}
+
+.brand-dev-title {
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+    color: rgba(29, 15, 28, 255);
+}
+
+.brand-dev-sub-title {
+    display: block;
+    width: 470px;
+    margin: 25px 0 84px 0;
+    line-height: 26px;
+    font-family: 'Stolzl Light';
+    color: rgba(120, 120, 120, 255);
+    
+}
+
+.aspins {
+    border: none;
+    background: #fff;
+    font-family: 'Stolzl Light';
+    color: rgba(255, 176, 0, 255);
+    font-size: 24px;
+    text-decoration: underline;
+
+}
+/* brand-dev! */
+
+/* show-client */
+
+.show-client {
+    background: #f3f5f6;
+}
+
+.container-show-client {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 15px;
+}
+
+.wrapper-show-client-item {
+    display: flex;
+}
+
+.show-client-item {
+    margin: 0 15px 0 15px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.show-client-item:first-child {
+    margin: 0 15px 0 0;
+}
+
+.show-client-item:last-child {
+    margin: 0 0 0 15px;
+}
+
+.wrapper-show-client-content {
+    margin: 25px;
+}
+
+.show-client-title {
+    display: block;
+    margin-bottom: 50px;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.show-client-item-title {
+    display: block;
+    font-family: 'Stolzl Book'; 
+}
+
+.show-client-item-sub-title {
+    display: block;
+    margin: 12px 0;
+    font-family: 'Stolzl Light'; 
+    font-size: 14px;
+    color: rgba(120, 120, 120, 255);
+    line-height: 20px;
+}
+
+.show-clietn-list {
+    list-style: none;
+}
+
+.show-client-sub-items {
+    position: relative;
+    margin: 12px 0;
+    font-family: 'Stolzl Light'; 
+    font-size: 14px;
+}
+
+.show-client-sub-items p {
+    padding: 0 25px;
+}
+
+.show-client-sub-items p::before{
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 21px;
+    height: 1px;
+    background: var(--grey);
+}
+
+/* show-client! */
+
+/* price */
+.price {
+    background: url(images/price-fon.png) no-repeat;
+}
+
+.container-price {
+    padding:86px 15px 0 15px;
+}
+
+.praci-title {
+    margin-top: 86px;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.price-sub-title {
+    display: block;
+    max-width: 442px;
+    margin: 12px 0 39px 0;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.choice-price-title {
+    display: block;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.name-service {
+    display: block;
+    margin: 54px 0 17px 0;
+    font-family: 'Stolzl Book';
+    font-size: 20px;
+    color: rgba(255, 255, 255, 255);
+
+}
+
+.check {
+    display: none;
+}
+
+.wrapper-form-input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-form-input input {
+    margin: 32px 22px 0px 0;
+}
+
+
+.price-design {
+    display: flex;
+}
+
+.check-service {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    padding: 0px 30px;
+    margin-right: 12px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-family:'Stolzl Book';
+    color: #fff;
+    font-size: 20px;
+   }
+
+input[type="checkbox"]:checked + label {
+    background: #fff;
+    color: #260063;
+}
+
+.contact-title {
+    margin: 78px 0 10px 0;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.form-input {
+    width: 368px;
+    height: 52px;
+    padding: 32px;
+    border-radius: 30px;
+    border: none;
+    background: #6869f4;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 255);
+}
+.form-input::placeholder{
+    color: #fff;
+}
+
+.feadback-comment {
+    width: 100%;
+    height: 123px;
+    margin-top: 32px;
+    padding: 30px;
+    font-size: 16px;
+}
+
+.add-file {
+    display: block;
+    padding-left: 25px;
+    margin: 19px 0 14px 0;
+    background: url(./images/file-icon.png) no-repeat left center;
+    line-height: 23px;
+    font-family: 'Stolzl-Book';
+    font-size: 14px;
+    color: #fff;
+}
+
+.add-file input{
+    display: none;
+}
+
+.send-file {
+    width: 470px;
+    height: 65px;
+    margin-bottom: 93px;
+    border: none;
+    border-radius: 30px;
+    background: #fff;
+    text-align: center;
+    color: rgba(38, 0, 99, 255);
+    font-family: 'Stolzl Book';
+    font-size: 16px;
+}
+/* price! */
 /* BRANDING!! */
