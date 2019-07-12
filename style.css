@@ -1854,6 +1854,7 @@ background-position-x: 15px;
 
 .brand-dev {
     background: url(images/brand-dev-fon.png) no-repeat;
+    background-position: 100% 12%;
 }
 
 .container-brand-dev {
