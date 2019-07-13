@@ -1398,6 +1398,7 @@ button:focus{
 }
 
 .cost{
+    width: 320px;
     border-radius: 30px;
     border: 0px;
     background:linear-gradient(to right, #4929f0, #4ecaeb);
@@ -1405,7 +1406,7 @@ button:focus{
     font-family: 'Stolzl Book';
     font-size: 17px;
     color: #fff;
-    min-width: 320px;
+    
 }
 /* service-about!! */
 
@@ -1638,6 +1639,7 @@ button:focus{
 
 .dev-stage-sub-title {
     display: block;
+    margin-top: 14px;
     font-size: 24px;
     color: rgba(120, 120, 120, 255);
 }
@@ -2544,3 +2546,212 @@ input[type="checkbox"]:checked + label {
 
 /* run-site! */
 /* WEB-SITE!! */
+
+
+/* SERVICE-LOGO */
+
+.service-logo-big-img {
+    width: 416px;
+    height: 130px;
+    align-self: center;
+}
+.service-logo-we-top {
+    display: block;
+    margin: 10px 115px 10px 0;
+    line-height: 29px;
+    font-size: 21px;
+}
+
+.service-logo__info-service-img {
+    max-width: 325px;
+    height: 101px;
+    margin-right: 133px;
+    margin-left: 113px;
+}
+
+/* logo-concept */
+
+.logo-concept {
+    background: #fff url(images/logo-concept-fon.png) no-repeat 100% 0;
+}
+
+.container-logo-concept {
+    display: flex;
+    padding: 98px 15px 95px 15px;
+}
+
+.wrapper-logo-concept-text {
+    margin-left: 36px;
+}
+
+.logo-concept-title {
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.logo-concept-sub-title {
+    display: block;
+    margin: 19px 0 44px 0;
+    font-size: 24px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.logo-concept-list {
+    list-style: none;
+    
+}
+
+.logo-concept-item {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    margin: 10px 0;
+    padding-left:66px; 
+    background: #fff url(images/check.png) no-repeat;
+    background-position-y: center;
+    background-position-x: 15px;
+    /* line-height: 19px; */
+}
+
+.logo-concept-text {
+    font-family: 'Stolzl Book';
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* logo-concept! */
+
+/* final-work-logo */
+
+.final-work-logo {
+    background: #f3f5f6 url(images/final-work-logo-fon.png) no-repeat 100%;
+}
+
+.contaoner-final-work-logo {
+    width: 570px;
+    padding:111px 0 96px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.final-work-logo-title {
+    font-family: 'Stolzl Book';
+    font-size: 22px;
+    line-height: 39px;
+}
+
+.final-work-logo-sub-title {
+    display: block;
+    margin-top:21px; 
+    font-size: 16px;
+    color: rgba(120, 120, 120, 255);
+    line-height: 26px;
+}
+
+/* final-work-logo! */
+
+/* logo-processing */
+
+.container-logo-processing {
+    padding: 100px 15px 67px 15px;
+}
+
+.logo-processing-title {
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.logo-processing-sub-title {
+    display: block;
+    margin: 14px 0 25px 0;
+    font-size: 24px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.wrapper-logo-processing{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-processing-ex {
+    display: flex;
+}
+
+.logo-before {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background: #fff;
+    /* box-shadow:-1px -1px 25px 0px #fefeff, #fdfeff, #fdfdff, #fcfdff, #fbfcff, #fafcff, #fafbff,  #f9fbff, #f8faff,  #f7f9ff; */
+    /* box-shadow: -1px -1px 25px 0px #fefeff,
+                -1px -1px 25px 0px #fdfeff,
+                -1px -1px 25px 0px #fdfdff,
+                -1px -1px 25px 0px #fcfdff,
+                -1px -1px 25px 0px #fbfcff,
+                -1px -1px 25px 0px #fafcff,
+                -1px -1px 25px 0px #fafbff,
+                -1px -1px 25px 0px #f9fbff,
+                -1px -1px 25px 0px #f8faff,
+                -1px -1px 25px 0px #f7f9ff
+                ; */
+border: 1px solid black;
+                
+}
+
+.logo-after {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding-bottom: 20px;
+    margin: 0 30px;
+    border-radius: 15px;
+    background: #fff;
+    /* box-shadow: -1px -1px 25px 0px #fefeff,
+                -1px -1px 25px 0px #fdfeff,
+                -1px -1px 25px 0px #fdfdff,
+                -1px -1px 25px 0px #fcfdff,
+                -1px -1px 25px 0px #fbfcff,
+                -1px -1px 25px 0px #fafcff,
+                -1px -1px 25px 0px #fafbff,
+                -1px -1px 25px 0px #f9fbff,
+                -1px -1px 25px 0px #f8faff,
+                -1px -1px 25px 0px #f7f9ff
+                ; */
+                border: 1px solid black;
+}
+
+.logo-processing-text {
+    flex: 1;
+    font-size: 16px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.logo-processing-ex {
+    height: 210px;
+    margin: 15px 0;
+}
+
+.logo-bottom-text {
+    display: block;
+    font-size: 18px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.logo-before-img {
+    margin: auto;
+}
+
+.logo-after-img {
+    margin: auto;
+}
+
+/* logo-processing! */
+
+/* SERVICE-LOGO! */
