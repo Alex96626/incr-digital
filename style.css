@@ -1324,7 +1324,7 @@ button:focus{
 .btn-more-service{
     margin: 22px 28px;
     border: 0px;
-    background-color: #fff;
+    background-color: transparent;
     text-decoration: underline;
     align-self: end;
 }
@@ -1364,6 +1364,7 @@ button:focus{
 .sml-info-service{
     display: flex;
     justify-content: space-between;
+    flex: 3;
     margin-left: 38px;
     padding-top: 35px;
 }
@@ -1617,6 +1618,7 @@ button:focus{
 /* dev-stage */
 
 .dev-stage{
+    position: relative;
     height: 478px;
     background: url(images/dev-stage-fon.png);
     /* display: flex;
@@ -2139,6 +2141,11 @@ input[type="checkbox"]:checked + label {
     left: 92%;
 }
 
+.dev-stage__paroller-2 {
+    top: 65%;
+    left: 92%;
+}
+
 .price__paroller-1 {
     top: 60%;
     left: 10%;
@@ -2167,6 +2174,10 @@ input[type="checkbox"]:checked + label {
 .dev-site__paroller-2 {
     top: 57%;
     left: 86%;
+}
+
+.final-work-logo__paroller-1 {
+    top: -30%;
 }
 /* parroler! */
 /* price! */
@@ -2551,8 +2562,8 @@ input[type="checkbox"]:checked + label {
 /* SERVICE-LOGO */
 
 .service-logo-big-img {
-    width: 416px;
-    height: 130px;
+    /* width: 416px;
+    height: 130px; */
     align-self: center;
 }
 .service-logo-we-top {
@@ -2624,6 +2635,7 @@ input[type="checkbox"]:checked + label {
 /* final-work-logo */
 
 .final-work-logo {
+    position: relative;
     background: #f3f5f6 url(images/final-work-logo-fon.png) no-repeat 100%;
 }
 
@@ -2755,3 +2767,45 @@ border: 1px solid black;
 /* logo-processing! */
 
 /* SERVICE-LOGO! */
+
+/* SERVICE-ADVERTISING */
+
+.service-advertising {
+    height: 420px;
+    background: url(images/service-advertising-small-img.png)
+}
+
+.btn-service-advertising {
+    color: #fff;
+}
+
+/* case */
+
+.container-case{
+    display: flex;
+    align-items: center;
+}
+
+.case-title {
+    position: relative;
+    width: 720px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 79px;
+        font-family: 'Stolzl Book';
+    font-size: 30px;
+    text-align: right;
+}
+
+.case-title::after {
+    content: '';
+    position: absolute;
+    right: -60px;
+    border: 30px solid transparent;
+    border-left: 30px solid #fff;
+}
+
+/* case! */
+
+
+/* SERVICE-ADVERTISING! */
