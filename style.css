@@ -1422,7 +1422,7 @@ button:focus{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 83px 15px 0 15px;
+    padding: 105px 15px 96px 15px;
 }
 
 .services-this{
@@ -1438,18 +1438,19 @@ button:focus{
 
 .service-this-definition{
     display: block;
-    margin: 23px 0 100px 0;
+    margin: 23px 0 45px 0;
     font-family: 'Stolzl Light';
     font-size: 21px;
     line-height: 35px;
 }
 
 .show-cases{
+    height: 65px;
+    width: 320px;
+    margin-bottom: 96px;
     border-radius: 30px;
     border:1px solid black;
     background:#ffffff;
-    height: 65px;
-    width: 100%;
 }
 
 .show-cases:focus{
@@ -2807,5 +2808,96 @@ border: 1px solid black;
 
 /* case! */
 
+/* pack-shape */
 
+.container-pack-shape {
+    display: flex;
+    padding: 26px 15px 20px 15px;
+}
+
+.pack-shape-title {
+    display: block;
+    font-family: 'Stolzl Book';
+    font-size: 23px;
+}
+
+.pack-shape-sub-title {
+    display: block;
+    margin: 20px 0 45px 0;
+    font-size: 24px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.wrapper-pack-shape {
+    width: 391px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 200px;
+    
+}
+
+
+/* pack-shape! */
+
+/* mommyjob */
+
+.mommyjob {
+    position: relative;
+    background: url(images/mommyjob-fon.png) no-repeat;
+}
+
+.container-mommyjob {
+    display: flex;
+    padding: 195px 15px;
+}
+
+.mommyjob-title {
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.mommyjob-sub-title {
+    display: block;
+    margin: 18px 0 136px 0;
+    font-size: 24px;
+    color: rgba(204, 204, 204, 255);
+}
+
+.mommyjob-bnt {
+    width: 238px;
+    border: none;
+    background: transparent;
+    font-size: 24px;
+    color: rgba(250, 250, 251, 255);
+    text-decoration: underline;
+}
+
+.mommyjob__paroller-1 {
+    top: 61%;
+    left: 90%;
+}
+
+.mommyjob__paroller-2 {
+    top: 61%;
+    /* left: 10%; */
+}
+/* mommyjob! */
+
+/* presetn-client */
+
+.present-client-title {
+    font-family: 'Stolzl Light';
+    font-size: 24ptx
+}
+
+.present-client-text {
+    display: block;
+    margin-top: 17px;
+    font-size: 16px;
+    color: rgba(120, 120, 120, 255);
+}
+
+/* presetn-client! */
 /* SERVICE-ADVERTISING! */
