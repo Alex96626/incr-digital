@@ -1297,6 +1297,7 @@ button:focus{
 }
 
 .design_choice{
+    margin-bottom: 74px;
     align-self: center;
     font-family:'Stolzl Book';
     font-size: 40px;
@@ -3022,3 +3023,77 @@ border: 1px solid black;
 
  /* land-services-list! */
 /* SERVICE! */
+
+/* SERVICE-2 */
+
+.service-all {
+    background: url(images/branding-services.png) no-repeat;
+}
+
+.container-service-all {
+    display: flex;
+    flex-direction: column;
+    padding: 97px 15px 87px 15px;
+}
+
+.service-all-list {
+    display: flex;
+}
+
+.service-all-item {
+    position: relative;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 11px;
+    border-radius: 15px;
+    background: #fff;
+    transition: all .25s;
+}
+
+.service-all-item:hover {
+    /* margin-top:31px;  */
+    top: 20px;
+    box-shadow: 0px 10px 74.1px 20.9px rgba(58, 112, 255, 0.22);   
+}
+
+.service-all-item:first-child {
+    margin-left: 0px
+}
+
+.service-all-item:last-child {
+    margin-right: 0px;
+}
+
+.service-all-title {
+    display: block;
+    margin-left: 21px;
+    margin-top: 27px;
+    font-family: 'Stolzl Book';
+    font-size: 16px;
+}
+
+.sevice-all-sub-title {
+    display: block;
+    margin: 9px 0 6px 21px;
+    font-size: 12px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.service-all-img {
+    margin: auto;
+}
+
+.service-all-btn {
+    align-self: flex-start;
+    margin-left: 21px;
+    margin-top: auto;
+    margin-bottom: 22px;
+    border:none;
+    background: transparent;
+    text-decoration: underline;
+}
+
+
+/* SERVICE2! */
