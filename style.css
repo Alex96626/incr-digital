@@ -1281,6 +1281,7 @@ button:focus{
 }
 
 .container-service-about{
+    position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -1370,6 +1371,7 @@ button:focus{
 }
 
 .sml-info-service-text{
+    width: 466px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1377,7 +1379,7 @@ button:focus{
 
 .sml-info-service-title{
     font-family: 'Stolzl Book';
-    font-size: 40px;
+    font-size: 36px;
     display: block;
     margin: 10px 0;
 }
@@ -2128,7 +2130,7 @@ input[type="checkbox"]:checked + label {
 
 .service-about__paroller-1 {
     top: 85%;
-    left: 90%;
+    left: 89.8%;
 }
 
 .big-info__paroller-1 {
@@ -2139,12 +2141,12 @@ input[type="checkbox"]:checked + label {
 
 .dev-stage__paroller-1 {
     top: 65%;
-    left: 92%;
+    left: 89.2%;
 }
 
 .dev-stage__paroller-2 {
     top: 65%;
-    left: 92%;
+    left: 89%;
 }
 
 .price__paroller-1 {
@@ -2562,9 +2564,11 @@ input[type="checkbox"]:checked + label {
 
 /* SERVICE-LOGO */
 
+
 .service-logo-big-img {
     /* width: 416px;
     height: 130px; */
+    /* position: absolute; */
     align-self: center;
 }
 .service-logo-we-top {
@@ -2845,11 +2849,23 @@ border: 1px solid black;
 .mommyjob {
     position: relative;
     background: url(images/mommyjob-fon.png) no-repeat;
+    background-position: 43%;
 }
 
 .container-mommyjob {
+    /* position: relative; */
     display: flex;
-    padding: 195px 15px;
+    padding: 143px 15px 135px 15px;
+}
+
+.wrapper-mommyjob {
+    width: 400px;
+}
+
+.service-pack-big-img {
+    position: absolute;
+    right: 0;
+    bottom: 7%;
 }
 
 .mommyjob-title {
@@ -2876,7 +2892,7 @@ border: 1px solid black;
 
 .mommyjob__paroller-1 {
     top: 61%;
-    left: 90%;
+    left: 89%;
 }
 
 .mommyjob__paroller-2 {
@@ -2887,9 +2903,22 @@ border: 1px solid black;
 
 /* presetn-client */
 
+.presetn-client {
+    background: url(images/present-client-fon.png) no-repeat;
+    background-position: 75%;
+}
+
+.container-present-client {
+    padding: 105px 15px 256px 15px;
+}
+
+.wrapper-present-client {
+    width: 492px;
+}
+
 .present-client-title {
-    font-family: 'Stolzl Light';
-    font-size: 24ptx
+    font-family: 'Stolzl Book';
+    font-size: 24px
 }
 
 .present-client-text {
