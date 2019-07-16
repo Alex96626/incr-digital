@@ -122,6 +122,11 @@ button:focus{
     color: #fff;
 }
 
+.form__input:hover,
+.form__input:focus {
+    box-shadow: 0px 0px 15px rgba(255,255,255, .8);
+}
+
 .form__pp {
     position: relative;
     display: block;
