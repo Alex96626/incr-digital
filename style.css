@@ -293,6 +293,13 @@ button:focus{
     font-size: 18px;
 }
 
+.header-bottom-info__btn:hover,
+.header-bottom-info__btn:focus {
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    border: none;
+    color: #fff;    
+}
+
 /* header ! */
 
 
@@ -657,6 +664,13 @@ button:focus{
     width: 100%;
 }
 
+.free-audit__btn:hover,
+.free-audit__btn:focus{
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    border: none;
+    color: #fff
+}
+
 
 /* free-audit ! */
 
@@ -781,6 +795,13 @@ button:focus{
 
 .prototype__btn {
     width: 100%;
+}
+
+.prototype__btn:hover,
+.prototype__btn:focus {
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    border: none;
+    color: #fff;
 }
 
 /* prototype ! */
@@ -1088,6 +1109,13 @@ button:focus{
 
 .about-project__btn {
     margin-left: auto;
+}
+
+.about-project__btn:hover,
+.about-project__btn:focus {
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    border: none;
+    color: #fff;
 }
 
 .about-project .form__pp {
@@ -1422,6 +1450,11 @@ button:focus{
     color: #fff;
     
 }
+
+.cost:hover,
+.cost:focus {
+    box-shadow: 0 3px 15px rgb(74, 67, 239);
+}
 /* service-about!! */
 
 /* big-info-service */
@@ -1464,6 +1497,14 @@ button:focus{
     border-radius: 30px;
     border:1px solid black;
     background:#ffffff;
+}
+
+.show-cases:hover,
+.show-cases:focus {
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    border: none;
+    box-shadow: 0 3px 15px rgb(74, 67, 239);
+    color: #fff;
 }
 
 .show-cases:focus{
@@ -2058,7 +2099,7 @@ background-position-x: 15px;
     height: 65px;
     padding: 0px 30px;
     margin-right: 12px;
-    border: 2px solid #fff;
+    border: 1px solid #fff;
     border-radius: 30px;
     font-family:'Stolzl Book';
     color: #fff;
@@ -2087,6 +2128,12 @@ input[type="checkbox"]:checked + label {
     font-size: 15px;
     color: rgba(255, 255, 255, 255);
 }
+
+.form-input:hover,
+.form-input:focus {
+    box-shadow: 0px 0px 15px rgba(255,255,255, .8);
+}
+
 .form-input::placeholder{
     color: #fff;
 }
@@ -2098,6 +2145,8 @@ input[type="checkbox"]:checked + label {
     padding: 30px;
     font-size: 16px;
 }
+
+
 
 .add-file {
     display: block;
@@ -2125,6 +2174,12 @@ input[type="checkbox"]:checked + label {
     color: rgba(38, 0, 99, 255);
     font-family: 'Stolzl Book';
     font-size: 16px;
+}
+
+.send-file:hover,
+.send-file:focus {
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    box-shadow: 0 3px 15px rgba(255,255,255, .35);
 }
 
 /* parroler */
@@ -2350,6 +2405,12 @@ input[type="checkbox"]:checked + label {
     font-family: 'Stolzl Book';
     font-size: 16px;
 
+}
+
+.check-price-site:hover {
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    border: none;
+    color: #fff
 }
 
 /* how-site! */
