@@ -541,6 +541,7 @@ button:focus{
     color: #8e8e8e;
 }
 
+.switch:hover,
 .switch:focus{
     background: #4c5cee;
     box-shadow:0px 15px 7px 0px rgba(70, 73, 245, 0.49);
@@ -1296,7 +1297,7 @@ button:focus{
   
 
 
-/* BTANDING */
+/* BRANDING */
 
 /* header */
 
@@ -1700,17 +1701,18 @@ button:focus{
 }
 
 .good-affect{
-    flex:1;
-    background: #ffffff;
-    border-radius: 20px;
-    padding-left: 42px;
-    padding: 35px 42px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 364px;
     margin: 50px 0 0 15px;
-    
+    flex:1;
+    box-shadow: 0px 10px 74.1px 20.9px rgba(58, 112, 255, 0.09);
+    background: #ffffff;
+    border-radius: 20px;
+    padding-left: 42px;
+    padding: 35px 42px;
+
 }
 
 .good-affect-list {
@@ -3183,7 +3185,7 @@ border: 1px solid black;
 
 .service-all-item:hover {
     /* margin-top:31px;  */
-    top: 20px;
+    transform: translateY(20px);
     box-shadow: 0px 10px 74.1px 20.9px rgba(58, 112, 255, 0.22);   
 }
 
@@ -3226,3 +3228,475 @@ border: 1px solid black;
 
 
 /* SERVICE2! */
+
+/* SERVICE-CONTEXT */
+
+.dev-stage-2 {
+    background-image: url(images/dev-stage-fon-2.png);
+}
+
+/* service-about */
+
+.service-context-about {
+    background: #f3f5f6 url(images/service-context-fon.png) no-repeat 100% 100%;
+}
+
+.contaner-service-context-about {
+    padding: 197px 0 182px 0;
+}
+
+.sml-info-service-context-slogan {
+    color: rgba(29, 15, 28, 255);
+}
+
+.sml-info-service-context-we-top {
+    border-left:3px solid #1d0f1c; 
+}
+/* service-about! */
+
+/* what-service */
+
+.what-service {
+    position: relative;
+}
+
+.containere-what-service {
+    display: flex;
+    padding: 104px 15px 61px 15px
+}
+
+.what-service-content {
+    margin-left: 20px;
+}
+
+.what-service-title {
+    line-height: 47px;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.what-service-text {
+    display: block;
+    margin-top: 26px;
+    line-height: 26px;
+    font-size: 16px;
+    color: rgba(120, 120, 120, 255);
+    
+}
+
+.what-service__paroller-1 {
+    top: -10%;
+    left: -2%;
+}
+
+.what-service__paroller-2 {
+    top: -10%;
+    left: 85%;
+}
+
+/* what-service! */
+
+/* land-services-list */
+.service-context-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 28px;
+    z-index: 2;
+}
+
+
+
+.service-context-list:nth-child(1){
+    background: #fff url(images/ca-icon-1.png) no-repeat 95% 28px;
+}
+
+.service-context-list:nth-child(2){
+    background:#fff url(images/ca-icon-2.png) no-repeat 95% 28px;
+}
+
+.service-context-list:nth-child(3){
+    background:#fff url(images/ca-icon-3.png) no-repeat 95% 28px;
+}
+
+.service-context-list:nth-child(4){
+    background:#fff url(images/ca-icon-4.png) no-repeat 95% 28px;
+}
+
+.service-context-list:nth-child(5){
+    background:#fff url(images/ca-icon-5.png) no-repeat 95% 28px;
+}
+
+.service-context-list:nth-child(6){
+    background:#fff url(images/ca-icon-6.png) no-repeat 95% 28px;
+}
+
+.service-context-list:nth-child(1)::before{
+    background:url(images/ca-big-icon-1.png) no-repeat 100% 0;
+}
+
+.service-context-list:nth-child(2)::before{
+    background:url(images/ca-big-icon-2.png) no-repeat 100% 0;
+}
+
+.service-context-list:nth-child(3)::before{
+    background:url(images/ca-big-icon-3.png) no-repeat 100% 0;
+}
+
+.service-context-list:nth-child(4)::before{
+    background:url(images/ca-big-icon-4.png) no-repeat 100% 0;
+}
+
+.service-context-list:nth-child(5)::before{
+    background:url(images/ca-big-icon-5.png) no-repeat 100% 0;
+}
+
+.service-context-list:nth-child(6)::before{
+    background:url(images/ca-big-icon-6.png) no-repeat 100% 0;
+}
+
+.services-list__item-sub-title {
+    position: relative;
+    z-index: 2;
+}
+
+.services-list__item:hover .services-list__item-sub-title {
+    color: #fff;
+}
+/* land-services-list! */
+
+.how-affect-context {
+    background: #fff;
+}
+
+.dev-stage-context-lost {
+    width: 870px;
+}
+
+.how-affect__paroller-2 {
+    top: -15%;
+    left: 85%;
+}
+
+.how-affect__paroller-3 {
+    top: -15%;
+    left: 0;
+}
+
+
+/* stage-setting */
+
+.stage-setting {
+    position: relative;
+}
+
+.stage-setting:nth-child(2n+1) {
+    background-color: #f3f5f6;
+}
+
+.stage-setting:nth-child(2n) {
+    background-color: #ffffff;
+}
+
+.stage-setting:nth-child(1) {
+    background-image: url(images/stage-setting-fon-1.png);
+    background-repeat: no-repeat;
+}
+
+.stage-setting:nth-child(2) {
+    background-image: url(images/stage-setting-fon-2.png);
+    background-repeat: no-repeat;
+}
+
+.stage-setting:nth-child(3) {
+    background-image: url(images/stage-setting-fon-3.png);
+    background-repeat: no-repeat;
+}
+
+.stage-setting-item {
+    position: relative;
+    width: 300px;
+    height: 89px;
+    margin-top: 31px;
+    padding-left: 127px;
+    display: flex;
+    align-items: center;
+    font-family: 'Stolzl Book';
+    font-size: 18px;
+}
+
+.stage-setting:nth-child(1) .stage-setting-item::before {
+    content: '';
+    position: absolute;
+    width: 109px;
+    height: 89px;
+    background-image: url(images/stage-setting-item-1.png);
+    left:0;
+}
+
+.stage-setting-item:nth-child(2)::before {
+    content: '';
+    position: absolute;
+    width: 109px;
+    height: 89px;
+    background-image: url(images/stage-setting-item-2.png);
+    left:0;
+}
+
+.stage-setting-item:nth-child(3)::before {
+    content: '';
+    position: absolute;
+    width: 109px;
+    height: 89px;
+    background-image: url(images/stage-setting-item-3.png);
+    left:0;
+}
+
+.container-stage-setting {
+    display: flex;
+    flex-direction: column;
+    padding: 75px 15px 78px 15px;
+}
+
+.stage-settig-title {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 50px;
+    align-self: center;
+    font-family: 'Stolzl Book';
+    font-size: 26px;
+}
+
+.stage-setting-list {
+    display: flex;
+}
+
+.stage-setting-text-list {
+    margin-left: 100px;
+    list-style: none;
+}
+
+.stage-setting:nth-child(2n+1) .stage-setting-text-list .stage-setting-text-item {
+    background-color: #fff;
+}
+
+.stage-setting:nth-child(2n) .stage-setting-text-item {
+    background-color: #f3f5f6;
+}
+
+.stage-setting-text-item {
+    margin: 20px 0;
+    padding: 25px;
+    padding-left: 65px;
+    border-radius: 13px;
+    background-image: url(images/ok.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+}
+
+.stage-setting-text-item:first-child {
+    margin: 0px;
+}
+
+.stage-setting-text-title {
+    font-family: 'Stolzl Book';
+    font-size: 11px;
+}
+
+.stage-setting-text-sub-title {
+    display: block;
+    margin-top: 19px;
+    font-size: 14px;
+    color: rgba(120, 120, 120, 255);
+    line-height: 24px;
+}
+
+.stage-setting__paroller-1 {
+    top: 5%;
+    left: 92%;
+}
+
+.stage-setting__paroller-2 {
+    top: -20%;
+    left: -3%;
+}
+
+.stage-setting__paroller-3 {
+    top: 93%;
+    left: 92.6%;
+}
+/* stage-setting! */
+
+/* warranty */
+
+.container-warranty {
+    display: flex;
+    padding: 47px 15px 36px 15px;
+}
+
+.warranty-title {
+    display: block;
+    margin-top: 45px;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.warranty-list {
+    margin-right: 77px;
+    margin-top: 17px;
+    list-style: inside;
+
+}
+
+
+.warranty-item {
+    margin: 23px 0;
+    color: rgba(120, 120, 120, 255);
+}
+/* .warranty-item::before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 2px;
+    border-radius: 30px;
+    color: red;
+} */
+
+.warranty-list-text {
+    display: inline;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+
+/* warranty! */
+
+/* result-client */
+
+.result-client {
+    position: relative;
+    background: #f3f5f6;
+}
+
+.container-result-client {
+    padding: 96px 15px 0 15px;
+}
+
+.wrapper-result-client-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.result-client-title {
+    margin-bottom: 51px;
+    font-family: 'Stolzl Book';
+    font-size: 26px;
+}
+
+.wrapper-result-client {
+    display: flex;
+}
+
+.wrapper-result-client-content {
+    margin: 30px 0 0 71px; 
+}
+
+.wrapper-result-client-title {
+    font-family: 'Stolzl Book';
+    font-size: 16px;
+}
+
+.result-client-list {
+    margin-right: 0px;
+}
+
+.switch-result-client {
+    background: #fff;
+}
+
+.result-client__paroller-1 {
+    top: 5%;
+    left: 8.8%;
+}
+
+/* result-client! */
+
+/* pack-price */
+
+.pack-price {
+    position: relative;
+}
+
+.fon-img {
+    position: absolute;
+}
+
+.left-fon {
+    left: -210px;
+    top: -4%;
+}
+
+.right-fon {
+    left: 86%;
+    top: 10%;
+}
+
+
+
+.container-pack-price {
+    padding: 109px 15px 111px 15px;
+}
+
+.pack-item-list {
+    display: flex;
+}
+
+.pack-item {
+    width: 370px;
+    height: 364px;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 6px 58.08px 7.92px rgba(58, 112, 255, 0.04);
+}
+
+.pack-item:nth-child(2) {
+    margin: 0 30px;
+}
+
+.pack-item-title {
+    display: block;
+    padding: 23px 0 24px 23px;
+    /* height: 84px; */
+    background-image: -moz-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -webkit-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -ms-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    font-family: 'Stolzl Regular';
+    font-size: 33px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.pack-item-text {
+    display: block;
+    height: 154px;
+    padding: 28px 44px 32px 21px;
+    font-size: 14px;
+}
+
+.wrapper-pack-price {
+    padding: 36px 0 27px 22px;
+    /* height: 126px; */
+    background-image: -moz-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -webkit-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -ms-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+}
+
+.pack-clock-work {
+    display: block;
+    
+}
+
+/* pack-price! */
+
+/* SERVICE-CONTEXT! */
