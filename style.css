@@ -507,6 +507,11 @@ button:focus{
     padding-top: 95px;
 }
 
+.wrapper-project {
+    display: flex;
+    justify-content: space-between;
+}
+
 .projects__paroller-1 {
     left: 0;
     top: -50px;
@@ -2441,7 +2446,8 @@ input[type="checkbox"]:checked + label {
     height: 25px;
     background: url(images/clock-work-icon.png) no-repeat;
     left: 0px;
-    top: -7px;
+    top: 50%;
+    transform: translateY(-50%);
 
 }
 
@@ -3636,11 +3642,13 @@ border: 1px solid black;
 .left-fon {
     left: -210px;
     top: -4%;
+    z-index: -1;
 }
 
 .right-fon {
     left: 86%;
     top: 10%;
+    z-index: -1;
 }
 
 
@@ -3656,6 +3664,7 @@ border: 1px solid black;
 .pack-item {
     width: 370px;
     height: 364px;
+    min-height: 364px;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0px 6px 58.08px 7.92px rgba(58, 112, 255, 0.04);
@@ -3667,25 +3676,27 @@ border: 1px solid black;
 
 .pack-item-title {
     display: block;
-    padding: 23px 0 24px 23px;
+    padding: 23px 23px 24px 23px;
     /* height: 84px; */
     background-image: -moz-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
     background-image: -webkit-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
     background-image: -ms-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
-    font-family: 'Stolzl Regular';
+    font-family: 'Stolzl Bock';
+    font-weight: normal;
     font-size: 33px;
     color: rgba(255, 255, 255, 255);
 }
 
 .pack-item-text {
     display: block;
-    height: 154px;
-    padding: 28px 44px 32px 21px;
+    min-height: 154px;
+    padding: 28px 21px 32px 21px;
+    background: #fff;
     font-size: 14px;
 }
 
 .wrapper-pack-price {
-    padding: 36px 0 27px 22px;
+    padding: 36px 22px 27px 22px;
     /* height: 126px; */
     background-image: -moz-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
     background-image: -webkit-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
