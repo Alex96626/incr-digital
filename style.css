@@ -1688,7 +1688,7 @@ button:focus{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 310px;
+    /* max-width: 310px; */
     margin: 20px 0;
     
 
@@ -1727,7 +1727,7 @@ button:focus{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 310px;
+    /* max-width: 310px; */
     margin: 20px 0;
     
 }
@@ -2344,7 +2344,7 @@ input[type="checkbox"]:checked + label {
     
 }
 
-.smal-info0service-title {
+.smal-info-service-title {
     display: block;
     margin: 12px 0 ;
     font-family: 'Stolzl Book';
@@ -3697,6 +3697,237 @@ border: 1px solid black;
     
 }
 
+
+
+.small-info-service-seo-about {
+    width: 453px;
+}
+
 /* pack-price! */
 
 /* SERVICE-CONTEXT! */
+
+/* SEO */
+
+.seo-about {
+    background-image: url(images/seo-about-fon.png);
+}
+
+.container-seo-about {
+    display: flex;
+    justify-content: flex-end;
+    padding: 246px 15px 80px 15px;
+
+}
+
+.smal-info-service-seo-title {
+    font-size: 40px;
+    color: #fff;
+}
+
+.small-info-service-seo-cub-title {
+    line-height: 37px;
+    font-size: 29px;
+    color: #fff;
+}
+
+.sml-info-service-seo-we-top {
+    width: 274px;
+    height: 64px;
+    border-left: 3px solid #fff;
+    line-height: 29px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-more-service-seo {
+    width: 320px;
+    height: 65px;
+    margin-bottom: 93px;
+    border: none;
+    border-radius: 30px;
+    background: #fff;
+    text-align: center;
+    color: rgba(38, 0, 99, 255);
+    font-family: 'Stolzl Book';
+    font-size: 16px;
+    transition: all 0.25s
+}
+
+.btn-more-service-seo:hover,
+.btn-more-service-seo:focus {
+    background: linear-gradient(to right, #4929f0, #4ecaeb);
+    box-shadow: 0 3px 15px rgba(255,255,255, .35);
+}
+
+
+.what-service-seo-img {
+    margin-left: 38px;
+}
+
+.what-service-seo-text:nth-child(2) {
+    margin: 20px 0;
+}
+
+.what-service-seo-content {
+    margin: auto;
+}
+
+/* what-service */
+
+.what-service-seo {
+    background: #f3f5f6;
+}
+
+.what-service-content-list {
+    list-style: none;
+}
+
+.what-service-content-text {
+    margin-left: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.what-service-content-item {
+    position: relative;
+}
+
+.what-service-content-item {
+    margin: 20px 0;
+}
+
+.what-service-content-item:first-child {
+    margin-top: 0px
+}
+
+.what-service-content-item:last-child {
+    margin-bottom: 0px
+}
+
+.what-service-content-item:nth-child(1)::before {
+    position: absolute;
+    content: '1';
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.what-service-content-item:nth-child(2)::before {
+    position: absolute;
+    content: '2';
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.what-service-content-item:nth-child(3)::before {
+    position: absolute;
+    content: '3';
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.what-service-content-item:nth-child(4)::before {
+    position: absolute;
+    content: '4';
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.what-service-seo__paroller-1 {
+    top: 61%;
+    left: -2%;
+}
+
+/* what-service! */
+
+/* how-affect */
+
+.how-affect-seo {
+    background: #fff;
+}
+
+/* how-affect! */
+
+/* dev-stage-seo */
+
+.dev-stage-seo {
+    background: url(images/dev-stage-fon-2.png);
+}
+
+/* dev-stage-seo! */
+
+/* complex-analysis-seo */
+.complex-analysis-seo {
+    position: relative;
+}
+
+.container-complex-analysis-seo {
+    padding: 95px 15px 85px 15px;
+}
+
+.complex-analysis-seo:nth-child(2n+1) {
+    background: #f3f5f6;
+}
+
+.complex-analysis-seo:nth-child(2n) {
+    background: #ffffff;
+}
+
+.complex-analysis-seo:nth-child(2n+1) .analysis-item {
+    background-color: #fff ;
+}
+
+.complex-analysis-seo:nth-child(2n) .analysis-item {
+    background-color: #f3f5f6;
+}
+
+.complex-analysis-seo:nth-child(2n+1) .wrapper-analysis-title-seo {
+    margin-right: 15px;
+}
+
+.complex-analysis-seo:nth-child(2n) .wrapper-analysis-title-seo {
+    margin-left: 30px;
+}
+
+.analysis-title-seo {
+    font-size: 36px;
+}
+
+.analysis-text-seo {
+    font-size: 14px;
+}
+
+.complex-analysis-seo__paroller-1 {
+    top: 61%;
+    left: 83%;
+    z-index: 1;
+}
+
+.complex-analysis-seo__paroller-2 {
+    top: 61%;
+    left: 83%;
+    z-index: 1;
+}
+/* complex-analysis-seo! */
+/* SEO! */
