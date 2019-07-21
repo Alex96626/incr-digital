@@ -4187,15 +4187,47 @@ border: 1px solid black;
 .dots {
     font-size: 22px;
 }
-
-
-
 /* pagination! */
-
-
-  
-  
-
-
-
 /* BLOG! */
+
+/* ABOUT US */
+
+/* about-us-digital */
+
+.about-us-digital {
+    position: relative;
+    background-image: url(images/blog-fon.png);
+}
+
+.container-about-us-digital {
+    padding: 420px 15px 192px 15px;
+}
+
+.about-us-digital-title {
+    max-width: 600px;
+    display: block;
+    margin-bottom: 18px;
+    font-family: 'StolzlBook';
+    font-size: 40px;
+}
+
+.about-us-digital-sub-title {
+    margin-top: 18px;
+    font-size: 30px;
+    color: rgba(29, 15, 28, 255);
+}
+
+.about-us-digital-img {
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+
+
+
+
+
+/* about-us-digital! */
+
+
+/* ABOUT US! */
