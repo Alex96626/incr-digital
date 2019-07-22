@@ -4214,7 +4214,7 @@ border: 1px solid black;
 .about-us-digital-sub-title {
     margin-top: 18px;
     font-size: 30px;
-    color: rgba(29, 15, 28, 255);
+    color: rgba(29, 15,  28, 255);
 }
 
 .about-us-digital-img {
@@ -4222,12 +4222,282 @@ border: 1px solid black;
     top: 25%;
     right: 25%;
 }
-
-
-
-
-
 /* about-us-digital! */
 
+/* about-agency */
+
+.about-agency {
+    background-color: #fff;
+}
+
+.container-agency {
+    display:  flex;
+    padding: 30px 15px 60px 15px;
+}
+
+.wrapper-content-agency {
+    align-self: center;
+    margin-left: 55px;
+}
+
+.about-agency-title {
+    margin-bottom: 26px;
+    font-family: 'Stolzl Book';
+    font-size: 26px;
+}
+
+.about-agency-sub-title {
+    font-size: 14px;
+    line-height: 27px;
+    color: rgba(120, 120, 120, 255);
+}
+
+
+/* about-agency! */
+
+/* provide */
+
+.provide {
+    background-image: url(images/provide-fon.jpg);
+}
+
+.container-provide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 103px 15px 66px 15px;
+}
+
+.provide-title {
+    max-width: 518px;
+    display: block;
+    margin-bottom: 43px;
+    text-align: center;
+    font-family: 'Stolzl Book';
+    font-size: 40px;
+}
+
+
+
+/* provide! */
+
+
+/* stat */
+
+.stat { 
+    background-color: #fff;
+}
+
+.container-stat {
+    padding: 88px 15px;
+}
+
+.stat-list {
+    display: flex;
+    list-style: none;
+}
+
+.stat-item {
+    max-width: 235px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 55px;
+}
+
+.stat-item:first-child {
+    margin-left: 0;
+}
+
+.stat-item:last-child {
+    margin-right: 0;
+}
+
+.stat-num {
+    font-family: 'Stolzl Bold';
+    font-size: 56px;
+    color:#4b49ee ;
+}
+
+.stat-text {
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(82, 82, 82, 255);
+}
+
+.more-less {
+    position: relative;
+    padding-left: 35px;
+}
+
+.more-less::before {
+    content: '>';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    color:#4b49ee ;
+
+}
+
+  
+
+
+
+
+/* stat! */
+
+/* trust-us */
+
+.trust-us {
+    padding-bottom: 88px;
+    background-color: #f3f5f6;
+}
+
+.container-trust-us {
+    padding: 100px 15px 0 15px;
+}
+
+.trust-us-title {
+    margin-bottom: 40px;
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.wrapper-trust-us {
+    height: 130px;
+    display: flex;
+    
+}
+
+.trust-us-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    margin: 0 7.5px;
+    background-color: #fff;
+
+}
+
+.trust-us-item:first-child {
+    margin-left: 0;
+}
+
+.trust-us-item:last-child {
+    margin-right: 0
+}
+
+
+/* trust-us! */
+
+/* contact-us */
+
+.contact-us {
+    background-image: url(images/blog-fon.png);
+}
+
+
+.container-contact-us {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px 15px 140px 15px;
+}
+
+.form-contact-us {
+    width: 470px;
+    max-width: 100%;
+    padding: 50px 30px 30px 20px;
+    box-shadow: 0px 10px 74.1px 20.9px rgba(58, 112, 255, 0.09);
+    background-color: #fff;
+}
+
+.contact-us__textarea {
+    height: 172px;
+}
+
+
+.contact-us__input, .contact-us__textarea {
+    margin-bottom: 20px;
+    background-color: #f3f5f6;
+    color: black;
+    font-size: 14px;
+}
+
+.contact-us__input::-webkit-input-placeholder,
+.contact-us__textarea::-webkit-input-placeholder { /* Chrome */
+    font-size: 14px;
+    color: black;
+
+}
+.contact-us__input:-ms-input-placeholder,
+.contact-us__textarea:-ms-input-placeholder { /* IE 10+ */
+font-size: 14px;
+color: black;
+}
+.contact-us__input::-moz-placeholder,
+.contact-us__textarea::-moz-placeholder { /* Firefox 19+ */
+font-size: 14px;
+color: black;
+opacity: 1;
+}
+.contact-us__input:-moz-placeholder,
+.contact-us__textarea:-moz-placeholder { /* Firefox 4 - 18 */
+font-size: 14px;
+color: black;
+opacity: 1;
+}
+
+.contact-us__btn {
+width: 100%;
+border-radius: 32px;
+background-image: -moz-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+background-image: -webkit-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+background-image: -ms-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+color: #fff;
+}
+
+.contact-us__btn:hover,
+.contact-us__btn:focus {
+box-shadow: 0 3px 15px rgb(74, 67, 239);
+}
+
+.contact-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contact-us-title {
+margin-bottom: 77px;
+font-family: 'Stolzl Book';
+font-size: 40px;
+}
+
+.contacts-phone,
+.contacts-email,
+.contacts-street {
+display: block;
+text-decoration: none;
+font-size: 28px;
+color: rgba(29, 15, 28, 255);
+}
+
+.contacts-street {
+    margin-top: 20px;
+}
+  
+.social-links__item-logo-contact-us {
+    fill: #7057ff;
+}
+
+.social-links__item:hover .social-links__item-logo-contact-us,
+.social-links__item:focus .social-links__item-logo-contact-us {
+    fill: #020609;
+}
+
+
+/* contact-us! */
 
 /* ABOUT US! */
+
