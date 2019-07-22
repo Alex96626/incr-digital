@@ -4501,3 +4501,40 @@ color: rgba(29, 15, 28, 255);
 
 /* ABOUT US! */
 
+
+/* OUTSIDE */
+
+/* outside */
+
+.container-outside {
+    padding: 30px 15px;
+}
+
+.outside-title {
+    margin-bottom: 17px;
+    font-family: 'Stolzl Book';
+    font-size: 40px;
+    color: rgba(29, 15, 28, 255);  
+}
+
+.outside-sub-title {
+    font-size: 30px;
+    color: rgba(29, 15, 28, 255);
+}
+
+.outside-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outside-item {
+    background-image: url(images/outside-fon-1.png);
+    background-repeat: no-repeat
+}
+
+
+
+/* outside! */
+
+/* OUTSIDE! */
+
