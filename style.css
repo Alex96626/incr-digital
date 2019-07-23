@@ -4506,8 +4506,14 @@ color: rgba(29, 15, 28, 255);
 
 /* outside */
 
+.outside {
+    background-image: url(images/outside-fon.png);
+    background-repeat: no-repeat;
+    background-color: #f3f5f6;
+}
+
 .container-outside {
-    padding: 30px 15px;
+    padding: 100px 15px;
 }
 
 .outside-title {
@@ -4524,13 +4530,59 @@ color: rgba(29, 15, 28, 255);
 
 .outside-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    margin: 53px -15px 0 -15px;
+    
 }
 
 .outside-item {
-    background-image: url(images/outside-fon-1.png);
-    background-repeat: no-repeat
+    width: 570px;
+    height: 413px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px 30px 15px;
+    padding: 41px 30px 30px 30px;
+    border-radius: 13px;
+    background-repeat: no-repeat;
+    background-color: #fff;
 }
+
+.outside-item:nth-child(1) {
+    background-image: url(images/outside-fon-1.png);
+    background-position: 229px calc(100% - 10%);
+}
+
+.outside-item:nth-child(2) {
+    background-image: url(images/outside-fon-2.png);
+    background-position: 120px calc(100% - 65%);
+}
+
+.outside-item:nth-child(3) {
+    background-image: url(images/outside-fon-3.png);
+    background-position: 98px calc(100% - 0%);
+}
+
+.outside-item:nth-child(4) {
+    background-image: url(images/outside-fon-2.png);
+    background-position: 120px calc(100% - 65%);
+}
+
+.outside-item-title {
+    margin-bottom: 17px;
+    font-family: 'Stolzl Book';
+    font-size: 35px;
+    font-weight:  normal;
+}
+
+.outside-item-sub-title {
+    display: block;
+    max-width: 360px;
+    font-size: 18px;
+    color: rgba(29, 15, 28, 255);
+}
+
 
 
 
