@@ -3679,7 +3679,7 @@ border: 1px solid black;
     background-image: -moz-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
     background-image: -webkit-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
     background-image: -ms-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
-    font-family: 'Stolzl Bock';
+    font-family: 'Stolzl Book';
     font-weight: normal;
     font-size: 33px;
     color: rgba(255, 255, 255, 255);
@@ -3996,12 +3996,19 @@ border: 1px solid black;
 
 .blog-item:hover,
 .blog-item:focus {
-    border: none;
+    border-color: transparent;
+    background-size: calc(100% + 4px); 
+    background-position: -2px 0;
     background-image: -moz-linear-gradient( 0deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
     background-image: -ms-linear-gradient( 0deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
-    color: #fff;
     
+    
+}
+
+.blog-item:hover .blog-link,
+.blog-item:focus .blog-link {
+    color: #fff;
 }
 /* blog! */
 
@@ -4094,6 +4101,7 @@ border: 1px solid black;
 
 
 .teg-1 {
+    text-decoration: none;
     border:1px solid rgb(74, 59, 242);
     background-color: rgba(255, 255, 255, 0);  
     color: rgb(74, 59, 242);  
@@ -4101,7 +4109,8 @@ border: 1px solid black;
 
 .teg-2 {
     margin: 0 10px;
-    border:1px solid rgb(242, 205, 59);;
+    border:1px solid rgb(242, 205, 59);
+    text-decoration: none;
     background-color: rgba(255, 255, 255, 0);    
     color: rgb(242, 205, 59);
 }
@@ -4113,6 +4122,7 @@ border: 1px solid black;
     align-items: center;
     padding: 0 28px;
     font-size: 13px;
+    text-decoration: none;
     color: rgba(181, 181, 181, 255);
 }
 
@@ -4174,19 +4184,40 @@ border: 1px solid black;
 
 .page {
     margin: 0 7.5px;
-    font-family: 'Stolzl-Book';
+    font-family: 'Stolzl Book';
     font-size: 30px;
     color: rgba(121, 121, 121, 255);    
 }
 
 .page-active {
     font-size: 35px;
-    color: #4c57ee;
+
 }
 
 .dots {
     font-size: 22px;
 }
+
+.switch-pagination-link, 
+.page-list,
+.dots-list,
+.page-active-list {
+    text-decoration: none;
+    color: black;
+}
+
+.page-active-list {
+    color: #4c57ee;
+}
+
+.switch-pagination-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* pagination! */
 /* BLOG! */
 
@@ -4207,7 +4238,7 @@ border: 1px solid black;
     max-width: 600px;
     display: block;
     margin-bottom: 18px;
-    font-family: 'StolzlBook';
+    font-family: 'Stolzl Book';
     font-size: 40px;
 }
 
@@ -4590,3 +4621,127 @@ color: rgba(29, 15, 28, 255);
 
 /* OUTSIDE! */
 
+
+/* SMM  */
+
+/* service-smm-about */
+
+.service-smm-about {
+    background-image: url(images/smm-about-fon.png);
+    background-color: #f3f5f6;
+    background-position: 100%;
+}
+
+.contaner-service-smm-about {
+    padding:192px 15px 118px 15px;
+}
+
+.sml-info-service-smm-title {
+    max-width: 290px;
+    font-size: 45px;
+}
+
+.sml-info-service-smm-text {
+    width: 674px;
+    max-width: 674px;
+}
+/* service-smm-about! */
+
+/* what-service-smm */
+
+.containere-what-service-smm {
+    padding: 100px 15px 85px 15px;
+}
+
+.what-service-text-item {
+    display: list-item;
+    margin-top: 0px;
+}
+
+.what-service-smm-img {
+    margin-right: 20px;
+}
+
+/* what-service! */
+
+/* why-seo */
+
+.why-seo {
+    position: relative;
+    background-color: #f4f6f8;
+}
+
+.why-seo-fon {
+    position: absolute;
+    left: 0px;
+    top: calc(100% - 90%);
+    /* z-index: -1; */
+}
+
+.container-why-seo {
+    padding: 101px 15px 106px 15px;
+}
+
+.why-seo-title {
+    font-family: 'Stolzl Book';
+    font-size: 30px;
+}
+
+.why-seo-sub-title {
+    display: block;
+    margin: 28px 0 50px 0;
+    font-size: 16px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.why-seo-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -30px
+}
+
+.why-seo-item {
+    flex: 1;
+    padding: 23px 44px;
+    margin: 0 15px;
+    border-radius: 13px;
+    box-shadow: 0px 10px 74.1px 20.9px rgba(58, 112, 255, 0.09);  
+    background-color: #fff;
+}
+
+.why-seo-item-title {
+    font-family: 'Stolzl Book';
+    font-size: 16px;
+}
+
+.why-seo-item-sub-title {
+    display: block;
+    margin: 11px 0 20px 0;
+    font-size: 11px;
+    color: rgba(120, 120, 120, 255);
+}
+
+/* why-seo! */
+
+.how-affect-smm {
+    background-color: #fff;
+}
+
+/* dev-stage-seo */
+
+.dev-stage-item-text {
+    display: block;
+    margin-top:20px;
+    font-size: 12pt;
+    color: rgba(120, 120, 120, 255);
+}
+
+.dev-stage-list-seo {
+    height: auto;
+    padding: 25px;
+}
+
+/* dev-stage-seo! */
+
+/* SMM! */
