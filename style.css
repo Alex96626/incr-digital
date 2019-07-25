@@ -1748,8 +1748,8 @@ button:focus{
 
 .dev-stage{
     position: relative;
-    height: 478px;
-    background: url(images/dev-stage-fon.png);
+    /* height: 478px; */
+    background: url(images/dev-stage-fon.png) no-repeat;
     /* display: flex;
     flex-direction: column;
     justify-content: space-around; */
@@ -1760,6 +1760,7 @@ button:focus{
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
+    padding: 104px 15px 93px 15px; 
 }
 
 .dev-stage-title {
@@ -3881,7 +3882,7 @@ border: 1px solid black;
 /* dev-stage-seo */
 
 .dev-stage-seo {
-    background: url(images/dev-stage-fon-2.png);
+    background: url(images/dev-stage-fon-2.png) no-repeat   ;
 }
 
 /* dev-stage-seo! */
@@ -4726,6 +4727,18 @@ color: rgba(29, 15, 28, 255);
 
 /* dev-stage-seo */
 
+.dev-stage-smm {
+    background-color: #f5f7f8;
+    background:url(images/left-fon.png) 0 70% no-repeat,#f5f7f8 url(images/right-fon-3.png) 100% 10% no-repeat;;
+}
+
+.dev-stage-items-smm {
+    background: #fff url(images/left-dev-stage.png) no-repeat;  
+    background-position-x: -15px;
+    background-position-y: -15px;
+    margin: 0 15px; 
+}
+
 .dev-stage-item-text {
     display: block;
     margin-top:20px;
@@ -4736,6 +4749,7 @@ color: rgba(29, 15, 28, 255);
 .dev-stage-list-seo {
     height: auto;
     padding: 25px;
+    margin: 0 -30px;
 }
 
 /* dev-stage-seo! */
@@ -4749,10 +4763,11 @@ color: rgba(29, 15, 28, 255);
 }
 
 .pack-item-title-smm {
+    min-height: 300px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: 36px 20px;
+    align-items: flex-end;
+    padding: 20px;
     font-size: 21px;
 }
 
@@ -4766,6 +4781,8 @@ color: rgba(29, 15, 28, 255);
     padding: 20px;
     min-height: 0px;
 }
+
+
 
 /* pack-price-smm! */
 
