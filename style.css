@@ -1792,7 +1792,7 @@ button:focus{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0 25px;
+    padding: 25px;
     position: relative;
 }
 
@@ -4669,13 +4669,9 @@ color: rgba(29, 15, 28, 255);
 .why-seo {
     position: relative;
     background-color: #f4f6f8;
-}
-
-.why-seo-fon {
-    position: absolute;
-    left: 0px;
-    top: calc(100% - 90%);
-    /* z-index: -1; */
+    background-image: url(images/left-fon.png);
+    background-repeat: no-repeat;
+    background-position: 0;
 }
 
 .container-why-seo {
@@ -4743,5 +4739,39 @@ color: rgba(29, 15, 28, 255);
 }
 
 /* dev-stage-seo! */
+
+/* pack-price-smm */
+
+.pack-price-title {
+    margin-bottom:44px; 
+    font-family: 'Stolzl Book';
+    font-size: 23px;
+}
+
+.pack-item-title-smm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 20px;
+    font-size: 21px;
+}
+
+.pack-price-text-list {
+    margin-left: 35px;
+}
+
+
+.pack-item-smm {
+    display: list-item;
+    padding: 20px;
+    min-height: 0px;
+}
+
+/* pack-price-smm! */
+
+.result-client-smm__paroller-1 {
+    top: 10%;
+    left: 2.6%;
+}
 
 /* SMM! */
