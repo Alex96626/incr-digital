@@ -5851,222 +5851,6 @@ color: rgba(29, 15, 28, 255);
 
 @media (max-width: 1200px) {
 
-    .info-service-logo-img {
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-
-
-}
-
-
-
-@media (max-width: 1000px) {
-
-    .container-logo-concept {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container-big-info-service-logo {
-        justify-content: center;
-    }
-
-}
-@media (max-width: 900px) {
-
-    .logo-processing-ex {
-        height: auto;
-        flex-wrap: wrap;
-    }
-
-    .logo-processing-text {
-        flex: 1 100%;
-        margin: 15px 0;
-    }
-
-
-}
-
-@media (max-width: 600px) {
-
-    /* .service-why,
-    .info-service-img,
-    .services-this {
-        flex: none;
-    } */
-
-    .contaoner-final-work-logo {
-        width: auto;
-    }
-
-}
-
-/* service-logo-adapt! */
-
-/* service-pack-adapt */
-
-@media (max-width: 1300px) {
-
-    .mommyjob {
-        background-position: 49%;
-    }
-
-}
-
-@media (max-width: 1200px) {
-
-    .mommyjob {
-        background-position: 57%;
-    }
-
-}
-
-@media (max-width: 1100px) {
-
-    .mommyjob {
-        background-position: 63%;
-    }
-
-}
-
-
-
-@media (max-width: 1000px) {
-
-    .wrapper-pack-shape {
-        margin-right: 150px;
-    }
-
-}
-
-
-@media (max-width: 900px) {
-
-    .wrapper-pack-shape {
-        margin-right: 15px;
-    }
-
-    .analysis-list-pack {
-        margin-top: 15px;
-    }
-
-}
-
-@media (max-width: 800px) {
-
-    .container-pack-shape {
-        flex-direction: column;
-        align-items: center;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .wrapper-present-client {
-        width: auto;
-    }
-
-}
-
-@media (max-width: 400px) {
-
-    .wrapper-pack-shape {
-        width: auto;
-    }
-
-}
-
-/* service-pack-adapt! */
-
-/* smm-adapt */
-
-@media (max-width: 1100px) {
-
-    .dev-stage-list-seo {
-        flex-wrap: wrap;
-    }
-
-    .dev-stage-items-smm {
-        flex:1 40%;
-        margin: 20px 10px;
-    }
-
-    .dev-stage-title-seo {
-        text-align: center;
-    }
-
-}
-
-@media (max-width: 900px) {
-
-    .why-seo-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .why-seo-item {
-        max-width: 100%;
-        width: 560px;
-        margin-bottom: 15px;
-    }
-
-    .pack-item-list {
-        flex-direction: column;
-    }
-
-    .pack-item:nth-child(2) {
-        margin: 30px 0;
-    }
-
-    .pack-price-title {
-        text-align: center;
-    }
-
-}
-
-@media (max-width: 700px) {
-
-    .sml-info-service-smm-text {
-        width: auto;
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .why-seo-item {
-        max-width: 100%;
-        width: 490px;
-    }
-
-}
-
-@media (max-width: 500px) {
-
-    .why-seo-item {
-        max-width: 100%;
-        width: 360px;
-    }
-
-}
-
-@media (max-width: 400px) {
-
-    .why-seo-item {
-        max-width: 100%;
-        width: 300px;
-    }
-
-}
-
-/* smm-adapt! */
-
-/* web-site-adapt */
-
-@media (max-width: 1200px) {
-
     .projects-list {
         align-items: center;
         flex-direction: column;
@@ -6114,8 +5898,56 @@ color: rgba(29, 15, 28, 255);
         align-self: center;
         margin-top: 15px;
     }
+    
 
+}
 
+@media (max-width: 1100px) {
+
+    .how-site-list {
+        flex-wrap: wrap;
+    }
+
+    .how-site-item {
+        flex: 1 40%;
+        margin: 15px !important;
+    }
+
+    .how-site-item:first-child {
+        margin-right: 0;
+    }
+
+    .how-site-item:last-child {
+        margin-left: 0;
+    }
+
+    .structure-design-img {
+        width: 65%;
+    }
+
+    .container-structure-design {
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .wrapper-affect-web-site {
+        flex-wrap: wrap;
+    }
+
+    .bad-affect-web-site {
+        flex: 1 40%;
+    }
+
+    .good-affect-web-site {
+        max-width: 519px;
+        flex: 1 40%;
+        margin: 15px auto;
+    }
+
+    
 }
 
 @media (max-width: 900px) {
@@ -6124,6 +5956,12 @@ color: rgba(29, 15, 28, 255);
         width: 65%;
         height: 90%;
     }
+
+    .container-structure-design {
+        flex-direction:column; 
+
+    }
+
 
 }
 
@@ -6140,6 +5978,12 @@ color: rgba(29, 15, 28, 255);
         width: 54%;
     }
 
+    .good-affect-web-site {
+        max-width: 100%;
+        flex: 1 40%;
+        margin: 50px 0;
+    }
+
 }   
 
 @media (max-width: 600px) {
@@ -6154,7 +5998,12 @@ color: rgba(29, 15, 28, 255);
         align-items: center;
     }
 
-}    
+    .how-site-list {
+        flex-direction: column;
+    }
+
+
+}      
 
 
 
