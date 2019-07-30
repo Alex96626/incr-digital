@@ -35,7 +35,7 @@
         </nav>
         <a href="tel:+79780000000" class="header-phone">+7 (978) 000-00-00</a>
     </section>
-<img src="./images/free-audit-blot.png" class="header__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+<img src="./images/free-audit-blot.png" class="paroller header__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
 </header>
 <section class="about-us-digital">
     <div class="container container-about-us-digital">
@@ -223,9 +223,9 @@
     </div>
 </section>
 <section class="free-audit">
-    <img src="./images/free-audit-blot.png" class="free-audit__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="">
-    <img src="./images/services-blot-1.png" class="free-audit__paroller-2" data-paroller-factor="0.25" aria-hidden="true" alt="">
-    <img src="./images/free-audit-blot-3.png" class="free-audit__paroller-3" data-paroller-factor="0.15" aria-hidden="true" alt="">
+    <img src="./images/free-audit-blot.png" class="paroller free-audit__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="">
+    <img src="./images/services-blot-1.png" class=" paroller free-audit__paroller-2" data-paroller-factor="0.25" aria-hidden="true" alt="">
+    <img src="./images/free-audit-blot-3.png" class=" paroller free-audit__paroller-3" data-paroller-factor="0.15" aria-hidden="true" alt="">
     
     <div class="container">
         <div class="free-audit__content">
@@ -293,31 +293,34 @@
         <span class="choice-price-title">Выберите интересующие услуги:</span>
         <span class="name-service">Дизайн:</span>
         <div class="price-design">
-            <input type="checkbox" name="design" class="check" id="logo"><label for="logo" class="check-service">Логотип</label>
-            <input type="checkbox" name="design" class="check" id="brand"><label for="brand" class="check-service">Брендинг </label>
-            <input type="checkbox" name="design" class="check" id="pack"><label for="pack" class="check-service">Упаковка</label>
-            <input type="checkbox" name="design" class="check" id="creative"><label for="creative" class="check-service">Рекламный креатив</label>
-            <input type="checkbox" name="design" class="check" id="ux-des"><label for="ux-des" class="check-service">UX | UI дизайн</label>
+            <label for="logo" class="check-service">
+                <input type="checkbox" name="design" class="check" id="logo">
+                <span class="price-design-text">Логотип</span>
+            </label>
+            <label for="brand" class="check-service"><input type="checkbox" name="design" class="check" id="brand"><span class="price-design-text">Брендинг</span> </label>
+            <label for="pack" class="check-service"><input type="checkbox" name="design" class="check" id="pack"><span class="price-design-text">Упаковка</span></label>
+            <label for="creative" class="check-service"><input type="checkbox" name="design" class="check" id="creative"><span class="price-design-text">Рекламный креатив</span></label>
+            <label for="ux-des" class="check-service"><input type="checkbox" name="design" class="check" id="ux-des"><span class="price-design-text">UX | UI дизайн</span></label>
         </div>
         <span class="name-service">Сайты:</span>
         <div class="price-design">
-            <input type="checkbox" name="sitу" class="check" id="landing"><label for="landing" class="check-service">Landing-page</label>
-            <input type="checkbox" name="sitу" class="check" id="bisnes"><label for="bisnes" class="check-service">Сайт для бизнеса</label> 
-            <input type="checkbox" name="sitу" class="check" id="store"><label for="store" class="check-service">Интернет-магазин</label>
-            <input type="checkbox" name="sitу" class="check" id="complex"><label for="complex" class="check-service">Сложные решения</label>
+            <label for="landing" class="check-service"><input type="checkbox" name="sitу" class="check" id="landing"><span class="price-design-text">Landing-page</span></label>
+            <label for="bisnes" class="check-service"><input type="checkbox" name="sitу" class="check" id="bisnes"><span class="price-design-text">Сайт для бизнеса</span></label> 
+            <label for="store" class="check-service"><input type="checkbox" name="sitу" class="check" id="store"><span class="price-design-text">Интернет-магазин</span></label>
+            <label for="complex" class="check-service"><input type="checkbox" name="sitу" class="check" id="complex"><span class="price-design-text">Сложные решения</span></label>
         </div>
         <span class="name-service">Продвижение:</span>
         <div class="price-design">
-            <input type="checkbox" name="promo" class="check" id="seo"><label for="seo" class="check-service">SEO</label>
-            <input type="checkbox" name="promo" class="check" id="context"><label for="context" class="check-service">Контекстная реклама</label> 
-            <input type="checkbox" name="promo" class="check" id="smm"><label for="smm" class="check-service">SMM</label>
+            <label for="seo" class="check-service"><input type="checkbox" name="promo" class="check" id="seo"><span class="price-design-text">SEO</span></label>
+            <label for="context" class="check-service"><input type="checkbox" name="promo" class="check" id="context"><span class="price-design-text">Контекстная реклама</span></label> 
+            <label for="smm" class="check-service"><input type="checkbox" name="promo" class="check" id="smm"><span class="price-design-text">SMM</span></label>
         </div>
         <span class="name-service">Автоматизация:</span>
         <div class="price-design">
-            <input type="checkbox" name="auto" class="check" id="amo"> <label for="amo" class="check-service">amoCRM</label>
-            <input type="checkbox" name="auto" class="check" id="bitrix"> <label for="bitrix" class="check-service">Bitrix24</label>
-            <input type="checkbox" name="auto" class="check" id="one-c"> <label for="one-c" class="check-service">1C</label>
-            <input type="checkbox" name="auto" class="check" id="ip-tell"> <label for="ip-tell" class="check-service">Ip-телефония</label>
+            <label for="amo" class="check-service"><input type="checkbox" name="auto" class="check" id="amo"><span class="price-design-text">amoCRM</span></label>
+            <label for="bitrix" class="check-service"><input type="checkbox" name="auto" class="check" id="bitrix"><span class="price-design-text">Bitrix24</span></label>
+            <label for="one-c" class="check-service"><input type="checkbox" name="auto" class="check" id="one-c"><span class="price-design-text">1C</span></label>
+            <label for="ip-tell" class="check-service"><input type="checkbox" name="auto" class="check" id="ip-tell"><span class="price-design-text">Ip-телефония</span></label>
         </div>
         <h3 class="contact-title">Контактные данные:</h3>
         <form class="form form-feadback">
@@ -337,9 +340,9 @@
             <button class="send-file">Отправить бриф</button>
         </form>
     </div>
-<img src="./images/free-audit-blot.png" class="price__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
-<img src="./images/price-blot-1.png" class="price__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
-<img src="./images/free-audit-blot-3.png" class="price__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+<img src="./images/free-audit-blot.png" class="paroller price__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+<img src="./images/price-blot-1.png" class="paroller price__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+<img src="./images/free-audit-blot-3.png" class="paroller price__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
 </section>
 <footer class="footer">
     <div class="container">

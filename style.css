@@ -2172,6 +2172,7 @@ margin-bottom: 11px;
 }
 
 .check-service {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2182,10 +2183,46 @@ margin-bottom: 11px;
     border-radius: 30px;
     font-family:'Stolzl Book';
     color: #fff;
-    font-size: 20px;
+    
    }
 
+.price-design-text {
+    padding-left: 15px;
+    font-size: 20px;
+}  
+
+.check-service::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 21px;
+    height: 21px;
+    border: 1px solid rgba(255,255,255, .8);
+    border-radius: 50%;
+    background-color: rgba(255,255,255, .5);
+}
+
+.price-design-text::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #fff;
+    transform: translate(calc(50% + .5px), calc(50% + .5px));
+}
+
 input[type="checkbox"]:checked + label {
+    background: #fff;
+    color: #260063;
+}
+
+.check:checked + .price-design-text::before {
+    background-color: var(--blue-dark);
+}
+
+.check:checked + label {
     background: #fff;
     color: #260063;
 }
@@ -2746,6 +2783,7 @@ input[type="checkbox"]:checked + label {
 
 .container-logo-concept {
     display: flex;
+    align-items: center;
     padding: 98px 15px 95px 15px;
 }
 
@@ -3236,6 +3274,8 @@ border: 1px solid black;
     border:none;
     background: transparent;
     text-decoration: underline;
+    color: black;
+    cursor: pointer;
 }
 
 
@@ -3275,6 +3315,7 @@ border: 1px solid black;
 
 .containere-what-service {
     display: flex;
+    align-items: center;
     padding: 104px 15px 61px 15px
 }
 
@@ -3545,6 +3586,7 @@ border: 1px solid black;
 
 .container-warranty {
     display: flex;
+    align-items: center;
     padding: 47px 15px 36px 15px;
 }
 
@@ -5024,7 +5066,7 @@ color: rgba(29, 15, 28, 255);
         flex: 1 25%;
     }
 
-    .check-service {
+    .price-design-text {
         font-size: 19px;
     }
 
@@ -5683,6 +5725,11 @@ color: rgba(29, 15, 28, 255);
         align-items: center;
     }
 
+    .wrapper-result-client-content{
+        margin: 0;  
+        margin-top: 30px;
+    }
+
 
 }
 
@@ -6035,6 +6082,14 @@ color: rgba(29, 15, 28, 255);
         height: auto;
     }
 
+    .mob-adapt-titel {
+        font-size: 31px;
+    }
+
+    .paroller {
+        display: none;
+    }
+
 }
 
 @media (max-width: 1150px) {
@@ -6042,6 +6097,24 @@ color: rgba(29, 15, 28, 255);
     .small-info-service-img {
         width: 68%;
     }
+
+    .container-work-design-site {
+        flex-direction: column;
+    }
+
+    .wrapper-work-design-site {
+        align-items: center;
+    }
+
+    .work-design-site-title {
+        margin-bottom: 15px;
+    }
+
+    .progect-factory {
+        align-self: center;
+        margin-top: 15px;
+    }
+
 
 }
 
