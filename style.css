@@ -4669,6 +4669,7 @@ color: rgba(29, 15, 28, 255);
 /* what-service-smm */
 
 .containere-what-service-smm {
+    align-items: center;
     padding: 100px 15px 85px 15px;
 }
 
@@ -4792,12 +4793,13 @@ color: rgba(29, 15, 28, 255);
 
 .pack-price-text-list {
     margin-left: 35px;
+    padding: 10px;
 }
 
 
 .pack-item-smm {
     display: list-item;
-    padding: 20px;
+    padding: 10px;
     min-height: 0px;
 }
 
@@ -5046,7 +5048,13 @@ color: rgba(29, 15, 28, 255);
     .check-service {
         font-size: 16px;
     }
+
+    .container-agency {
+        align-items: center;
+    }
 }
+
+
 
 @media (max-width: 950px) {
     .ablout-agency-img {
