@@ -2166,6 +2166,9 @@ margin-bottom: 11px;
     margin: 32px 22px 0px 0;
 }
 
+.contact-title {
+    margin-top: 10px;
+}
 
 .price-design {
     display: flex;
@@ -2456,10 +2459,10 @@ margin-bottom: 11px;
     margin: 0 0 0 15px;
 }
 
-.how-site-item-title {
+.how-site-item-title  {
     display: block;
     font-family: 'Stolzl Book';
-    font-size: 14px;
+    font-size: 18px !important;
     color: rgba(255, 255, 255, 255);
 }
 
@@ -3708,18 +3711,20 @@ border: 1px solid black;
 
 .pack-item-list {
     display: flex;
+    margin: 0 -30px;
 }
 
 .pack-item {
     flex: 1;
     min-height: 364px;
+    margin:0 15px;
     overflow: hidden;
     border-radius: 15px;
     box-shadow: 0px 6px 58.08px 7.92px rgba(58, 112, 255, 0.04);
 }
 
 .pack-item:nth-child(2) {
-    margin: 0 30px;
+    /* margin: 0 30px; */
 }
 
 .pack-item-title {
@@ -3741,6 +3746,10 @@ border: 1px solid black;
     padding: 28px 21px 32px 21px;
     background: #fff;
     font-size: 14px;
+}
+
+.how-site-item-text {
+    height: 168px;
 }
 
 .wrapper-pack-price {
@@ -5262,6 +5271,31 @@ color: rgba(29, 15, 28, 255);
     }
 }
 
+@media (max-width: 900px) {
+
+    .about-us-digital-title {
+        max-width: 420px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .container-about-us-digital {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+        padding-top: 100px;
+    }
+    
+    .about-us-digital-img {
+        height: auto;
+        position: static;
+    }
+
+}
+
 @media (max-width: 750px) {
 
     .container-agency {
@@ -5269,6 +5303,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .ablout-agency-img {
+        width: auto;
         margin-top: 20px;
     }
 
@@ -5303,6 +5338,30 @@ color: rgba(29, 15, 28, 255);
 
 }
 
+@media (max-width: 600px) {
+
+    .provide-title {
+        font-size: 25px;
+    }
+
+    .container-provide {
+        padding-top: 50px;
+    }
+
+    .container-stat {
+        padding-top: 50px;
+    }
+
+    .container {
+        padding-top: 50px;
+    }
+    
+    .free-audit {
+        padding-top: 0;
+    }
+    
+}
+
 @media (max-width: 500px) {
     
     .container-about-us-digital {
@@ -5312,6 +5371,10 @@ color: rgba(29, 15, 28, 255);
     .about-us-digital-img {
         top: 45%;
         left: 25%;
+    }
+
+    .land-services-list-title {
+        text-align: center;
     }
 
 
@@ -5324,7 +5387,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .ablout-agency-img {
-        height: 300px;
+        height: auto;
     }
 
     .provide-title {
@@ -6043,6 +6106,17 @@ color: rgba(29, 15, 28, 255);
         font-size: 27px
     }
 
+    .pack-item-list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .pack-item {
+        width: 400px;
+        flex: none;
+        margin-bottom: 15px;
+    }
+
 }
 
 @media (max-width: 1150px) {
@@ -6223,7 +6297,6 @@ color: rgba(29, 15, 28, 255);
     .how-site-list {
         flex-direction: column;
     }
-
 
 }      
 
