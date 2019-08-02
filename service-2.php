@@ -41,12 +41,12 @@
                 <img class="service-all-img" src="images/service-all-img-4.png">
                 <a href="#" class="service-all-btn">Подробнее</a>
             </div>
-            <div class="service-all-item">
+            <!-- <div class="service-all-item">
                 <h4 class="service-all-title">Ui / Ux дизайн</h4>
                 <span class="sevice-all-sub-title">Создаем интерфейсы для людей</span>
                 <img class="service-all-img" src="images/service-all-img-5.png">
                 <a href="#" class="service-all-btn">Подробнее</a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>

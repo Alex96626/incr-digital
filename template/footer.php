@@ -43,8 +43,8 @@
         </li>
     </ul>
     <div class="footer-contacts">
-        <a href="tel:79780000000" class="footer-phone">+7 978 000 00 00</a>
-        <a href="mailto:increase@gmail.com" class="footer-email">increase@gmail.com</a>
+        <a href="tel:79780070306" class="footer-phone">+7 978 007 03 06</a>
+        <a href="mailto:iinfo@incr.digital" class="footer-email">info@incr.digital</a>
     </div>
     <ul class="footer-address">
         <li class="footer-address__item">Москва</li>

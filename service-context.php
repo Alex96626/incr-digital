@@ -262,7 +262,7 @@
                 <span class="pack-item-text">Подойдет для узких направлений с небольшим количеством товаров или услуг. Отличный способ протестировать нишу.</span>
                 <div class="wrapper-pack-price">
                     <span class="clock-work pack-clock-work">2-3 рабочих дня</span>
-                    <span class="price-site pack-price">15 000 руб.</span>
+                    <span class="price-site pack-price">от 15 000 руб.</span>
                 </div>
             </div>
             <div class="pack-item">
@@ -270,7 +270,7 @@
                 <span class="pack-item-text">Эффективное решение для привлечениебольшого количества новых посетителей на сайт, повышение лояльности клиентов</span>
                 <div class="wrapper-pack-price">
                     <span class="clock-work pack-clock-work">4-6 рабочих дня</span>
-                    <span class="price-site pack-price">30 000 руб.</span>
+                    <span class="price-site pack-price">от 30 000 руб.</span>
                 </div>
             </div>
             <div class="pack-item">
@@ -292,9 +292,9 @@
     <img src="./images/price-blot-1.png" class="paroller price__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <img src="./images/free-audit-blot-3.png" class="paroller price__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
 </section>
-<footer class="footer">
-    <?php include('template/header.php') ?>
-</footer>
+    <footer class="footer">
+        <?php include('template/footer.php') ?>
+    </footer>
     
 <script src="./js/jquery-3.4.1.min.js"></script>
 <script src="./js/jquery.paroller.min.js"></script>

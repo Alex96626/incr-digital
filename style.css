@@ -298,11 +298,23 @@ button:focus{
     font-size: 18px;
 }
 
+.header-bottom-info__btn-link {
+    text-decoration: none;
+    color: var(--violet);
+    padding: 21px 80px;
+}
+
 .header-bottom-info__btn:hover,
 .header-bottom-info__btn:focus {
     background: linear-gradient(to right, #4929f0, #4ecaeb);
     border: none;
     color: #fff;    
+}
+
+.mobile-menu-logo,
+.header-mobile-logo,
+.header-logo {
+    cursor: pointer;
 }
 
 /* header ! */
@@ -698,7 +710,7 @@ button:focus{
 }
 
 .budget__title {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .budget-list {
@@ -733,7 +745,12 @@ button:focus{
     font-size: 150px;
     color: var(--grey-light);
     transform: translateY(-55%);
+    z-index: -1;
 
+}
+
+.budget-list__item:hover::before {
+    transform: translateY(-90%);
 }
 
 .budget-list__item:nth-child(1) {
@@ -852,7 +869,7 @@ button:focus{
 .waterfall {
     width: 570px;
     max-width: 100%;
-    padding-top: 485px;
+    padding-top: 510px;
     background: url(./images/waterfall.png) no-repeat calc(100% - 55px) 80px;
 }
 
@@ -1274,6 +1291,10 @@ button:focus{
         align-items: center;
     }
 
+    .free-audit {
+        background-position-y: 65%;
+    }
+
     .free-audit__info {
         width: 470px;
         max-width: 100%;
@@ -1338,7 +1359,7 @@ button:focus{
 
 .design_choice {
     align-self: center;
-    margin-bottom: 74px;
+    margin-bottom: 45px;
     font-family: 'Stolzl Book';
     font-size: 30px;
 }
@@ -2480,7 +2501,7 @@ margin-bottom: 11px;
     margin: 18px 0;
     padding: 0 35px;    
     font-family: 'Stolzl Book';
-    font-size: 12px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 255);
 }
 
@@ -2501,7 +2522,7 @@ margin-bottom: 11px;
     padding: 0 35px; 
     display: block;
     font-family: 'Stolzl Book';
-    font-size: 12px;
+    font-size: 15px;
     color: rgba(255, 255, 255, 255);
 }
 
@@ -3242,13 +3263,13 @@ border: 1px solid black;
     box-shadow: 0px 10px 74.1px 20.9px rgba(58, 112, 255, 0.22);   
 }
 
-.service-all-item:first-child {
+/* .service-all-item:first-child {
     margin-left: 0px
 }
 
 .service-all-item:last-child {
     margin-right: 0px;
-}
+} */
 
 .service-all-title {
     display: block;
@@ -3261,7 +3282,7 @@ border: 1px solid black;
 .sevice-all-sub-title {
     display: block;
     margin: 9px 21px 6px 21px;
-    font-size: 12px;
+    font-size: 17px;
     color: rgba(120, 120, 120, 255);
 }
 
@@ -3706,7 +3727,7 @@ border: 1px solid black;
 
 
 .container-pack-price {
-    padding: 109px 15px 111px 15px;
+    padding: 40px 15px 0 15px;
 }
 
 .pack-item-list {
@@ -3745,11 +3766,12 @@ border: 1px solid black;
     min-height: 154px;
     padding: 28px 21px 32px 21px;
     background: #fff;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .how-site-item-text {
     height: 168px;
+    font-size: 15px;
 }
 
 .wrapper-pack-price {
@@ -4983,6 +5005,8 @@ color: rgba(29, 15, 28, 255);
         display: flex;
     }
 
+    
+
 
 
 }
@@ -5170,7 +5194,7 @@ color: rgba(29, 15, 28, 255);
 
 @media (max-width: 400px) {
     .footer-nav-list__item {
-        margin: 0 5px;
+        margin: 0 4px;
     }
 }
 
@@ -5531,7 +5555,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .design_choice {
-        margin-bottom: 0;
+        margin-bottom: 45px;
     }
 
     .wrapper-service-about {
@@ -5539,12 +5563,15 @@ color: rgba(29, 15, 28, 255);
     }
 
     .service-big-img {
+        position: unset;
         margin-top: 15px;
     }
     
     .sml-info-service-text {
         width: auto;
     }
+
+    
 
  }
 
@@ -5581,6 +5608,10 @@ color: rgba(29, 15, 28, 255);
     /* .service-big-img {
         width: 350px;
     } */
+
+    .wrapper-pack-shape {
+        margin-right: 100px;
+    }
 
  }
 
@@ -5648,6 +5679,15 @@ color: rgba(29, 15, 28, 255);
 
     .show-client-item:last-child {
         margin: 0 0 15px 15px;
+    }
+
+    .container-pack-shape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .show-cases-pack {
+        margin-bottom: 0;
     }
 
  }
@@ -5730,6 +5770,22 @@ color: rgba(29, 15, 28, 255);
         font-size: 25px;
     }
  }
+ 
+ @media (max-width: 650px) { 
+
+    .design_choice {
+        width: 360px;
+        max-width: 100%;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .container-service-all {
+        padding-top: 45px;
+    }
+    
+
+ }
 
  @media (max-width: 500px) { 
 
@@ -5773,6 +5829,14 @@ color: rgba(29, 15, 28, 255);
     .show-client-title {
         font-size: 16px;
     }
+ }
+
+ @media (max-width: 350px) { 
+
+    .design_choice {
+        font-size: 23px;
+    }
+
  }
 
 /* branding-service-adapt! */
@@ -6304,5 +6368,30 @@ color: rgba(29, 15, 28, 255);
 
 
 /* web-site-adapt! */
+
+
+/* index-adapt */
+
+@media (max-width: 1200px) {
+
+    .about-project__form  {
+        padding-left: 15px;
+        padding-right: 15px;
+        justify-content: end;
+    }
+
+    .about-project__input {
+        flex: 1;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .about-project__input:first-child {
+        flex: 2;
+    }
+
+}
+
+/* index-adapt! */
 
 /* ADAPTIV! */

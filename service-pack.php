@@ -10,7 +10,7 @@
 </head>
 <body>
      <header class="header-land-services">
-     <?php include('template/footer.php') ?>
+     <?php include('template/header.php') ?>
         <img src="./images/free-audit-blot.png" class="paroller header__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     </header>
     <section class="service-about">
@@ -53,7 +53,7 @@
             <div class="wrapper-pack-shape">
                 <h3 class="pack-shape-title">Упаковка формирует</h3>
                 <span class="pack-shape-sub-title">привильные ассоциаци у потребителя</span>
-                <button class="show-cases">Показать наши кейсы</button>
+                <button class="show-cases show-cases-pack">Показать наши кейсы</button>
             </div>
             <img class="pack-shape-img" src="images/pack-shape-img.png">
         </div>

@@ -1,5 +1,5 @@
     <section class="header-land-about-one-services">
-        <a href="#" class="header-logo logo"> 
+        <a href="index.php" class="header-logo logo"> 
             <img src="./images/logo-small.png" class="logo__img" alt="Increase - веб-агенство">
         </a>
         <nav class="header-nav">
@@ -8,33 +8,33 @@
                     <a href="index.php" class="header-nav-list__link">Главная</a>
                 </li>
                 <li class="header-nav-list__item">
-                    <a href="service.php" class="header-nav-list__link">Услуги</a>
-                </li>
-                <li class="header-nav-list__item">
-                    <a href="contact.php" class="header-nav-list__link">Контакты</a>
-                </li>
-                <li class="header-nav-list__item">
                     <a href="about_us.php" class="header-nav-list__link">О нас</a>
+                </li>
+                <li class="header-nav-list__item">
+                    <a href="service.php" class="header-nav-list__link">Услуги</a>
                 </li>
                 <li class="header-nav-list__item">
                     <a href="blog.php" class="header-nav-list__link">Блог</a>
                 </li>
+                <li class="header-nav-list__item">
+                    <a href="contact.php" class="header-nav-list__link">Контакты</a>
+                </li>
             </ul>
         </nav>
-        <a href="tel:+79780000000" class="header-phone">+7 (978) 000-00-00</a>
+        <a href="tel:+79780070306" class="header-phone">+7 (978) 007-03-06</a>
     </section>
     <section class="header-mobile">
         <button type="button" class="open-menu-btn">
             <span class="sr-only">Открыть меню</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="28" height="19"><path fill="#1F2D55" paint-order="stroke fill markers" fill-rule="evenodd" d="M1 1h26v3H1V1zm0 7h26v3H1V8zm0 7h26v3H1v-3z"></path></svg>
         </button>
-        <a href="/" class="header-mobile-logo">
+        <a href="index.php" class="header-mobile-logo">
             <img src="./images/logo-small.png" class="logo__img header-mobile-logo__img" alt="Increase - веб-агенство">
         </a>
     </section>
     <section class="mobile-menu ">
         <div class="mobile-menu-header">
-            <a href="/" class="mobile-menu-logo">
+            <a href="index.php" class="mobile-menu-logo">
                 <img src="./images/logo-small.png" class="logo__img header-mobile-logo__img" alt="Increase - веб-агенство">
             </a>
             <button type="button" class="close-menu-btn">
@@ -64,6 +64,11 @@
                         <li class="mobile-menu-nav-item">
                             <a href="blog.html" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">БЛОГ</span>
+                            </a>
+                        </li>
+                        <li class="mobile-menu-nav-item">
+                            <a href="blog.html" class="mobile-menu-nav-item__link">
+                                <span class="mobile-menu-nav-item__link-text">Контакты</span>
                             </a>
                         </li>
                         <li class="mobile-menu-nav-item">

@@ -17,7 +17,7 @@
                 <div class="header-bottom-info">
                     <span class="header-bottom-info__title">Digital-продукты</span>
                     <span class="header-bottom-info__subtitle">Для лидеров рынка</span>
-                    <button class="btn header-bottom-info__btn">Подробнее</button>
+                    <button class="btn header-bottom-info__btn"><a href="service.php" class="header-bottom-info__btn-link">Подробнее</a></button>
                 </div>
                 <div class="header-bottom__logo">
                     <img src="./images/logo-big.png" alt="Increase" class="header-bottom__logo-img">
@@ -46,147 +46,8 @@
         </div>
     </header>
     <section class="services">
-        <div class="container">
-            <h2 class="section-title services__title">
-                <span class="services__title-text">
-                    Решения для вашего бизнеса
-                </span>
-            </h2>
-            <div class="services-list">
-                    <div class="services-list__item">
-                        <div class="wrapper-item-top">
-                            <h3 class="services-list__item-title">Дизайн</h3>
-                            <img class="service-list__item-img" src="images/service-icon.png">
-                        </div>
-                        <ul class="services-sub">
-                            <li class="services-sub__item">
-                                <a href="service-logo.html" class="services-sub__item-link">Логотип</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Фирменный стиль</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="service-pack.html" class="services-sub__item-link">Упаковка бренда</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="service-advertising.html" class="services-sub__item-link">Рекламный креатив</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">UX/IX дизайн</a>
-                            </li>
-                        </ul>
-                        <a href="#" class="services-list__item-link">Подробнее</a>
-                    </div>
-                    <div class="services-list__item">
-                        <div class="wrapper-item-top">
-                            <h3 class="services-list__item-title">Сайты</h3>
-                            <img class="service-list__item-img" src="images/service-icon-2.png">
-                        </div>
-                        <ul class="services-sub">
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Landing-page</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Сайт для бизнеса</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Интернет-магазин</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Сложные решения</a>
-                            </li>
-                        </ul>
-                        <a href="web-site.html" class="services-list__item-link">Подробнее</a>
-                    </div>
-                    <div class="services-list__item">
-                        <div class="wrapper-item-top">
-                            <h3 class="services-list__item-title">Продвижение</h3>
-                            <img class="service-list__item-img" src="images/service-icon-3.png">
-                        </div>
-                        <ul class="services-sub">
-                            <li class="services-sub__item">
-                                <a href="seo.html" class="services-sub__item-link">SEO</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="service-context.html" class="services-sub__item-link">Контекстная реклама</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="smm.html" class="services-sub__item-link">SMM</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Контент</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Web-аналитика</a>
-                            </li>
-                        </ul>
-                        <a href="outside.html" class="services-list__item-link">Подробнее</a>
-                    </div>
-                    <div class="services-list__item">
-                        <div class="wrapper-item-top">
-                            <h3 class="services-list__item-title">Траблшутинг</h3>
-                            <img class="service-list__item-img" src="images/service-icon-4.png">
-                        </div>
-                        <ul class="services-sub">
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Анализ бизнес-процессов, совершенствование и внедрение</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Оптимизация штата и должностных обязанностей</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Увеличение продаж</a>
-                            </li>
-                        </ul>
-                        <a href="#" class="services-list__item-link">Подробнее</a>
-                    </div>
-                    <div class="services-list__item">
-                        <div class="wrapper-item-top">
-                            <h3 class="services-list__item-title">Автоматизаци</h3>
-                            <img class="service-list__item-img" src="images/service-icon-5.png">
-                        </div>
-                        <ul class="services-sub">
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">amoCRM</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Bitrix24</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">1C</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Roistat</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Ip-телефония</a>
-                            </li>
-                        </ul>
-                        <a href="#" class="services-list__item-link">Подробнее</a>
-                    </div>
-                    <div class="services-list__item">
-                        <div class="wrapper-item-top">
-                            <h3 class="services-list__item-title">Поддержка</h3>
-                            <img class="service-list__item-img" src="images/service-icon-6.png">
-                        </div>
-                        <ul class="services-sub">
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Бесперебойная работы сайта</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Исправление программных ошибок</a>
-                            </li>
-                            <li class="services-sub__item">
-                                <a href="#" class="services-sub__item-link">Обновление информации внедрение нового функционала</a>
-                            </li>
-                        </ul>
-                        <a href="#" class="services-list__item-link">Подробнее</a>
-                    </div>
-                </div>
-            
-        </div>
+        <?php include('template/services.php') ?>
     </section>
-
     <section class="projects">
         <img src="./images/our-projects-blot-1.png" class="paroller projects__paroller-1" data-paroller-factor="0.15" aria-hidden="true" alt="">
         <img src="./images/our-projects-blot-2.png" class="paroller projects__paroller-2" data-paroller-factor="0.35" aria-hidden="true" alt="">
