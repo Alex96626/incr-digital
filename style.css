@@ -5007,11 +5007,187 @@ color: rgba(29, 15, 28, 255);
 
     
 
+    
+
 
 
 }
 
 /* NAV-MOB! */
+
+/* SRM */
+
+/* header */
+
+.header-srm {
+    background: url(images/header-srm-fon-1.png) no-repeat 75% 75%,url(images/header-srm-fon-2.jpg) no-repeat;
+}
+
+.sml-info-service-srm-we-top {
+    width: auto;
+    height: auto;
+}
+
+.btn-more-service-srm {
+    background-image: -moz-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+}
+
+/* header! */
+
+/* amoCrm-helpe */
+
+.amoCrm-helper {
+    position: relative;
+    background:url(images/left-fon.png) no-repeat 0 50% #f5f7f8
+}
+
+.container-amoCrm-helper {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 15px 75px 15px;
+}
+
+.amoCrm-helper-img {
+    position: absolute;
+    top: 53%;
+    left: 15%;
+}
+
+.wrapper-amoCrm-helper {
+    width: 570px;
+    max-width: 100%;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.amoCrm-helper-title {
+    margin-bottom: 43px;
+    font-family: 'Stolzl Book';
+    font-size: 29px;
+}
+
+.amoCrm-helper-sub-title {
+    display: block;
+    margin-bottom: 13px;
+    font-family: 'Stolzl Book';
+    font-size: 18px;  
+}
+
+.amoCrm-helper-text {
+    display: block;
+    margin-bottom: 26px;
+    font-family: 'Stolzl Light';
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* amoCrm-helpe! */
+
+/* smm-info-1 */
+
+.smm-info-1 {
+    background: url(images/right-fon.png) no-repeat 100%;
+}
+
+.container-smm-info-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 15px 85px 15px;
+}
+
+.smm-info-1-title {
+    margin-bottom: 31px;
+    font-family: 'Stolzl Book';
+    font-size: 23px;
+}
+
+.wrapper-smm-info-1 {
+    display: flex;
+}
+
+.wrapper-smm-info-1-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 31px;
+}
+
+.smm-info-1-text {
+    display: block;
+    margin-bottom: 26px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(120, 120, 120, 255);
+}
+
+.smm-button-link {
+    width: 400px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-image: -moz-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(74,10,240) 0%, rgb(78,229,234) 100%);
+    text-decoration: navajowhite;
+    color: #fff;
+}
+
+
+/* smm-info-1! */
+
+/* smm-info-2 */
+
+.smm-info-2 {
+    position: relative;
+    background: url(images/left-fon.png) no-repeat 0 100% #f5f7f8;
+}
+
+.container-smm-info-2 {
+    align-items: flex-end;
+}
+
+.smm-info-2-img {
+    position: absolute;
+    left: 17%;
+}
+
+.wrapper-smm-info-2-text {
+    width: 570px;
+    max-width: 100%;
+}
+
+.smm-info-4-img {
+    margin-right: 38px;
+}
+
+.smm-info-5 {
+    position: relative;
+    background: url(images/stage-setting-fon-2.png) no-repeat -25% 100%;
+}
+
+.smm-info-5-text-item {
+    display: list-item;
+    list-style-position: inside;
+}
+
+.smm-info-5-img {
+    position: absolute;
+    top: 21%;
+    left: 50%;
+}
+
+.wrapper-smm-info-5-text {
+    width: 455px;
+    max-width: 100%;
+}
+
+
+/* smm-info-2!*/
+/* SRM! */
 
 
 /* ADAPTIP */
