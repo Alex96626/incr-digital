@@ -1481,7 +1481,7 @@ button:focus{
 }
 
 .sml-info-service-slogan {
-    margin: 22px 0 11px 0;
+    margin: 22px 15px 11px 0;
     font-size: 28px;
     color: rgba(120, 120, 120, 255);
 }
@@ -3031,7 +3031,7 @@ border: 1px solid black;
 
 .container-pack-shape {
     display: flex;
-    padding: 26px 15px 20px 15px;
+    padding: 50px 15px 20px 15px;
 }
 
 .pack-shape-title {
@@ -5004,13 +5004,6 @@ color: rgba(29, 15, 28, 255);
     .header-mobile {
         display: flex;
     }
-
-    
-
-    
-
-
-
 }
 
 /* NAV-MOB! */
@@ -5187,6 +5180,83 @@ color: rgba(29, 15, 28, 255);
 
 
 /* smm-info-2!*/
+
+/* crm-price */
+
+.crm-price {
+    background: url(images/left-fon.png) no-repeat #f5f7f8;
+}
+
+.container-crm-price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 15px 81px 15px;
+}
+
+.crm-price-title {
+    margin-bottom: 12px;
+    font-family: 'Stolzl Book';
+    font-size: 29px;
+}
+
+.crm-price-sub-title {
+    display: block;
+    margin-bottom: 41px;
+    font-size: 16px;
+    color: rgba(112, 109, 113, 255);
+}
+
+.crm-price-list {
+    width: 100%;
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.crm-price-item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 15px;
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+
+.crm-price-item-header {
+    padding: 25px;
+    font-family: 'Stolzl Book';
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 255);
+    background-image: -moz-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -webkit-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -ms-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+}
+
+.crm-price-item-main {
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    padding: 25px;
+    background: #fff;
+    font-size: 17px;
+    color: rgba(112, 109, 113, 255);
+}
+
+.crm-price-item-footer {
+    padding: 25px;
+    font-family: 'Stolzl Book';
+    font-weight: normal;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 255);
+    background-image: -moz-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -webkit-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+    background-image: -ms-linear-gradient( 23deg, rgb(75,38,239) 0%, rgb(77,201,235) 100%);
+}
+
+/* crm-price! */
 /* SRM! */
 
 
@@ -5331,7 +5401,7 @@ color: rgba(29, 15, 28, 255);
 @media (max-width: 500px) { 
     .footer-social-links {
         flex: 1 100%;
-        justify-content: space-around;
+        justify-content: center;
     }
     
     .footer-phone {
@@ -5717,6 +5787,9 @@ color: rgba(29, 15, 28, 255);
         padding-top: 38px;  
     }
    
+    .service-logo-big-img {
+        margin-top: 40px;
+    }
  }
 
  @media (max-width: 1150px) {
@@ -5832,6 +5905,10 @@ color: rgba(29, 15, 28, 255);
         flex-direction: column;
     }
 
+    .wrapper-analysis-list {
+        margin-top: 30px;
+    }
+
     .analysis-list {
         flex-direction: column;
         height: 300px;
@@ -5945,6 +6022,8 @@ color: rgba(29, 15, 28, 255);
     .show-client-title {
         font-size: 25px;
     }
+
+    
  }
  
  @media (max-width: 650px) { 
@@ -5961,6 +6040,13 @@ color: rgba(29, 15, 28, 255);
     }
     
 
+ }
+
+ @media (max-width: 550px) {
+    .wrapper-pack-shape {
+        margin-right: 0;
+        padding-left: 27px;
+    }
  }
 
  @media (max-width: 500px) { 

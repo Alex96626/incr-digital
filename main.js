@@ -37,4 +37,26 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
     }
+
+    // slaider
+
+    // if(window.matchMedia('(max-width: 800px)').matches){
+    //     $('.services-list').slick({
+    //         centerMode: true,
+    //         centerPadding: '60px',
+    //         slidesToShow: 2,
+    //         responsive: [
+    //         {
+    //             breakpoint: 800,
+    //             settings: {
+    //             arrows: false,
+    //             centerMode: true,
+    //             centerPadding: '40px',
+    //             slidesToShow: 2 
+    //             }
+    //         }
+            
+    //         ]
+    //     });
+    // }
 });

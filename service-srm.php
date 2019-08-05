@@ -102,6 +102,65 @@
     </div>
 </div>
 </section>
+<section class="crm-price">
+    <div class="container container-crm-price">
+        <h4 class="crm-price-title">Попробуйте 14 дней бесплатно</h4>
+        <span class="crm-price-sub-title">Стоимость тарифа указана при условии покупки на 6 месяцев.</span>
+        <div class="crm-price-list">
+            <div class="crm-price-item">
+                <div class="crm-price-item-header">Базовый</div>
+                <div class="crm-price-item-main">В месяц за пользователя</div>
+                <div class="crm-price-item-footer">15 000 руб.</div>
+            </div>
+            <div class="crm-price-item">
+                <div class="crm-price-item-header">Расширенный</div>
+                <div class="crm-price-item-main">В месяц за пользователя</div>
+                <div class="crm-price-item-footer">15 000 руб.</div>
+            </div>
+            <div class="crm-price-item">
+                <div class="crm-price-item-header">Профессиональный</div>
+                <div class="crm-price-item-main">В месяц за пользователя</div>
+                <div class="crm-price-item-footer">15 000 руб.</div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="result-client">
+    <img src="./images/result-client-blot-1.png" class="paroller result-client-smm__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+    <div class="container container-result-client">
+        <div class="wrapper-result-client-title">
+            <h3 class="result-client-title">Результаты наших клиентов</h3>
+            <div class="wrapper-switch"><button class="switch switch-back switch-result-client"> &lt; </button>
+                <button class="switch switch-forward switch-result-client"> &gt; </button>
+            </div>
+        </div>
+        <div class="wrapper-result-client">
+            <img class="result-client-img" src="images/result-client-img.png">
+            <div class="wrapper-result-client-content">
+                <h4 class="wrapper-result-client-title">Гарантировано</h4>
+                <ul class="warranty-list result-client-list">
+                    <li class="warranty-item"><p class="warranty-list-text">
+                        качественный подбор семантического ядра и грамотные настройки, которые позволяют даже молодым сайтам конкурировать с более известными представителями той же ниши.
+                    </p></li>
+                    <li class="warranty-item"><p class="warranty-list-text">прирост целевых посещений из поиская "Яндекса", которые частично конвертируются в продажи</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text">создание индивидуальной рекламной стратегии. учитывающей особенности конкретного проекта</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text">рациональное использование бюджета</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text">эффективное ведение рекламной компании</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="price">
+    <?php include('template/brif.php') ?>
+
+        <img src="./images/free-audit-blot.png" class="paroller price__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+        <img src="./images/price-blot-1.png" class="paroller price__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+        <img src="./images/free-audit-blot-3.png" class="paroller price__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+    </section>
+<footer class="footer">
+    <?php include('template/footer.php') ?>
+</footer>
 
 <script src="./js/jquery-3.4.1.min.js"></script>
 <script src="./js/jquery.paroller.min.js"></script>

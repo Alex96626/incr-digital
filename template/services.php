@@ -15,7 +15,7 @@
                     <a href="service-logo.html" class="services-sub__item-link">Логотип</a>
                 </li>
                 <li class="services-sub__item">
-                    <a href="branding-service.php" class="services-sub__item-link">Брендинг</a>
+                    <a href="branding_services.php" class="services-sub__item-link">Брендинг</a>
                 </li>
                 <li class="services-sub__item">
                     <a href="service-pack.html" class="services-sub__item-link">Упаковка бренда</a>
