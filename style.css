@@ -5522,6 +5522,7 @@ color: rgba(29, 15, 28, 255);
 
     .send-file {
         width: 300px;
+        max-width: 100%;
     }
 
     .price-design {
@@ -5624,6 +5625,7 @@ color: rgba(29, 15, 28, 255);
 
     .container {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
     
     .free-audit {
@@ -5758,6 +5760,12 @@ color: rgba(29, 15, 28, 255);
 /* branding-service-adapt */
 
 @media (max-width: 1200px) {
+
+    .container {
+        padding-top: 70px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     
     .info-service-img {
         width: 450px;
@@ -5769,6 +5777,23 @@ color: rgba(29, 15, 28, 255);
 
     .services-lists {
         display: none;
+    }
+
+    .sml-info-service-text {
+        width: auto;
+    }
+
+    .sml-info-service-text {
+        padding-top: 0;
+        padding-left: 0;
+    }
+    
+    .wrapper-service-about {
+        height: auto;
+    }
+
+    .section-title {
+        font-size: 29px !important;
     }
    
  }
@@ -5799,7 +5824,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .sml-info-service {
-        flex-direction: column;
+        /* flex-direction: column; */
         align-items: center;
     }
 
@@ -5816,9 +5841,7 @@ color: rgba(29, 15, 28, 255);
         margin-top: 15px;
     }
     
-    .sml-info-service-text {
-        width: auto;
-    }
+    
 
     
 
@@ -5874,8 +5897,6 @@ color: rgba(29, 15, 28, 255);
         height: 404px;
     }
 
-    
-
     .cost {
         width: 270px;
     }
@@ -5886,15 +5907,21 @@ color: rgba(29, 15, 28, 255);
 
     .container-big-info-service {
         flex-wrap: wrap;
+        align-items: end;
     }
 
+    .show-cases {
+        margin-bottom: 25px;
+    }
+
+    
     .info-service-img {
         order: 3;
         flex: 1 100%;
     }
 
     .service-why {
-        height: 296px;
+        height: auto;
     }
 
     .service-why-text {
@@ -5943,6 +5970,28 @@ color: rgba(29, 15, 28, 255);
         margin-bottom: 0;
     }
 
+ }
+
+ @media (max-width: 800px) { 
+    .sml-info-service {
+        flex-direction: column;
+    }
+
+    .sml-info-service-text {
+        padding-top: 0;
+    }
+
+    .sml-info-service {
+        align-items: flex-start;
+    }
+
+    .design_choice {
+        align-self: flex-start;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
  }
 
 
@@ -6023,6 +6072,14 @@ color: rgba(29, 15, 28, 255);
         font-size: 25px;
     }
 
+    .section-title {
+        font-size: 20px !important;
+    }
+
+    .services-this {
+        flex: auto;
+    }
+
     
  }
  
@@ -6051,9 +6108,9 @@ color: rgba(29, 15, 28, 255);
 
  @media (max-width: 500px) { 
 
-    .container-dev-stage {
+    /* .container-dev-stage {
         padding-bottom: 130px;
-    }
+    } */
 
     .show-client-title {
         font-size: 20px;
@@ -6061,6 +6118,10 @@ color: rgba(29, 15, 28, 255);
 
     .brand-dev-sub-title {
         width: auto;
+    }
+
+    .section-title {
+        font-size: 18px !important;
     }
 
  }
@@ -6091,12 +6152,33 @@ color: rgba(29, 15, 28, 255);
     .show-client-title {
         font-size: 16px;
     }
+
+    .service-why-text {
+        font-size: 21px;
+    }
+
+    .show-cases {
+        width: 250px;
+    }
+
+    .good-affect-item img,
+    .bad-affect-item img {
+        margin-left: 25px;
+    }
  }
 
  @media (max-width: 350px) { 
 
     .design_choice {
         font-size: 23px;
+    }
+
+ }
+
+ @media (max-width: 338px) { 
+
+    .design_choice {
+        font-size: 21px;
     }
 
  }

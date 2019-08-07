@@ -15,7 +15,7 @@
     </header>
         <section class="service-about">
             <div class="container container-service-about">
-                <span class="design_choice">Сделайте правильный выбор дизайна</span>
+                <span class="design_choice section-title">Сделайте правильный выбор дизайна</span>
                 <div class="wrapper wrapper-service-about">
                     <div class="service">
                         <div class="wrapper-services">
@@ -73,7 +73,7 @@
         <section class="how-affect">
             <img src="./images/big-info-blot-1.png" class="paroller big-info__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
             <div class="container container-how-affect">
-                <span class="how-affect-text">Как брендинг влияет на имидж компании:</span>
+                <span class="how-affect-text section-title">Как брендинг влияет на имидж компании:</span>
                 <div class="wrapper-affect">
                     <div class="bad-affect">
                         <span class="bad-affect-text">Слабый бренд</span>
@@ -95,7 +95,7 @@
         <section class="dev-stage">
             <div class="container container-dev-stage">
                 <div class="wrapper-title">
-                    <span class="dev-stage-title">Этапы разработки вашего бренда</span>
+                    <span class="dev-stage-title section-title">Этапы разработки вашего бренда</span>
                     <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
                 </div>
                 <ul class="dev-stage-list">
@@ -110,7 +110,7 @@
         <section class="complex-analysis">
             <div class="container container-complex-analysis">
                 <div class="wrapper-analysis-title">
-                    <span class="analysis-title">Комплексный анализ</span>
+                    <span class="analysis-title section-title">Комплексный анализ</span>
                     <span class="analysis-sub-title">Ваш торговый знак должен быть актуальным</span>
                     <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
@@ -132,7 +132,7 @@
         </section>
         <section class="components-branding">
             <div class="container container-comp-branding">
-                <span class="comp-branding-title">Состовляющие брендинга</span>
+                <span class="comp-branding-title section-title">Состовляющие брендинга</span>
                 <span class="comp-branding-sub-title">положительный отклик <br> у потребителя, делает товар более узнаваемым</span>
                 <ul class="comp-branding-list">
                     <li class="comp-branding-items"><p class="comp-branding-items-text">Нейминг и логотип</p></li>
@@ -144,14 +144,14 @@
         </section>
         <section class="brand-dev">
             <div class="container container-brand-dev">
-                <span class="brand-dev-title">Разработка бренда</span>
+                <span class="brand-dev-title section-title">Разработка бренда</span>
                 <span class="brand-dev-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 <button class="aspins">проект aspins</button>
             </div>
         </section>
         <section class="show-client">
             <div class="container container-show-client">
-                <span class="show-client-title">Что мы предоставляем клиентам:</span>
+                <span class="show-client-title section-title">Что мы предоставляем клиентам:</span>
                 <div class="wrapper-show-client-item">
                     <div class="show-client-item">
                         <img class="show-client-item-img" src="images/show-client-item-1.png">
