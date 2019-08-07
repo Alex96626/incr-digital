@@ -15,7 +15,7 @@
 </header>
 <section class="blog">
     <div class="container container-blog">
-        <h3 class="blog-title">Блог</h3>
+        <h3 class="blog-title section-title">Блог</h3>
         <ul class="blog-list">
             <li  class="blog-item"><a class="blog-link">Логотип</a></li>
             <li class="blog-item"><a class="blog-link">Брендинг </a></li>
@@ -42,7 +42,7 @@
                     <img class="info-panel-top-img" src="images/info-panel-img.png">
                 </div>
                 <div class="contant-info-panel">
-                    <h4 class="contant-info-panel-title">Как не стоит готовиться к ЕГЭ</h4>
+                    <h4 class="contant-info-panel-title section-title">Как не стоит готовиться к ЕГЭ</h4>
                     <span class="contant-info-panel-text">Повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию
                             провести анализ обратной связи от пользователей отработать негативные отзывы 
                     </span>

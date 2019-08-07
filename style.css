@@ -2012,8 +2012,7 @@ margin-bottom: 11px;
 /* brand-dev */
 
 .brand-dev {
-    background: url(images/brand-dev-fon.png) no-repeat;
-    background-position: 100% 12%;
+    background: url(images/brand-dev-fon-3.png) no-repeat 61% 85%,url(images/brand-dev-fon-2.png) no-repeat 80% 13%,url(images/brand-dev-fon-1.png) no-repeat 119%;
 }
 
 .container-brand-dev {
@@ -2137,7 +2136,7 @@ margin-bottom: 11px;
 /* price */
 .price {
     position: relative;
-    background: url(images/price-fon.png) no-repeat;
+    background: url(images/price-fon.png) no-repeat #4b26ef;
 }
 
 .container-price {
@@ -3727,7 +3726,7 @@ border: 1px solid black;
 
 
 .container-pack-price {
-    padding: 40px 15px 0 15px;
+    padding: 40px 15px 50px 15px;
 }
 
 .pack-item-list {
@@ -5533,9 +5532,9 @@ color: rgba(29, 15, 28, 255);
         margin-bottom: 12px;
     }
 
-    .price {
+    /* .price {
         background-attachment: fixed;
-    }
+    } */
 
     .container-about-us-digital {
         padding-top: 300px;
@@ -5759,6 +5758,18 @@ color: rgba(29, 15, 28, 255);
 
 /* branding-service-adapt */
 
+@media (max-width: 1600px) {
+
+    .brand-dev {
+        background: url(images/brand-dev-fon-3.png) no-repeat 61% 85%,
+        url(images/brand-dev-fon-2.png) no-repeat 80% 13%,
+        url(images/brand-dev-fon-1.png) no-repeat 135%;
+
+        
+    }
+}
+
+
 @media (max-width: 1200px) {
 
     .container {
@@ -5794,6 +5805,12 @@ color: rgba(29, 15, 28, 255);
 
     .section-title {
         font-size: 29px !important;
+    }
+
+    .brand-dev {
+        background: url(images/brand-dev-fon-3.png) no-repeat 61% 85%,
+        url(images/brand-dev-fon-2.png) no-repeat 80% 13%;
+
     }
    
  }

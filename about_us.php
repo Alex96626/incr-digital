@@ -64,7 +64,7 @@
 </section>
 <section class="land-services-list">
     <div class="container container-land-services-list">
-        <h3 class="land-services-list-title">Чем мы можем вам помочь?</h3>
+        <h3 class="land-services-list-title section-title">Чем мы можем вам помочь?</h3>
         <div class="services-list">
                 <div class="services-list__item">
                     <div class="wrapper-item-top">
@@ -206,7 +206,7 @@
     <div class="container">
         <div class="free-audit__content">
             <div class="free-audit__info">
-                <h3 class="section-title free-audit__title">Мы проведем бесплатный аудит вашего бизнеса </h3>
+                <h3 class="section-title free-audit__title section-title">Мы проведем бесплатный аудит вашего бизнеса </h3>
                 <p class="free-audit__text">и подготовим для вас индивидуальное предложение</p>
             </div>
             <form action="" class="free-audit__form form">
@@ -223,7 +223,7 @@
 </section>
 <section class="trust-us">
     <div class="container container-trust-us">
-        <h3 class="trust-us-title">Нам доверяют</h3>
+        <h3 class="trust-us-title section-title">Нам доверяют</h3>
     </div>
     <div class="wrapper-trust-us">
         <div class="trust-us-item">

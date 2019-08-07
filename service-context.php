@@ -44,7 +44,7 @@
     </section>
     <section class="land-services-list">
         <div class="container container-land-services-list">
-            <h3 class="land-services-list-title">Почему Вашему бизнесу нужна КР?</h3>
+            <h3 class="land-services-list-title section-title">Почему Вашему бизнесу нужна КР?</h3>
             <div class="services-list">
                 <div class="services-list__item service-context-list">
                     <h3 class="services-list__item-title">Скорость запуска</h3>
@@ -78,7 +78,7 @@
     <img src="./images/big-info-blot-1.png" class="paroller how-affect__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <img src="./images/our-projects-blot-1.png" class="paroller how-affect__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-how-affect">
-        <span class="how-affect-text">Как наличие качественной Контекстной Рекламы влияет на позиционирование Вашего бизнеса в Сети</span>
+        <span class="how-affect-text section-title">Как наличие качественной Контекстной Рекламы влияет на позиционирование Вашего бизнеса в Сети</span>
         <div class="wrapper-affect">
             <div class="bad-affect">
                 <span class="bad-affect-text">Отсуствие Контекстной Рекламы</span>
@@ -103,7 +103,7 @@
 <section class="dev-stage dev-stage-2">
     <div class="container container-dev-stage container-dev-stage-contaxt">
         <div class="wrapper-title">
-            <span class="dev-stage-title">Процесс настройки и развития контекстной рекламы для сайта проходит в несколько этапов</span>
+            <span class="dev-stage-title section-title">Процесс настройки и развития контекстной рекламы для сайта проходит в несколько этапов</span>
             <span class="dev-stage-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
         </div>
         <ul class="dev-stage-list dev-stage-context-lost dev-stage-context">
@@ -116,7 +116,7 @@
 <section class="stage-setting">
         <img src="./images/stage-setting-blot-1.png" class="paroller stage-setting__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-stage-setting">
-        <h3 class="stage-settig-title">Этапы настройки рекламной компании</h3>
+        <h3 class="stage-settig-title section-title">Этапы настройки рекламной компании</h3>
         <div class="stage-setting-list">
            <span class="stage-setting-item"><p class="stage-setting-item-text"> Анализ и настройка</p></span> 
             <ul class="stage-setting-text-list">
@@ -213,7 +213,7 @@
 <section class="warranty">
     <div class=" container container-warranty">
         <div class="wrapper-warranty">
-            <h3 class="warranty-title">Гарантировано</h3>
+            <h3 class="warranty-title section-title">Гарантировано</h3>
             <ul class="warranty-list">
                 <li class="warranty-item"><p class="warranty-list-text">
                     качественный подбор семантического ядра и грамотные настройки, которые позволяют даже молодым сайтам конкурировать с более известными представителями той же ниши.
@@ -231,7 +231,7 @@
         <img src="./images/result-client-blot-1.png" class="paroller result-client__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-result-client">
         <div class="wrapper-result-client-title">
-            <h3 class="result-client-title">Результаты наших клиентов</h3>
+            <h3 class="result-client-title section-title">Результаты наших клиентов</h3>
             <div class="wrapper-switch"><button class="switch switch-back switch-result-client"> &lt; </button>
                 <button class="switch switch-forward switch-result-client"> &gt; </button>
             </div>

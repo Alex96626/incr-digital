@@ -15,7 +15,7 @@
     </header>
     <section class="service-about">
         <div class="container container-service-about">
-            <span class="design_choice">Сделайте правильный выбор дизайна</span>
+            <span class="design_choice section-title">Сделайте правильный выбор дизайна</span>
             <div class="wrapper wrapper-service-about">
                 <div class="service service-advertising">
                     <div class="wrapper-services">
@@ -46,7 +46,7 @@
     </section>
     <section class="case">
         <div class="container-case">
-            <h3 class="case-title"><p style="width: 311px">Примеры наших кейсов</p></h3>
+            <h3 class="case-title section-title"><p style="width: 311px">Примеры наших кейсов</p></h3>
             <img class="case-img" src="images/case-1.png">
         </div>
         <div class="container-case">

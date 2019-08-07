@@ -15,7 +15,7 @@
 </header>
 <section class="service-all">
     <div class="container container-service-all">
-        <h3 class="design_choice">Сделайте правильный выбор дизайна</h3>
+        <h3 class="design_choice section-title">Сделайте правильный выбор дизайна</h3>
         <div class="service-all-list">
             <div class="service-all-item">
                 <h4 class="service-all-title">Логотип</h4>

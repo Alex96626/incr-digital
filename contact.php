@@ -15,7 +15,7 @@
 </header>
 <section class="contact-us">
     <div class="container container-contact-us">
-        <h3 class="contact-us-title">Контакты</h3>
+        <h3 class="contact-us-title section-title">Контакты</h3>
         <div class="wrapper-contact-us">
             <div class="contact-us-text">
                 <div class="wrapper-contact-us">

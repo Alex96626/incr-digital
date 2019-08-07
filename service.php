@@ -50,7 +50,7 @@
 </header>
 <section class="land-services-list">
     <div class="container container-land-services-list">
-        <h3 class="land-services-list-title">Решения для вашего бизнеса</h3>
+        <h3 class="land-services-list-title section-title">Решения для вашего бизнеса</h3>
         <div class="services-list">
                 <div class="services-list__item">
                     <div class="wrapper-item-top">

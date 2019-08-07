@@ -212,7 +212,7 @@
     <img src="./images/result-client-blot-1.png" class="paroller result-client-smm__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-result-client">
         <div class="wrapper-result-client-title">
-            <h3 class="result-client-title">Результаты наших клиентов</h3>
+            <h3 class="result-client-title section-title">Результаты наших клиентов</h3>
             <div class="wrapper-switch"><button class="switch switch-back switch-result-client"> &lt; </button>
                 <button class="switch switch-forward switch-result-client"> &gt; </button>
             </div>

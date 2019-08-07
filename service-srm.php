@@ -28,7 +28,7 @@
 </section>
 <section class="amoCrm-helper">
     <div class="container container-amoCrm-helper">
-        <h4 class="title amoCrm-helper-title">amoCRM -незаменимый помощник в отделе продаж</h4>
+        <h4 class="title amoCrm-helper-title section-title">amoCRM -незаменимый помощник в отделе продаж</h4>
         <img class="amoCrm-helper-img" src="images/crm-helper-fon.png">
         <div class="wrapper-amoCrm-helper">
             <span class="amoCrm-helper-sub-title">Клиент в центре внимания</span>
@@ -39,7 +39,7 @@
 </section>
 <section class="smm-info-1">
 <div class="container container-smm-info-1">
-    <h4 class="title smm-info-1-title">Digital воронка в помощники</h4>
+    <h4 class="title smm-info-1-title section-title">Digital воронка в помощники</h4>
     <div class="wrapper-smm-info-1">
         <div class="wrapper-smm-info-1-text">
             <span class="smm-info-1-text">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
@@ -63,7 +63,7 @@
 </section>
 <section class="smm-info-1">
 <div class="container container-smm-info-1">
-    <h4 class="title smm-info-1-title">Широкие возможности интеграций</h4>
+    <h4 class="title smm-info-1-title section-title">Широкие возможности интеграций</h4>
     <div class="wrapper-smm-info-1">
         <div class="wrapper-smm-info-1-text">
             <span class="smm-info-1-text">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
@@ -78,7 +78,7 @@
     <div class="wrapper-smm-info-1">
     <img class="smm-info-4-img" src="images/crm-info-4-img.jpg">
         <div class="wrapper-smm-info-1-text wrapper-smm-info-2-text">
-            <h4 class="title smm-info-1-title">Ваша атмосфера и телефония в одной связке</h4>
+            <h4 class="title smm-info-1-title section-title">Ваша атмосфера и телефония в одной связке</h4>
             <span class="smm-info-1-text">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
             <a href="#" class="smm-button-link">Протестировать бесплатно</a>
         </div>  
@@ -89,7 +89,7 @@
 <div class="container container-smm-info-1">
     <div class="wrapper-smm-info-1">
         <div class="wrapper-smm-info-1-text wrapper-smm-info-5-text">
-            <h4 class="title smm-info-1-title">Аналитика продаж</h4>
+            <h4 class="title smm-info-1-title section-title">Аналитика продаж</h4>
             <ul class="smm-info-5-text-list" >
                 <li class="smm-info-1-text smm-info-5-text-item">качественная подборка семантического ядра и грамматиные настройки. которые позволят даже молодым сайтам конкурировать с более изместными представителями тое же ниши;</li>
                 <li class="smm-info-1-text smm-info-5-text-item">прирост целевых посвящений из поиска "Яндека", которые частично конверируются в продажи;</li>
@@ -104,7 +104,7 @@
 </section>
 <section class="crm-price">
     <div class="container container-crm-price">
-        <h4 class="crm-price-title">Попробуйте 14 дней бесплатно</h4>
+        <h4 class="crm-price-title section-title">Попробуйте 14 дней бесплатно</h4>
         <span class="crm-price-sub-title">Стоимость тарифа указана при условии покупки на 6 месяцев.</span>
         <div class="crm-price-list">
             <div class="crm-price-item">
@@ -129,7 +129,7 @@
     <img src="./images/result-client-blot-1.png" class="paroller result-client-smm__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-result-client">
         <div class="wrapper-result-client-title">
-            <h3 class="result-client-title">Результаты наших клиентов</h3>
+            <h3 class="result-client-title section-title">Результаты наших клиентов</h3>
             <div class="wrapper-switch"><button class="switch switch-back switch-result-client"> &lt; </button>
                 <button class="switch switch-forward switch-result-client"> &gt; </button>
             </div>
@@ -137,7 +137,7 @@
         <div class="wrapper-result-client">
             <img class="result-client-img" src="images/result-client-img.png">
             <div class="wrapper-result-client-content">
-                <h4 class="wrapper-result-client-title">Гарантировано</h4>
+                <h4 class="wrapper-result-client-title section-title">Гарантировано</h4>
                 <ul class="warranty-list result-client-list">
                     <li class="warranty-item"><p class="warranty-list-text">
                         качественный подбор семантического ядра и грамотные настройки, которые позволяют даже молодым сайтам конкурировать с более известными представителями той же ниши.

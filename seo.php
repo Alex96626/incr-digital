@@ -16,7 +16,7 @@
 <section class="seo-about">
     <div class="container container-seo-about">
         <div class="small-info-service-about small-info-service-seo-about">
-            <h3 class="smal-info-service-title smal-info-service-seo-title">SEO</h3>
+            <h3 class="smal-info-service-title smal-info-service-seo-title section-title">SEO</h3>
             <span class="small-info-service-cub-title small-info-service-seo-cub-title">Search Engine Optimization – Поисковая оптимизация</span>
             <div class="sml-info-service-we-top sml-info-service-seo-we-top">Выведем Ваш сайт в топ 5 От 24 дней</div>
             <button class="btn-more-service-seo">Подробнее</button>
@@ -27,7 +27,7 @@
 <img src="./images/dev-stage-blot-1.png" class="paroller what-service__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container containere-what-service">
         <div class="what-service-content what-service-seo-content">
-            <h3 class="what-service-title">Что такое SEO?</h3>
+            <h3 class="what-service-title section-title">Что такое SEO?</h3>
             <span class="what-service-text what-service-seo-text">SEO - это комплекс действий. выводящих ваш сайт в топ органической выдачи поисковых систем</span>
             <span class="what-service-text what-service-seo-text">Органическая выдача - та часть выдачи поисковых систем, которая является не рекламной, а естественной, то есть выводится поисковой машиной в соответствии с релевантностью контента по запросу пользователя</span>
             <span class="what-service-text what-service-seo-text">На данном этапе развития поисковых систем существует более 500 факторов учитываемых, например Яндексом. при ранжировании сайтов в выдаче</span>
@@ -40,7 +40,7 @@
     <div class="container containere-what-service">
         <img class="what-service-img " src="images/what-service-img-3.png">
         <div class="what-service-content">
-            <h3 class="what-service-title">Почему Вашему бизнесу нужен SEO?</h3>
+            <h3 class="what-service-title section-title">Почему Вашему бизнесу нужен SEO?</h3>
             <ul class="what-service-content-list">
                 <li class="what-service-content-item"><p class="what-service-content-text">Улучшает эффективность сайта</p></li>
                 <li class="what-service-content-item"><p class="what-service-content-text">Повышает конверсию сайта за счет усовершенствования поведенческого фактора</p></li>
@@ -54,7 +54,7 @@
 <section class="how-affect how-affect-seo">
     <img src="./images/big-info-blot-1.png" class="paroller how-affect__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-how-affect">
-        <span class="how-affect-text">Как грамотно настроенная Поисковая оптимизация (SEO) влияет на позиционирование Вашего бизнеса в Сети</span>
+        <span class="how-affect-text section-title">Как грамотно настроенная Поисковая оптимизация (SEO) влияет на позиционирование Вашего бизнеса в Сети</span>
         <div class="wrapper-affect">
             <div class="bad-affect">
                 <span class="bad-affect-text">Отсуствие SEO</span>
@@ -78,7 +78,7 @@
 <section class="dev-stage dev-stage-seo">
     <div class="container container-dev-stage">
         <div class="wrapper-title">
-            <span class="dev-stage-title">Процесс настройки SEO для сайта проходит в несколько этапов</span>
+            <span class="dev-stage-title section-title">Процесс настройки SEO для сайта проходит в несколько этапов</span>
             <span class="dev-stage-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
         </div>
         <ul class="dev-stage-list">
@@ -92,7 +92,7 @@
 <section class="complex-analysis complex-analysis-seo">
     <div class="container container-complex-analysis container-complex-analysis-seo">
         <div class="wrapper-analysis-title wrapper-analysis-title-seo">
-            <span class="analysis-title">Технический анализ</span>
+            <span class="analysis-title section-title">Технический анализ</span>
             <span class="analysis-text analysis-text-seo">Работы направленные на сбор информации обо всех
                     недостатках сайта с технической точки зрения для
                     дальнейшего их исправления. Очень часто на этом этапе мы
@@ -129,7 +129,7 @@
             <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
         </ul>
         <div class="wrapper-analysis-title wrapper-analysis-title-seo">
-            <span class="analysis-title">Анализ юзабилити</span>
+            <span class="analysis-title section-title section-title">Анализ юзабилити</span>
             <span class="analysis-text analysis-text-seo">На этом этапе мы проводим аналитику поведенческих факторов и собираем информацию о тех из них, которые мешают
                     потенциальному клиенту принять решение о покупке на вашем
                     сайте. По результатам данного этапа может быть предложен
@@ -141,7 +141,7 @@
 <section class="complex-analysis complex-analysis-seo">
     <div class="container container-complex-analysis container-complex-analysis-seo">
         <div class="wrapper-analysis-title wrapper-analysis-title-seo ">
-            <span class="analysis-title analysis-title-seo">Внутренняя оптимизация и А\В - тестирование</span>
+            <span class="analysis-title analysis-title-seo section-title">Внутренняя оптимизация и А\В - тестирование</span>
             <span class="analysis-text analysis-text-seo">На данном этапе мы анализируем контент (тексты, фото, видео,
                     распределение ключевых запросов по страницам) вашего сайта с точки зрения его пригодности для дальнейшего продвижения. 
                     При отсутствии необходимого количества уникального контента - мы дадим соответствующие рекомендации. Мы замеряем метрики до и после изменений, для того,
@@ -178,7 +178,7 @@
             <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
         </ul>
         <div class="wrapper-analysis-title wrapper-analysis-title-seo">
-            <span class="analysis-title">Внешняя оптимизация</span>
+            <span class="analysis-title section-title">Внешняя оптимизация</span>
             <span class="analysis-text analysis-text-seo">На данном этапе проводятся работы по размещению информации о вашем сайте на внешних "трастовых" тематических ресурсов, с целью получения качественной ссылочной массы на сайт и увеличения целевого трафика.</span>
         </div>
     </div>

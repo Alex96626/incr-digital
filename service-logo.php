@@ -15,7 +15,7 @@
     </header>
     <section class="service-about">
         <div class="container container-service-about">
-            <span class="design_choice">Сделайте правильный выбор дизайна</span>
+            <span class="design_choice section-title">Сделайте правильный выбор дизайна</span>
             <div class="wrapper wrapper-service-about">
                 <div class="service">
                     <div class="wrapper-services">
@@ -72,7 +72,7 @@
     <section class="how-affect">
         <img src="./images/big-info-blot-1.png" class="paroller big-info__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
         <div class="container container-how-affect">
-            <span class="how-affect-text">Как логотип влияет на имидж компании:</span>
+            <span class="how-affect-text section-title">Как логотип влияет на имидж компании:</span>
             <div class="wrapper-affect">
                 <div class="bad-affect">
                     <span class="bad-affect-text">Бренд без лого</span>
@@ -104,7 +104,7 @@
     <section class="dev-stage">
         <div class="container container-dev-stage">
             <div class="wrapper-title">
-                <span class="dev-stage-title">Этапы разработки вашего логотипа</span>
+                <span class="dev-stage-title section-title">Этапы разработки вашего логотипа</span>
                 <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
             </div>
             <ul class="dev-stage-list">
@@ -119,7 +119,7 @@
     <section class="complex-analysis">
         <div class="container container-complex-analysis">
             <div class="wrapper-analysis-title">
-                <span class="analysis-title">Комплексный анализ</span>
+                <span class="analysis-title section-title">Комплексный анализ</span>
                 <span class="analysis-sub-title">Ваш торговый знак должен быть актуальным</span>
                 <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
@@ -140,7 +140,7 @@
     <section class="logo-concept">
         <div class="container container-logo-concept">
             <div class="wrapper-logo-concept-text">
-                <h3 class="logo-concept-title">Формирование концепции логотипа</h3>
+                <h3 class="logo-concept-title section-title">Формирование концепции логотипа</h3>
                 <span class="logo-concept-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
                 <ul class="logo-concept-list">
                     <li class="logo-concept-item"><p class="logo-concept-text">Развитие концепции</p></li>
@@ -157,14 +157,14 @@
     <img src="./images/free-audit-blot.png" class="paroller final-work-logo__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">    
         <div class="container">
             <div class="contaoner-final-work-logo">
-                <h3 class="final-work-logo-title">Финальная проработка логотипа и визуализации</h3>
+                <h3 class="final-work-logo-title section-title">Финальная проработка логотипа и визуализации</h3>
                 <span class="final-work-logo-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий </span>
             </div>
         </div>
     </section>
     <section class="logo-processing">
         <div class="container container-logo-processing">
-            <h3 class="logo-processing-title">Логотип до и после</h3>
+            <h3 class="logo-processing-title section-title">Логотип до и после</h3>
             <span class="logo-processing-sub-title">Редизайн</span>
             <div class="wrapper-logo-processing">
                 <div class="logo-processing-ex">

@@ -15,7 +15,7 @@
 </header>
 <section class="outside">
     <div class="container container-outside">
-        <h3 class="outside-title">Продвижение</h3>
+        <h3 class="outside-title section-title">Продвижение</h3>
         <span class="outside-sub-title">Расширь границы своего бизнеса</span>
         <div class="outside-list">
             <div class="outside-item">

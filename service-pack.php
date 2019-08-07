@@ -15,7 +15,7 @@
     </header>
     <section class="service-about">
         <div class="container container-service-about">
-            <span class="design_choice">Сделайте правильный выбор дизайна</span>
+            <span class="design_choice section-title">Сделайте правильный выбор дизайна</span>
             <div class="wrapper wrapper-service-about">
                 <div class="service">
                     <div class="wrapper-services">
@@ -61,7 +61,7 @@
     <section class="how-affect">
         <img src="./images/big-info-blot-1.png" class="paroller big-info__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
         <div class="container container-how-affect">
-            <span class="how-affect-text">Как брендинг влияет на имидж компании:</span>
+            <span class="how-affect-text section-title">Как брендинг влияет на имидж компании:</span>
             <div class="wrapper-affect">
                 <div class="bad-affect">
                     <span class="bad-affect-text">Устаревшая упаковка</span>
@@ -83,7 +83,7 @@
     <section class="dev-stage">
         <div class="container container-dev-stage">
             <div class="wrapper-title">
-                <span class="dev-stage-title">Процесс разработки упаковки проходит  в несколько этапов</span>
+                <span class="dev-stage-title section-title">Процесс разработки упаковки проходит  в несколько этапов</span>
                 <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
             </div>
             <ul class="dev-stage-list">
@@ -97,7 +97,7 @@
     <section class="complex-analysis">
         <div class="container container-complex-analysis">
              <div class="wrapper-analysis-title">
-                <span class="analysis-title">Комплексный анализ</span>
+                <span class="analysis-title section-title">Комплексный анализ</span>
                 <span class="analysis-sub-title">Мы изучаем целевую аудиторию товара</span>
                 <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
@@ -118,7 +118,7 @@
     <section class="mommyjob">
         <div class="container container-mommyjob">
             <div class="wrapper-mommyjob">
-                <h3 class="mommyjob-title">Три секунды</h3>
+                <h3 class="mommyjob-title section-title">Три секунды</h3>
                 <span class="mommyjob-sub-title">Нужно в среднем покупателю,чтобы сформировать первое впечатление о продукте</span>
                 <button class="mommyjob-bnt">проект MOMMYJOY</button>
             </div>
@@ -130,7 +130,7 @@
     <section class="presetn-client">
         <div class="container container-present-client">
             <div class="wrapper-present-client">
-                <h3 class="present-client-title">Презентация клиенту</h3>
+                <h3 class="present-client-title section-title">Презентация клиенту</h3>
                 <span class="present-client-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
             </div>
             <!-- <img class="present-client-img" src=""> -->

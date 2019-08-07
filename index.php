@@ -53,7 +53,7 @@
         <img src="./images/our-projects-blot-2.png" class="paroller projects__paroller-2" data-paroller-factor="0.35" aria-hidden="true" alt="">
 
         <div class="container wrapper-project">
-            <h2 class="section-title projects__title">Наши работы</h2>
+            <h2 class="section-title projects__title section-title">Наши работы</h2>
             <div class="wrapper-switch"><button class="switch switch-back"> < </button>
                 <button class="switch switch-forward"> > </button>
             </div>
@@ -98,7 +98,7 @@
         <div class="container">
             <div class="free-audit__content">
                 <div class="free-audit__info">
-                    <h3 class="section-title free-audit__title">Заполни форму</h3>
+                    <h3 class="section-title free-audit__title section-title">Заполни форму</h3>
                     <p class="free-audit__text"> А мы проведем бесплатный аудит вашего бизнеса</p>
                     <p class="free-audit__text">Предоставим коммерческое предложение с готовыми решениями и полным просчетом стоимости под вашу нишу </p>
                 </div>
@@ -118,7 +118,7 @@
 
     <section class="budget">
         <div class="container">
-            <h3 class="section-title budget__title">Мы умеем подстраиваться под любой бюджет</h3>
+            <h3 class="section-title budget__title ">Мы умеем подстраиваться под любой бюджет</h3>
             <div class="budget-list">
                 <div class="budget-list__item">
                     <img src="./images/budget-icon-1.png" class="budget-list__item-icon" alt="Микробизнес">
