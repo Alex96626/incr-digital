@@ -12,16 +12,16 @@
             </div>
             <ul class="services-sub">
                 <li class="services-sub__item">
-                    <a href="service-logo.html" class="services-sub__item-link">Логотип</a>
+                    <a href="service-logo.php" class="services-sub__item-link">Логотип</a>
                 </li>
                 <li class="services-sub__item">
                     <a href="branding_services.php" class="services-sub__item-link">Брендинг</a>
                 </li>
                 <li class="services-sub__item">
-                    <a href="service-pack.html" class="services-sub__item-link">Упаковка бренда</a>
+                    <a href="service-pack.php" class="services-sub__item-link">Упаковка бренда</a>
                 </li>
                 <li class="services-sub__item">
-                    <a href="service-advertising.html" class="services-sub__item-link">Рекламный креатив</a>
+                    <a href="service-advertising.php" class="services-sub__item-link">Рекламный креатив</a>
                 </li>
                 <!-- <li class="services-sub__item">
                     <a href="#" class="services-sub__item-link">UX/IX дизайн</a>
