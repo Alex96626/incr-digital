@@ -40,23 +40,46 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // slaider
 
-    // if(window.matchMedia('(max-width: 800px)').matches){
-    //     $('.services-list').slick({
-    //         centerMode: true,
-    //         centerPadding: '60px',
-    //         slidesToShow: 2,
-    //         responsive: [
-    //         {
-    //             breakpoint: 800,
-    //             settings: {
-    //             arrows: false,
-    //             centerMode: true,
-    //             centerPadding: '40px',
-    //             slidesToShow: 2 
-    //             }
-    //         }
-            
-    //         ]
-    //     });
-    // }
-});
+        $('.dev-stage-list').slick({
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            centerMode : true,
+            initialSlide : 1,
+            arrows :false,
+            responsive: [
+                
+                {
+                    breakpoint: 1921,
+                    settings: 'unslick'
+                },
+
+                {
+                    breakpoint: 1101,
+                    settings: 'slick'
+                
+                    
+                },
+
+                {
+                    breakpoint: 800,
+                    settings: {
+                    arrows: false,
+                    centerPadding: '40px',
+                    slidesToShow: 2 
+
+                    }
+                },
+
+                {
+                    breakpoint: 500,
+                    settings: {
+                    arrows: false,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                    }
+                },
+            ]
+        });
+    });
+

@@ -41,7 +41,7 @@
                                     </div>
                                     <button class="cost">Узнать стоимость</button>
                                 </div>
-                                <img class="service-big-img" src="images/branding-big-img.png">
+                                <img class="service-big-img" src="images/brand-dev-fon-3.png">
                         </div>
                     </div>
                 </div>

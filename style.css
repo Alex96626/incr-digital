@@ -2214,27 +2214,7 @@ margin-bottom: 11px;
     font-size: 16px;
 }  
 
-/* .check-service::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    width: 21px;
-    height: 21px;
-    border: 1px solid rgba(255,255,255, .8);
-    border-radius: 50%;
-    /* background-color: rgba(255,255,255, .5); */
-} */
 
-/* .price-design-text::before {
-    content: "";
-    position: absolute;
-    left: 10px;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    /* background-color: #fff; */
-    transform: translate(calc(50% + .5px), calc(50% + .5px));
-} */
 
 /* input[type="checkbox"]:checked + label {
     background: #fff;
@@ -5808,9 +5788,10 @@ color: rgba(29, 15, 28, 255);
     }
 
     .brand-dev {
-        background: url(images/brand-dev-fon-3.png) no-repeat 61% 85%,
-        url(images/brand-dev-fon-2.png) no-repeat 80% 13%;
-
+        background: url(images/brand-dev-fon-3.png) no-repeat 70% 65%,       
+                    url(images/brand-dev-fon-2.png) no-repeat 83% 24%,      
+                    url(images/brand-dev-fon-1.png) no-repeat 142%;
+        background-size: 25%,18%,52% 117%;
     }
    
  }
@@ -5987,6 +5968,11 @@ color: rgba(29, 15, 28, 255);
         margin-bottom: 0;
     }
 
+    .brand-dev {
+        background: url(images/brand-dev-fon-3.png) no-repeat 94% 65%, url(images/brand-dev-fon-2.png) no-repeat 101% 16%;
+        background-size: 40%,28%;
+    }
+
  }
 
  @media (max-width: 800px) { 
@@ -6015,13 +6001,14 @@ color: rgba(29, 15, 28, 255);
  @media (max-width: 700px) { 
 
     .dev-stage-list {
-        flex-wrap: wrap
+        flex-wrap: wrap;
+        height: auto;
     }
 
-    .dev-stage-items {
+    /* .dev-stage-items {
         flex: 1 40%;
         margin-bottom: 15px;
-    }
+    } */
 
     .dev-stage-items::after{
         content: ' ';
@@ -6139,6 +6126,10 @@ color: rgba(29, 15, 28, 255);
 
     .section-title {
         font-size: 18px !important;
+    }
+
+    .comp-branding-sub-title {
+        width: auto;
     }
 
  }
@@ -6692,7 +6683,8 @@ color: rgba(29, 15, 28, 255);
         width: 60%;
     }
 
-    
+}
+
 @media (max-width: 700px) {
 
     .small-info-service-img {
@@ -6756,3 +6748,16 @@ color: rgba(29, 15, 28, 255);
 /* index-adapt! */
 
 /* ADAPTIV! */
+
+/* FIX-SLIDER */
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: auto !important;
+}
+
+/* FIX-SLIDER! */
+  
