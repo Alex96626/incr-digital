@@ -54,7 +54,8 @@
 
         <div class="container wrapper-project">
             <h2 class="section-title projects__title section-title">Наши работы</h2>
-            <div class="wrapper-switch"><button class="switch switch-back"> < </button>
+            <div class="wrapper-switch">
+                <button class="switch switch-back"> < </button>
                 <button class="switch switch-forward"> > </button>
             </div>
         </div>
