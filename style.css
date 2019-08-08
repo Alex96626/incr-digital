@@ -4928,10 +4928,10 @@ color: rgba(29, 15, 28, 255);
     width: 100%;
     height: 85px;
     padding: 20px 15px;
-    background-color: #fff;
-    box-shadow: 0 3px 5px rgba(0,0,0, .1);
+    /* background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0,0,0, .1); */
     /* background-color: #008eff; */
-    background-image: url(images/header-bg.png);
+    /* background-image: url(images/header-bg.png); */
 }
 
 .header-mobile 
@@ -4991,7 +4991,7 @@ color: rgba(29, 15, 28, 255);
 .mobile-menu-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 10px 15px;
 }
 
@@ -5007,7 +5007,13 @@ color: rgba(29, 15, 28, 255);
     }
 
     .header-land-services {
-        min-height: auto;
+        min-height: 85px;
+    }
+
+    .header-logo,
+    .logo__img,
+    .header-nav {
+        display: none;
     }
 }
 
