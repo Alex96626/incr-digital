@@ -1726,7 +1726,7 @@ button:focus{
 .bad-affect-item p {
     font-size: 12px;
     color: rgba(120, 120, 120, 255);
-    margin-right: 50px;
+    /* margin-right: 50px; */
 }
 
 .good-affect{
@@ -2013,6 +2013,11 @@ margin-bottom: 11px;
 
 .brand-dev {
     background: url(images/brand-dev-fon-3.png) no-repeat 61% 85%,url(images/brand-dev-fon-2.png) no-repeat 80% 13%,url(images/brand-dev-fon-1.png) no-repeat 119%;
+}
+
+.brand-dev-img-1,
+.brand-dev-img-2 {
+    display: none;
 }
 
 .container-brand-dev {
@@ -5749,6 +5754,14 @@ color: rgba(29, 15, 28, 255);
     }
 }
 
+@media (max-width: 1500px) {
+
+    .dev-stage {
+        background: none;
+    }
+
+}
+
 
 @media (max-width: 1200px) {
 
@@ -5792,6 +5805,10 @@ color: rgba(29, 15, 28, 255);
                     url(images/brand-dev-fon-2.png) no-repeat 83% 24%,      
                     url(images/brand-dev-fon-1.png) no-repeat 142%;
         background-size: 25%,18%,52% 117%;
+    }
+
+    .service-about {
+        background-position: 8% 50%;
     }
    
  }
@@ -5973,6 +5990,15 @@ color: rgba(29, 15, 28, 255);
         background-size: 40%,28%;
     }
 
+    .service-about {
+        background-size: 267%;
+    }
+
+    .service-why-text {
+        display: block;
+        margin-bottom: 23px;
+    }
+
  }
 
  @media (max-width: 800px) { 
@@ -5994,6 +6020,40 @@ color: rgba(29, 15, 28, 255);
 
     .section-title {
         font-size: 26px;
+    }
+
+    .sml-info-service-slogan {
+        border-left: 3px solid blue;
+        padding-left: 25px;
+    }
+
+    .sml-info-service-we-top {
+        margin-top: 15px;
+        padding-left: 25px;
+        border-left: 3px solid #ff01b3;
+    }
+
+    .sml-info-service-slogan {
+        padding-bottom: 9px;
+        padding-top: 9px;
+        font-size: 18px;
+    }
+
+    .brand-dev {
+        background: none;
+    }
+
+    .brand-dev-img-1,
+    .brand-dev-img-2 {
+        display: block;
+    }
+
+    .brand-dev-sub-title {
+        width: auto;
+    }
+
+    .brand-dev-sub-title {
+        margin-bottom: 25px;
     }
  }
 
@@ -6082,6 +6142,14 @@ color: rgba(29, 15, 28, 255);
 
     .services-this {
         flex: auto;
+    }
+
+    .show-cases {
+        margin-bottom: 40px;
+    }
+
+    .service-this-definition {
+        margin-bottom: 25px;
     }
 
     
@@ -6762,6 +6830,7 @@ color: rgba(29, 15, 28, 255);
 
 /* FIX-SLIDER */
 
+
 .slick-track {
     display: flex !important;
 }
@@ -6770,5 +6839,7 @@ color: rgba(29, 15, 28, 255);
     height: auto !important;
 }
 
+
+
+
 /* FIX-SLIDER! */
-  

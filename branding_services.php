@@ -36,7 +36,7 @@
                                 <div class="sml-info-service-text">
                                     <div class="wrapper-sml-info-service">
                                         <span class="sml-info-service-title">Брендинг</span>
-                                        <span class="sml-info-service-slogan">Имидж и отличительная черта вашего бизнеса</span>
+                                        <span class="sml-info-service-slogan">Создаём имидж и персонализируем вас бизнес</span>
                                         <div class="sml-info-service-we-top ">Мы знаем как сделать ваш бренд популярным</div>
                                     </div>
                                     <button class="cost">Узнать стоимость</button>
@@ -99,6 +99,10 @@
                     <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
                 </div>
                 <ul class="dev-stage-list">
+
+                <!-- <button class="switch switch-back"> < </button>
+                <button class="switch switch-forward"> > </button> -->
+
                     <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Комплексный анализ</p></li>
                     <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text">Составляющие брендинга</p></li>
                     <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text">Разработка бренда</p></li>
@@ -146,7 +150,10 @@
             <div class="container container-brand-dev">
                 <span class="brand-dev-title section-title">Разработка бренда</span>
                 <span class="brand-dev-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
-                <button class="aspins">проект aspins</button>
+                <!-- <button class="aspins">проект aspins</button> -->
+                <img class="brand-dev-img-1" src="images/brand-dev-fon-4.png">
+                <!-- <img class="brand-dev-img-2" src="images/brand-dev-fon-2.png"> -->
+
             </div>
         </section>
         <section class="show-client">

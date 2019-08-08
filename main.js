@@ -41,12 +41,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // slaider
 
         $('.dev-stage-list').slick({
-            infinite: true,
+            infinite: false,
             slidesToShow: 3,
             slidesToScroll: 1,
-            centerMode : true,
+            centerMode : false,
             initialSlide : 1,
-            arrows :false,
+            arrows :true,
+            prevArrow : '<button class="switch switch-back"> < </button>',
+            nextArrow : '<button class="switch switch-forward"> > </button>',
             responsive: [
                 
                 {
@@ -64,7 +66,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     breakpoint: 800,
                     settings: {
-                    arrows: false,
                     centerPadding: '40px',
                     slidesToShow: 2 
 
@@ -74,7 +75,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     breakpoint: 500,
                     settings: {
-                    arrows: false,
                     centerPadding: '40px',
                     slidesToShow: 1
                     }
