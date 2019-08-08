@@ -26,7 +26,7 @@
     <section class="header-mobile">
         <button type="button" class="open-menu-btn">
             <span class="sr-only">Открыть меню</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="19"><path fill="#1F2D55" paint-order="stroke fill markers" fill-rule="evenodd" d="M1 1h26v3H1V1zm0 7h26v3H1V8zm0 7h26v3H1v-3z"></path></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="19"><path fill="#fff" paint-order="stroke fill markers" fill-rule="evenodd" d="M1 1h26v3H1V1zm0 7h26v3H1V8zm0 7h26v3H1v-3z"></path></svg>
         </button>
         <a href="index.php" class="header-mobile-logo">
             <img src="./images/logo-small.png" class="logo__img header-mobile-logo__img" alt="Increase - веб-агенство">
@@ -34,9 +34,6 @@
     </section>
     <section class="mobile-menu ">
         <div class="mobile-menu-header">
-            <a href="index.php" class="mobile-menu-logo">
-                <img src="./images/logo-small.png" class="logo__img header-mobile-logo__img" alt="Increase - веб-агенство">
-            </a>
             <button type="button" class="close-menu-btn">
                 <span class="sr-only">Закрыть меню</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="28" height="19" fill="rgb(31,45,85)" viewBox="0 0 47.971 47.971"><path d="M28.228 23.986L47.092 5.122a2.998 2.998 0 0 0 0-4.242 2.998 2.998 0 0 0-4.242 0L23.986 19.744 5.121.88a2.998 2.998 0 0 0-4.242 0 2.998 2.998 0 0 0 0 4.242l18.865 18.864L.879 42.85a2.998 2.998 0 1 0 4.242 4.241l18.865-18.864L42.85 47.091c.586.586 1.354.879 2.121.879s1.535-.293 2.121-.879a2.998 2.998 0 0 0 0-4.242L28.228 23.986z"></path></svg>
@@ -47,27 +44,27 @@
                 <nav class="mobile-menu-nav">
                     <ul class="mobile-menu-nav-list">
                         <li class="mobile-menu-nav-item">
-                            <a href="index.html" class="mobile-menu-nav-item__link">
+                            <a href="index.php" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">ГЛАВНАЯ</span>
                             </a>
                         </li>
                         <li class="mobile-menu-nav-item">
-                            <a href="service.html" class="mobile-menu-nav-item__link">
+                            <a href="service.php" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">УСЛУГИ</span>
                             </a>
                         </li>
                         <li class="mobile-menu-nav-item">
-                            <a href="about_us.html" class="mobile-menu-nav-item__link">
+                            <a href="about_us.php" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">О НАС</span>
                             </a>
                         </li>
                         <li class="mobile-menu-nav-item">
-                            <a href="blog.html" class="mobile-menu-nav-item__link">
+                            <a href="blog.php" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">БЛОГ</span>
                             </a>
                         </li>
                         <li class="mobile-menu-nav-item">
-                            <a href="blog.html" class="mobile-menu-nav-item__link">
+                            <a href="blog.php" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">Контакты</span>
                             </a>
                         </li>
