@@ -34,7 +34,7 @@
     </div>
 </section>
 <section class="info-panel">
-<img class="info-panel-fon-1" src="images/budget-bg.png">
+<!-- <img class="info-panel-fon-1" src="images/budget-bg.png"> -->
     <div class="container container-info-panel">
         <div class="slider slider-info-panel">
             <div class="info-panel-item">
@@ -42,7 +42,7 @@
                     <img class="info-panel-top-img" src="images/info-panel-img.png">
                 </div>
                 <div class="contant-info-panel">
-                    <h4 class="contant-info-panel-title section-title">Как не стоит готовиться к ЕГЭ</h4>
+                    <h4 class="contant-info-panel-title">Как не стоит готовиться к ЕГЭ</h4>
                     <span class="contant-info-panel-text">Повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию
                             провести анализ обратной связи от пользователей отработать негативные отзывы 
                     </span>
@@ -147,7 +147,7 @@
             </ul>
         </div>
     </div>
-<img class="info-panel-fon-2" src="images/right-fon-2.png">
+<!-- <img class="info-panel-fon-2" src="images/right-fon-2.png"> -->
 </section>
 <section class="price">
     <?php include('template/brif.php') ?>

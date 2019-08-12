@@ -61,7 +61,7 @@
         <h3 class="why-seo-title">Почему Вашему бизнесу нужен SMM?</h3>
         <span class="why-seo-sub-title">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
         <div class="why-seo-list">
-            <div class="why-seo-item">
+            <div class="why-seo-item why-smm-item">
                 <img src="images/why-seo-img-1.png" class="why-seo-item-img">
             </div>
             <div class="why-seo-item">
@@ -140,7 +140,7 @@
     </div>
 </section>
 <section class="pack-price">
-    <img class=" fon-img left-fon" src="images/square-dots--blue.png">
+    <!-- <img class=" fon-img left-fon" src="images/square-dots--blue.png"> -->
     <div class="container container-pack-price">
         <h3 class="pack-price-title">Умеем всё</h3>
         <div class="pack-item-list">
@@ -206,7 +206,7 @@
             </div>
         </div>
     </div>
-    <img class="fon-img right-fon" src="images/right-fon.png">
+    <!-- <img class="fon-img right-fon" src="images/right-fon.png"> -->
 </section>
 <section class="result-client">
     <img src="./images/result-client-blot-1.png" class="paroller result-client-smm__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">

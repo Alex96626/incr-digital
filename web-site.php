@@ -17,24 +17,24 @@
             <img src="./images/site-blot-1.png" class="paroller header__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
         <div class="container container-small-info-service container-small-info-service-web-site">
             <div class="small-info-service-about">
-                <h3 class="smal-info-service-title">Веб-сайты</h3>
-                <span class="small-info-service-cub-title">Digital-сервис<br>для вашего бизнесса</span>
-                <span class="small-info-service-text">Простые и эффективные решения <br> для сложных систем</span>
+                <h3 class="smal-info-service-title section-title">Веб-сайты</h3>
+                <span class="small-info-service-cub-title">Digital-сервис для вашего бизнесса</span>
+                <span class="small-info-service-text">Простые и эффективные решения  для сложных систем</span>
             </div>
-            <img class="small-info-service-img" src="images/small-info-service-fon.png">
+            <img class="small-info-service-img small-info-service-web-site-img" src="images/small-info-service-fon.png">
         </div>
     </section>
     <section class="big-info-service">
         <div class="container container-big-info-service">
-            <div class="services-this">
+            <div class="services-this services-web-site-this">
                 <div class="wrapper-service-this">
-                    <span class="service-this-text">Веб-сайты-это</span>
+                    <span class="service-this-text section-title">Веб-сайты-это</span>
                     <span class="service-this-definition">лицо вашего бренда в сети</span>
                 </div>
                 <button class="show-cases">Показать наши кейсы</button>
             </div>
             <img class="info-service-img" src="images/big-info-servoce-web-site-fon.jpg">
-            <div class="service-why">
+            <div class="service-why service-web-site-why">
                 <span class="service-why-text">Тип веб-сайтов:</span>
                 <ul class="service-why-list">
                     <li class="service-why-items"><p class="service-why-items-text">Продающие сайты</p></li>
@@ -48,8 +48,8 @@
     <section class="how-affect">
         <img src="./images/big-info-blot-1.png" class="paroller how-affect__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
         <div class="container container-how-affect">
-            <span class="how-affect-text">Как брендинг влияет на имидж компании:</span>
-            <div class="wrapper-affect">
+            <span class="how-affect-text section-title">Как брендинг влияет на имидж компании:</span>
+            <div class="wrapper-affect wrapper-affect-3col ">
                 <div class="bad-affect">
                     <span class="bad-affect-text">Отсуствие веб-сайтад</span>
                     <ul class="bad-affect-list">
@@ -66,7 +66,7 @@
                             <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
                         </ul>
                     </div>
-                <div class="good-affect">
+                <div class="good-affect good-affect-3col">
                     <span class="good-affect-text">Сильный бренд</span>
                     <ul class="good-affect-list">
                         <li class="good-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-3.png"></li>
@@ -79,50 +79,7 @@
     </section>
     <section class="how-site">
         <div class="container container-how-site">
-            <h3 class="how-site-title">Какие сайты мы умеем делать</h3>
-            <!-- <div class="how-site-list">
-                <div class="how-site-item">
-                    <div class="wrapper-top-info-site">
-                        <span class="how-site-item-title">Landing-page</span>
-                        <span class="how-site-item-sub-title">Посадочная страница для презентации и продажи товара или услуги. Создадим landing-page с максимальной конверсией.</span>
-                    </div>
-                    <div class="wrapper-buttom-info-site">
-                        <span class="clock-work">7-15 рабочий дней</span>
-                        <span class="price-site">от 25 000 руб.</span>
-                    </div>
-                </div>
-                <div class="how-site-item">
-                    <div class="wrapper-top-info-site">
-                        <span class="how-site-item-title">Сайт для бизнеса</span>
-                        <span class="how-site-item-sub-title">Имиджевый сайт компании. Повышение доверия и привлечение целевой аудитории. Эффективно представим Ваш бизнес в Сети. </span>
-                    </div>
-                    <div class="wrapper-buttom-info-site">
-                        <span class="clock-work">10-20 рабочий дней</span>
-                        <span class="price-site">от 45 000 руб.</span>
-                    </div>
-                </div>
-                <div class="how-site-item">
-                    <div class="wrapper-top-info-site">
-                    <span class="how-site-item-title">Интернет-магазины</span>
-                    <span class="how-site-item-sub-title">Создаем эффективные решения для оптовой и розничной торговли в интернете. </span>
-                    </div>
-                    <div class="wrapper-buttom-info-site">
-                        <span class="clock-work">20-30 рабочий дней</span>
-                        <span class="price-site">от 65 000 руб.</span>
-                    </div>
-                </div>
-                <div class="how-site-item">
-                    <div class="wrapper-top-info-site">
-                        <span class="how-site-item-title">Сложные решения</span>
-                        <span class="how-site-item-sub-title">Воплотим вашу грандиозную идею в готовый проект.Реализуем сложные технические процессы любого масштаба. </span>
-                    </div>
-                    <div class="wrapper-buttom-info-site">
-                        <span class="clock-work">от 3 месяцев</span>
-                        <span class="price-site">от 150 000 руб.</span>
-                    </div>
-                </div>
-            </div> -->
-
+            <h3 class="how-site-title section-title">Какие сайты мы умеем делать</h3>
             <div class="container container-pack-price">
                 <div class="pack-item-list">
                     <div class="pack-item">
@@ -165,7 +122,7 @@
     <section class="dev-stage dev-stage-site">
         <div class="container container-dev-stage">
             <div class="wrapper-title">
-                <span class="dev-stage-title">Мы внимательно подходим к задаче запуска сайта</span>
+                <span class="dev-stage-title section-title">Мы внимательно подходим к задаче запуска сайта</span>
                 <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
             </div>
             <ul class="dev-stage-list">
@@ -180,7 +137,7 @@
     <section class="complex-analysis">
         <div class="container container-complex-analysis">
             <div class="wrapper-analysis-title">
-                <span class="analysis-title">Комплексный анализ</span>
+                <span class="analysis-title section-title">Комплексный анализ</span>
                 <span class="analysis-sub-title">Мы изучаем целевую аудиторию товара</span>
                 <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
@@ -202,7 +159,7 @@
     <section class="structure-design">
         <div class="container container-structure-design">
             <div class="wrapper-structure-design">
-                <h3 class="structure-design-title">Проектирование структуры</h3>
+                <h3 class="structure-design-title section-title">Проектирование структуры</h3>
                 <span class="structure-design-sub-title">Мы учитываем потребности посетителей, проектируем все страницы и блоки сайта на основе контента клиента.</span>
                 <ul class="structure-design-work-list">
                     <li class="structure-design-work-item"><p class="structure-design-work-text">Собираем информацио от клиента<p></li>
@@ -218,7 +175,7 @@
     <section class="work-design-site">
         <div class="container container-work-design-site">
             <div class="wrapper-work-design-site">
-                <h3 class="work-design-site-title">Затем мы делаем дизайн сайта</h3>
+                <h3 class="work-design-site-title section-title" >Затем мы делаем дизайн сайта</h3>
                 <img class="work-design-site-small-img" src="images/work-design-site-small-img.png">
                 <button class="progect-factory">проект Factory</button>
             </div>
@@ -227,10 +184,10 @@
     </section>
     <section class="mob-adapt">
         <div class="container container-mob-adapt">
-            <diw class="wrapper-mob-adart">
-                <h3 class="mob-adapt-titel">Адаптация под мобильные устройства</h3>
+            <div class="wrapper-mob-adart">
+                <h3 class="mob-adapt-titel section-title">Адаптация под мобильные устройства</h3>
                 <span class="mob-adapt-sub-title">Все наши сайты адаптированы под использование на мобильных и планшетных устройствах</span>
-            </diw>
+            </div>
             <img class="mob-adapt-img" src="images/mob-adapt-img.png">
         </div>
     </section>
@@ -238,7 +195,7 @@
     <img src="./images/dev-stage-blot-1.png" class="paroller dev-site__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
         <div class="container container-dev-site">
             <div class="wrapper-dev-site">
-                <h3 class="dev-site-title">Разработка сайта и подготовка к запуску</h3>
+                <h3 class="dev-site-title section-title">Разработка сайта и подготовка к запуску</h3>
                 <span class="dev-site-sub-title">Мы учитываем потребности посетителей, проектируем все страницы и блоки сайта на основе контента клиента.</span>
             </div>
             <img class="dev-site-img" src="images/dev-site-img.png">
@@ -249,7 +206,7 @@
         <div class="container container-run-site">
             <img class="run-site-img" src="images/run-site-img.png">
             <div class="wrapper-run-site">
-                <h3 class="run-site-title">Запуск сайта</h3>
+                <h3 class="run-site-title section-title">Запуск сайта</h3>
                 <span class="run-site-sub-title">Все наши сайты адаптированы под использование на мобильных и планшетных устройствах</span>
                 <ul class="good-site-list">
                     <li class="good-site-item"><p class="good-site-text">Сайт наполнен контентом</p></li>
@@ -266,8 +223,9 @@
     
             <div class="container wrapper-project">
                 <h2 class="section-title projects__title">Наши работы</h2>
-                <div class="wrapper-switch"><button class="switch switch-back"> < </button>
-                    <button class="switch switch-forward"> > </button>
+                <div class="wrapper-switch">
+                    <button class="switch switch-back prev-arrow-slider"> < </button>
+                    <button class="switch switch-forward next-arrow-slider"> > </button>
                 </div>
             </div>
             <div class="projects-list">

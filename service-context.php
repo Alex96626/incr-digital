@@ -254,7 +254,7 @@
     </div>
 </section>
 <section class="pack-price">
-    <img class=" fon-img left-fon" src="images/square-dots--blue.png">
+    <!-- <img class=" fon-img left-fon" src="images/square-dots--blue.png"> -->
     <div class="container container-pack-price">
         <div class="pack-item-list">
             <div class="pack-item">
@@ -283,7 +283,7 @@
             </div>
         </div>
     </div>
-    <img class="fon-img right-fon" src="images/right-fon.png">
+    <!-- <img class="fon-img right-fon" src="images/right-fon.png"> -->
 </section>
 <section class="price">
     <?php include('template/brif.php') ?>

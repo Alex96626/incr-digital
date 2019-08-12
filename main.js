@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             centerMode : false,
             initialSlide : 1,
             arrows :true,
+            // adaptiveHeight : true,
             prevArrow : '<button class="switch switch-back"> < </button>',
             nextArrow : '<button class="switch switch-forward"> > </button>',
             responsive: [
@@ -81,5 +82,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
             ]
         });
+
+        $('.projects-list').slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode : true,
+            // initialSlide : 1,
+            variableWidth: true,
+            arrows :true,
+            prevArrow: $('.switch-back'),
+            nextArrow: $('.switch-forward'),
+            // prevArrow : '<button class="switch switch-back"> < </button>',
+            // nextArrow : '<button class="switch switch-forward"> > </button>',
+            responsive: [
+
+            ]
+
+
+
+        });
+        // slider!
     });
 

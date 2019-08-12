@@ -92,7 +92,7 @@
                 </div>
             </div>
         </section>
-        <section class="dev-stage">
+        <section class="dev-stage dev-stage-branding">
             <div class="container container-dev-stage">
                 <div class="wrapper-title">
                     <span class="dev-stage-title section-title">Этапы разработки вашего бренда</span>

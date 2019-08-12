@@ -32,7 +32,7 @@
             <div class="service-all-item">
                 <h4 class="service-all-title">Брендинг</h4>
                 <span class="sevice-all-sub-title">Имидж и отличительная черта</span>
-                <img class="service-all-img" src="images/service-all-img-3.png">
+                <img class="service-all-img service-all-img-branding" src="images/service-all-img-3.png">
                 <a href="#" class="service-all-btn">Подробнее</a>
             </div>
             <div class="service-all-item">
