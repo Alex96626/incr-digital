@@ -94,6 +94,10 @@
 <section class="trust-us">
     <div class="container container-trust-us">
         <h3 class="trust-us-title section-title">Нам доверяют</h3>
+        <div class="wrapper-switch">
+                <button class="switch switch-back"> < </button>
+                <button class="switch switch-forward"> > </button>
+        </div>
     </div>
     <div class="wrapper-trust-us">
         <div class="trust-us-item">

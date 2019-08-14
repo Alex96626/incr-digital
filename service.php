@@ -13,7 +13,7 @@
 <header class="header">
 <?php include('template/header.php') ?>
     <div class="container">
-        <section class="header-bottom">
+        <section class="header-bottom header-bottom-service">
         <img src="./images/free-audit-blot.png" class="paroller header-bottom__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="">
         <img src="./images/free-audit-blot-3.png" class="paroller header-bottom__paroller-2" data-paroller-factor="0.25" aria-hidden="true" alt="">
         <img src="./images/services-blot-1.png" class="paroller header-bottom__paroller-3" data-paroller-factor="0.15" aria-hidden="true" alt="">

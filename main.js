@@ -155,6 +155,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
         });
 
+        $('.wrapper-trust-us').slick({
+
+            infinite: false,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            centerMode : true,
+            initialSlide : 1,
+            arrows :true,
+            // centerPadding: '100px',
+            variableWidth : true,
+            prevArrow: $('.switch-back'),
+            nextArrow: $('.switch-forward'),
+            responsive: [
+
+            ]
+
+        });
+        
+
         
         // slider!
     });
