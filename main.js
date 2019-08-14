@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             infinite: false,
             slidesToShow: 3,
             slidesToScroll: 1,
-            centerMode : false,
+            centerMode : true,
             initialSlide : 1,
             arrows :true,
             // adaptiveHeight : true,
@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     breakpoint: 800,
                     settings: {
                     centerPadding: '40px',
-                    slidesToShow: 2 
+                    slidesToShow: 2 ,
 
                     }
                 },
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     breakpoint: 500,
                     settings: {
                     centerPadding: '40px',
-                    slidesToShow: 1
+                    slidesToShow: 1,
                     }
                 },
             ]
@@ -102,6 +102,60 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
         });
+
+        $('.budget-list').slick({
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            centerMode : true,
+            initialSlide : 1,
+            arrows :true,
+            // centerPadding: '100px',
+            variableWidth : true,
+            responsive: [
+
+            
+            {
+                breakpoint: 1921,
+                settings: 'unslick'
+            },
+
+            {
+                breakpoint: 1155,
+                settings: 'slick'
+                
+            },
+        ]
+        });
+
+        $('.waterfall-bloks').slick({
+
+            infinite: false,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            centerMode : true,
+            initialSlide : 1,
+            arrows :true,
+            // centerPadding: '100px',
+            variableWidth : true,
+            responsive: [
+
+            
+            {
+                breakpoint: 1921,
+                settings: 'unslick'
+            },
+
+            {
+                breakpoint: 1201,
+                settings: 'slick'
+                
+            },
+        ]
+
+        });
+
+        
         // slider!
     });
 

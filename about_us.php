@@ -15,7 +15,7 @@
 </header>
 <section class="about-us-digital">
     <div class="container container-about-us-digital">
-        <h3 class="about-us-digital-title">Создаем digital-продукты для лидеров рынка</h3>
+        <h3 class="about-us-digital-title section-title">Создаем digital-продукты для лидеров рынка</h3>
         <span class="about-us-digital-sub-title">Расширь границы своего бизнеса</span>
         <img class="about-us-digital-img" src="images/about-us-digital-img.png">
     </div>
@@ -32,7 +32,7 @@
 </section>
 <section class="provide">   
     <div class="container container-provide">
-        <h3 class="provide-title">Наши преимущества <br> Что мы обеспечиваем?</h3>
+        <h3 class="provide-title section-title">Наши преимущества <br> Что мы обеспечиваем?</h3>
         <img class="provide-img" src="images/provide-img.png">
     </div>
 </section>
@@ -65,137 +65,7 @@
 <section class="land-services-list">
     <div class="container container-land-services-list">
         <h3 class="land-services-list-title section-title">Чем мы можем вам помочь?</h3>
-        <div class="services-list">
-                <div class="services-list__item">
-                    <div class="wrapper-item-top">
-                        <h3 class="services-list__item-title">Дизайн</h3>
-                        <img class="service-list__item-img" src="images/service-icon.png">
-                    </div>
-                    <ul class="services-sub">
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Логотип</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Фирменный стиль</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Упаковка бренда</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Рекламный креатив</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">UX/IX дизайн</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="services-list__item-link">Подробнее</a>
-                </div>
-                <div class="services-list__item">
-                    <div class="wrapper-item-top">
-                        <h3 class="services-list__item-title">Сайты</h3>
-                        <img class="service-list__item-img" src="images/service-icon-2.png">
-                    </div>
-                    <ul class="services-sub">
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Landing-page</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Сайт для бизнеса</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Интернет-магазин</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Сложные решения</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="services-list__item-link">Подробнее</a>
-                </div>
-                <div class="services-list__item">
-                    <div class="wrapper-item-top">
-                        <h3 class="services-list__item-title">Продвижение</h3>
-                        <img class="service-list__item-img" src="images/service-icon-3.png">
-                    </div>
-                    <ul class="services-sub">
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">SEO</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Контекстная реклама</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">SMM</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Контент</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Web-аналитика</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="services-list__item-link">Подробнее</a>
-                </div>
-                <div class="services-list__item">
-                    <div class="wrapper-item-top">
-                        <h3 class="services-list__item-title">Траблшутинг</h3>
-                        <img class="service-list__item-img" src="images/service-icon-4.png">
-                    </div>
-                    <ul class="services-sub">
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Анализ бизнес-процессов, совершенствование и внедрение</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Оптимизация штата и должностных обязанностей</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Увеличение продаж</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="services-list__item-link">Подробнее</a>
-                </div>
-                <div class="services-list__item">
-                    <div class="wrapper-item-top">
-                        <h3 class="services-list__item-title">Автоматизаци</h3>
-                        <img class="service-list__item-img" src="images/service-icon-5.png">
-                    </div>
-                    <ul class="services-sub">
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">amoCRM</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Bitrix24</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">1C</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Roistat</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Ip-телефония</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="services-list__item-link">Подробнее</a>
-                </div>
-                <div class="services-list__item">
-                    <div class="wrapper-item-top">
-                        <h3 class="services-list__item-title">Поддержка</h3>
-                        <img class="service-list__item-img" src="images/service-icon-6.png">
-                    </div>
-                    <ul class="services-sub">
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Бесперебойная работы сайта</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Исправление программных ошибок</a>
-                        </li>
-                        <li class="services-sub__item">
-                            <a href="#" class="services-sub__item-link">Обновление информации внедрение нового функционала</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="services-list__item-link">Подробнее</a>
-                </div>
-            </div>
+        <?php include('template/services.php') ?>
     </div>
 </section>
 <section class="free-audit">

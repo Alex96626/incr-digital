@@ -50,7 +50,11 @@
 </header>
 <section class="land-services-list">
     <!-- <div class="container container-land-services-list"> -->
-        <!-- <h3 class="land-services-list-title ">Решения для вашего бизнеса</h3> -->
+    <h2 class="section-title services__title">
+        <span class="services__title-text">
+            Решения для вашего бизнеса
+        </span>
+    </h2>
         <?php include('template/services.php') ?>
     <!-- </div> -->
 </section>

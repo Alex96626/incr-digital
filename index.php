@@ -46,6 +46,11 @@
         </div>
     </header>
     <section class="services">
+    <h2 class="section-title services__title">
+        <span class="services__title-text">
+            Решения для вашего бизнеса
+        </span>
+    </h2>
         <?php include('template/services.php') ?>
     </section>
     <section class="projects">
@@ -120,20 +125,28 @@
     <section class="budget">
         <div class="container">
             <h3 class="section-title budget__title ">Мы умеем подстраиваться под любой бюджет</h3>
-            <div class="budget-list">
-                <div class="budget-list__item">
-                    <img src="./images/budget-icon-1.png" class="budget-list__item-icon" alt="Микробизнес">
-                    <span class="budget-list__item-text">Микробизнес</span>
+            <!-- <div class="wrapper-budgest-list"> -->
+                <div class="budget-list">
+                    <div class="budget-list__item">
+                        <div class="wrapper-budget-list__item">
+                            <img src="./images/budget-icon-1.png" class="budget-list__item-icon" alt="Микробизнес">
+                            <span class="budget-list__item-text">Микробизнес</span>
+                        </div>
+                    </div>
+                    <div class="budget-list__item">
+                        <div class="wrapper-budget-list__item">
+                            <img src="./images/budget-icon-2.png" class="budget-list__item-icon" alt="Малый и средний бизнес">
+                            <span class="budget-list__item-text">Малый и<br>средний бизнес</span>
+                        </div>
+                    </div>
+                    <div class="budget-list__item">
+                        <div class="wrapper-budget-list__item">
+                            <img src="./images/budget-icon-3.png" class="budget-list__item-icon" alt="Крупный бизнес">
+                            <span class="budget-list__item-text">Крупный бизнес</span>
+                        </div>
+                    </div>
                 </div>
-                <div class="budget-list__item">
-                    <img src="./images/budget-icon-2.png" class="budget-list__item-icon" alt="Малый и средний бизнес">
-                    <span class="budget-list__item-text">Малый и<br>средний бизнес</span>
-                </div>
-                <div class="budget-list__item">
-                    <img src="./images/budget-icon-3.png" class="budget-list__item-icon" alt="Крупный бизнес">
-                    <span class="budget-list__item-text">Крупный бизнес</span>
-                </div>
-            </div>
+            </div>?
         </div>
     </section>
 
@@ -174,24 +187,32 @@
                     </p>
                     <div class="waterfall-bloks rotated-blocks">
                         <div class="waterfall-bloks__item rotated-block">
-                            <span class="rotated-block__text">
-                                Формулируем требования к конечному продукту.
-                            </span>
+                            <div class="wrapper-waterfall-bloks__item">
+                                <span class="rotated-block__text">
+                                    Формулируем требования к конечному продукту.
+                                </span>
+                            </div>
                         </div>
                         <div class="waterfall-bloks__item rotated-block">
-                            <span class="rotated-block__text">
-                                Пишем детальное ТЗ (на основе вашего или с нуля).
-                            </span>
+                            <div class="wrapper-waterfall-bloks__item">
+                                <span class="rotated-block__text">
+                                    Пишем детальное ТЗ (на основе вашего или с нуля).
+                                </span>
+                            </div>
                         </div>
                         <div class="waterfall-bloks__item rotated-block">
-                            <span class="rotated-block__text">
-                                Строим график работ.
-                            </span>
+                            <div class="wrapper-waterfall-bloks__item">
+                                <span class="rotated-block__text">
+                                    Строим график работ.
+                                </span>
+                            </div>
                         </div>
                         <div class="waterfall-bloks__item rotated-block">
-                            <span class="rotated-block__text">
-                                Работаем по нему.
-                            </span>
+                            <div class="wrapper-waterfall-bloks__item">
+                                <span class="rotated-block__text">
+                                    Работаем по нему.
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </div>

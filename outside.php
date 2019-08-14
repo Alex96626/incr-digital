@@ -20,32 +20,32 @@
         <div class="outside-list">
             <div class="outside-item">
                 <div class="wrapper-outside-item">
-                    <h4 class="outside-item-title">SEO</h4>
+                    <h4 class="outside-item-title section-title">SEO</h4>
                     <span class="outside-item-sub-title">Выводим сайт на первые позиции органической выдачи</span>
                 </div>
-                <button class="cost const-outside">Подробнее</button>
+                <button class=" cost-outside">Подробнее</button>
             </div>
             <div class="outside-item">
                 <div class="wrapper-outside-item">
-                    <h4 class="outside-item-title">SEO</h4>
-                    <span class="outside-item-sub-title">Выводим сайт на первые позиции органической выдачи</span>
+                    <h4 class="outside-item-title section-title">SMM</h4>
+                    <span class="outside-item-sub-title">Создаем, ведем и поддерживаем присутствие вашего бренда в социальных сетях</span>
                 </div>
-                <button class="cost const-outside">Подробнее</button>
+                <button class=" cost-outside">Подробнее</button>
             </div>
             <div class="outside-item">
                 <div class="wrapper-outside-item">
-                    <h4 class="outside-item-title">SEO</h4>
-                    <span class="outside-item-sub-title">Выводим сайт на первые позиции органической выдачи</span>
+                    <h4 class="outside-item-title section-title">Контекстная реклама</h4>
+                    <span class="outside-item-sub-title">Быстро и агрессивно приводим новых клиентов на сайт</span>
                 </div>
-                <button class="cost const-outside">Подробнее</button>
+                <button class=" cost-outside">Подробнее</button>
             </div>
-            <div class="outside-item">
+            <!-- <div class="outside-item">
                 <div class="wrapper-outside-item">
-                    <h4 class="outside-item-title">SEO</h4>
+                    <h4 class="outside-item-title section-title">SEO</h4>
                     <span class="outside-item-sub-title">Выводим сайт на первые позиции органической выдачи</span>
                 </div>
-                <button class="cost const-outside">Подробнее</button>
-            </div>
+                <button class=" cost-outside">Подробнее</button>
+            </div> -->
         </div>
     </div>
 </section>

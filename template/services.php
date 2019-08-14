@@ -1,9 +1,9 @@
-<div class="container">
-    <h2 class="section-title services__title">
+<div class="container"> 
+    <!-- <h2 class="section-title services__title">
         <span class="services__title-text">
             Решения для вашего бизнеса
         </span>
-    </h2>
+    </h2>  -->
     <div class="services-list">
         <div class="services-list__item">
             <div class="wrapper-item-top">
