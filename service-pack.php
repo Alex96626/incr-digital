@@ -133,7 +133,7 @@
                 <h3 class="present-client-title section-title">Презентация клиенту</h3>
                 <span class="present-client-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
             </div>
-            <!-- <img class="present-client-img" src=""> -->
+            <img class="present-client-img" src="images/service-pack-big-img.png">
 
         </div>
     </section>

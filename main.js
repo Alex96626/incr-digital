@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
             initialSlide : 1,
             arrows :true,
             // adaptiveHeight : true,
-            prevArrow : '<button class="switch switch-back"> < </button>',
-            nextArrow : '<button class="switch switch-forward"> > </button>',
+            prevArrow: $('.switch-back'),
+            nextArrow: $('.switch-forward'),
             responsive: [
                 
                 {

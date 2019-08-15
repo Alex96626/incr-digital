@@ -1823,6 +1823,27 @@ button:focus{
     font-size: 30px;
 }
 
+.wrapper-switch-logo {
+    
+    display: none;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.wrapper-switch-logo .switch {
+    margin: 0 10px;
+}
+
+
+@media (max-width: 1100px) { 
+
+    .wrapper-switch-logo {
+        display: flex;
+    }
+
+}
+
+
 .dev-stage-sub-title {
     display: block;
     margin-top: 14px;
@@ -3139,6 +3160,10 @@ margin-bottom: 11px;
 .presetn-client {
     background: url(images/present-client-fon.png) no-repeat;
     background-position: 75%;
+}
+
+.present-client-img {
+    display: none;
 }
 
 .container-present-client {
@@ -5992,12 +6017,19 @@ color: rgba(29, 15, 28, 255);
         position: unset;
         margin-top: 15px;
     }
-    
-    
+    .presetn-client {
+        background-size: 65%;
+        background-position: 95% 0px;  
+    }
 
+    .container-present-client {
+        padding-bottom: 200px;
+    }
     
-
+    
  }
+
+ 
 
  @media (max-width: 1000px) {
 
@@ -6138,6 +6170,26 @@ color: rgba(29, 15, 28, 255);
     .service-why-text {
         display: block;
         margin-bottom: 23px;
+    }
+
+    .present-client-img {
+        display: block;
+    }
+
+    .presetn-client {
+        background: none;
+    }
+
+    .container-present-client {
+        padding-bottom: 50px;
+    }
+
+    .present-client-img {
+        margin-top: 25px;
+    }
+
+    .wrapper-present-client {
+        width: auto;
     }
 
     

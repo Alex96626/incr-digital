@@ -43,7 +43,7 @@
             <input type="text" name="compamy" class="form-input"  placeholder="Ваша компания">
             <input type="text" name="link" class="form-input"  placeholder="Ссылка на сайт">
             <textarea class="feadback-comment" placeholder="Комментарий"></textarea>
-        </div>
+        </div>  
         <label class="add-file">
             <input type="file" >
             <span>Прикрепить файл</span>

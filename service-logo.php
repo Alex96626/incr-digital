@@ -73,7 +73,7 @@
         <img src="./images/big-info-blot-1.png" class="paroller big-info__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
         <div class="container container-how-affect">
             <span class="how-affect-text section-title">Как логотип влияет на имидж компании:</span>
-            <div class="wrapper-affect">
+            <div class="wrapper-affect wrapper-affect-3col">
                 <div class="bad-affect">
                     <span class="bad-affect-text">Бренд без лого</span>
                     <ul class="bad-affect-list">
@@ -90,7 +90,7 @@
                         <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
                     </ul>
                 </div>
-                <div class="good-affect">
+                <div class="good-affect good-affect-3col">
                     <span class="good-affect-text">Бренд с хорошим логотипом</span>
                     <ul class="good-affect-list">
                         <li class="good-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-3.png"></li>
@@ -106,6 +106,10 @@
             <div class="wrapper-title">
                 <span class="dev-stage-title section-title">Этапы разработки вашего логотипа</span>
                 <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
+            </div>
+            <div class="wrapper-switch wrapper-switch-logo">
+                <button class="switch switch-back"> < </button>
+                <button class="switch switch-forward"> > </button>
             </div>
             <ul class="dev-stage-list">
                 <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Комплексный анализ</p></li>
@@ -208,7 +212,7 @@
 
     <img src="./images/free-audit-blot.png" class="paroller price__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <img src="./images/price-blot-1.png" class="paroller price__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
-    <img src="./images/free-audit-blot-3.png" class="pparoller price__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+    <img src="./images/free-audit-blot-3.png" class="paroller price__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     </section>
     <footer class="footer">
         <?php include('template/footer.php') ?>
