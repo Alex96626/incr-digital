@@ -47,7 +47,7 @@
     </header>
     <section class="services">
     <h2 class="section-title services__title">
-        <span class="services__title-text">
+        <span class="services__title-text section-title">
             Решения для вашего бизнеса
         </span>
     </h2>
@@ -124,7 +124,7 @@
 
     <section class="budget">
         <div class="container">
-            <h3 class="section-title budget__title ">Мы умеем подстраиваться под любой бюджет</h3>
+            <h3 class="section-title budget__title">Мы умеем подстраиваться под любой бюджет</h3>
             <!-- <div class="wrapper-budgest-list"> -->
                 <div class="budget-list">
                     <div class="budget-list__item">
@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-            </div>?
+            </div>
         </div>
     </section>
 
@@ -182,7 +182,7 @@
             <div class="how-we-works__content">
                 <div class="waterfall">
                     <h5 class="waterfall__title">Waterfall</h5>
-                    <p class="waterfall__text">
+                    <p class="waterfall__text section-text">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
                     </p>
                     <div class="waterfall-bloks rotated-blocks">
@@ -219,7 +219,7 @@
                 <div class="agile">
                     <img src="./images/agile.png" class="agile__img" alt="Agile">
                     <h5 class="agile__title">Agile</h5>
-                    <p class="agile__text">
+                    <p class="agile__text section-text">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
                     </p>                    
                     <div class="agile-bloks rotated-blocks">
@@ -253,8 +253,8 @@
         <div class="container">
             <div class="efficiency__content">
                 <h2 class="section-title efficiency__title">Увеличиваем<br>эффективность бизнеса</h2>
-                <p class="efficiency__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
-                <h3 class="efficiency__subtitle">В каких областях мы можем вам помочь:</h3>
+                <p class="efficiency__text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
+                <h3 class="efficiency__subtitle section-title">В каких областях мы можем вам помочь:</h3>
                 <div class="questions">
                     <div class="questions__item">
                         Сложные решения?

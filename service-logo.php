@@ -75,7 +75,7 @@
             <span class="how-affect-text section-title">Как логотип влияет на имидж компании:</span>
             <div class="wrapper-affect wrapper-affect-3col">
                 <div class="bad-affect">
-                    <span class="bad-affect-text">Бренд без лого</span>
+                    <span class="bad-affect-text section-sub-title">Бренд без лого</span>
                     <ul class="bad-affect-list">
                         <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
                         <li class="bad-affect-item"><p>Доверие клиентов</p><img src="images/branding-diagramm-1.png"></li>
@@ -83,7 +83,7 @@
                     </ul>
                 </div>
                 <div class="bad-affect">
-                    <span class="bad-affect-text">Бренд со старым логотипом</span>
+                    <span class="bad-affect-text section-sub-title">Бренд со старым логотипом</span>
                     <ul class="bad-affect-list">
                         <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
                         <li class="bad-affect-item"><p>Доверие клиентов</p><img src="images/branding-diagramm-1.png"></li>
@@ -91,7 +91,7 @@
                     </ul>
                 </div>
                 <div class="good-affect good-affect-3col">
-                    <span class="good-affect-text">Бренд с хорошим логотипом</span>
+                    <span class="good-affect-text section-sub-title">Бренд с хорошим логотипом</span>
                     <ul class="good-affect-list">
                         <li class="good-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-3.png"></li>
                         <li class="good-affect-item"><p>Доверие клиентов</p><img src="images/branding-diagramm-4.png"></li>
@@ -105,17 +105,17 @@
         <div class="container container-dev-stage">
             <div class="wrapper-title">
                 <span class="dev-stage-title section-title">Этапы разработки вашего логотипа</span>
-                <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
+                <span class="dev-stage-sub-title section-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
             </div>
             <div class="wrapper-switch wrapper-switch-logo">
                 <button class="switch switch-back"> < </button>
                 <button class="switch switch-forward"> > </button>
             </div>
             <ul class="dev-stage-list">
-                <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Комплексный анализ</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text">Формирование концепта</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text">Финальная проработка</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text">Презентация клиенту</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Комплексный анализ</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Формирование концепта</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text section-text">Финальная проработка</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text section-text">Презентация клиенту</p></li>
             </ul>
         </div>
         <img src="./images/dev-stage-blot-1.png" class="paroller dev-stage__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
@@ -124,8 +124,8 @@
         <div class="container container-complex-analysis">
             <div class="wrapper-analysis-title">
                 <span class="analysis-title section-title">Комплексный анализ</span>
-                <span class="analysis-sub-title">Ваш торговый знак должен быть актуальным</span>
-                <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                <span class="analysis-sub-title section-sub-title">Ваш торговый знак должен быть актуальным</span>
+                <span class="analysis-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
             <ul class="analysis-list">
                 <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
@@ -145,7 +145,7 @@
         <div class="container container-logo-concept">
             <div class="wrapper-logo-concept-text">
                 <h3 class="logo-concept-title section-title">Формирование концепции логотипа</h3>
-                <span class="logo-concept-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
+                <span class="logo-concept-sub-title section-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
                 <ul class="logo-concept-list">
                     <li class="logo-concept-item"><p class="logo-concept-text">Развитие концепции</p></li>
                     <li class="logo-concept-item"><p class="logo-concept-text">Работа над эскизами</p></li>
@@ -162,14 +162,14 @@
         <div class="container">
             <div class="contaoner-final-work-logo">
                 <h3 class="final-work-logo-title section-title">Финальная проработка логотипа и визуализации</h3>
-                <span class="final-work-logo-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий </span>
+                <span class="final-work-logo-sub-title section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий </span>
             </div>
         </div>
     </section>
     <section class="logo-processing">
         <div class="container container-logo-processing">
             <h3 class="logo-processing-title section-title">Логотип до и после</h3>
-            <span class="logo-processing-sub-title">Редизайн</span>
+            <span class="logo-processing-sub-title section-sub-title">Редизайн</span>
             <div class="wrapper-logo-processing">
                 <div class="logo-processing-ex">
                     <div class="logo-before">
@@ -180,7 +180,7 @@
                         <img class="logo-after-img" src="images/logo-after-1.png">
                         <span class="logo-bottom-text">Новый лого</span>
                     </div>
-                    <span class="logo-processing-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                    <span class="logo-processing-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
                 </div>
                 <div class="logo-processing-ex">
                     <div class="logo-before">
@@ -191,7 +191,7 @@
                         <img class="logo-after-img" src="images/logo-after-2.png">
                         <span class="logo-bottom-text">Новый лого</span>
                     </div>
-                    <span class="logo-processing-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                    <span class="logo-processing-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
                 </div>
                 <div class="logo-processing-ex">
                     <div class="logo-before">
@@ -202,7 +202,7 @@
                         <img class="logo-after-img" src="images/logo-after-3.png">
                         <span class="logo-bottom-text">Новый лого</span>
                     </div>
-                    <span class="logo-processing-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
+                    <span class="logo-processing-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. </span>
                 </div>
             </div>
         </div>

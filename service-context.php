@@ -17,9 +17,9 @@
         <div class="container contaner-service-about contaner-service-context-about">
             <div class="sml-info-service-text sml-info-service-context-text">
                 <div class="wrapper-sml-info-service">
-                    <span class="sml-info-service-title">Контекстная реклама</span>
-                    <span class="sml-info-service-slogan sml-info-service-context-slogan">Привлекай нужных посетителей очень быстро</span>
-                    <div class="sml-info-service-we-top sml-info-service-context-we-top">Найдем самую выгодную для вас аудиторию</div>
+                    <span class="sml-info-service-title section-title">Контекстная реклама</span>
+                    <span class="sml-info-service-slogan sml-info-service-context-slogan section-sub-title">Привлекай нужных посетителей очень быстро</span>
+                    <div class="sml-info-service-we-top sml-info-service-context-we-top section-text">Найдем самую выгодную для вас аудиторию</div>
                 </div>
                 <button class="cost">Подробнее</button>
             </div>
@@ -30,8 +30,8 @@
         <div class="container containere-what-service">
             <img class="what-service-img" src="images/what-service-img.png">
             <div class="what-service-content">
-                <h3 class="what-service-title">Что такое контекстная реклама?</h3>
-                <span class="what-service-text">Контекстная реклама «Яндекс.Директ» позволит вам
+                <h3 class="what-service-title section-title">Что такое контекстная реклама?</h3>
+                <span class="what-service-text section-text">Контекстная реклама «Яндекс.Директ» позволит вам
                         за короткий срок увеличить доходы за счет прироста трафика.
                         Наши специалисты проведут анализ предлагаемых вами
                         товаров или оказываемых услуг, выявят ключевые запросы
@@ -81,7 +81,7 @@
         <span class="how-affect-text section-title">Как наличие качественной Контекстной Рекламы влияет на позиционирование Вашего бизнеса в Сети</span>
         <div class="wrapper-affect">
             <div class="bad-affect">
-                <span class="bad-affect-text">Отсуствие Контекстной Рекламы</span>
+                <span class="bad-affect-text section-sub-title">Отсуствие Контекстной Рекламы</span>
                 <ul class="bad-affect-list">
                     <li class="bad-affect-item"><p>Ваш сайт занимаем 1-4 места поисковой выдачи</p><img src="images/branding-diagramm-1.png"></li>
                     <li class="bad-affect-item"><p>Ваш компанию легко найти в Сети</p><img src="images/branding-diagramm-2.png"></li>
@@ -89,7 +89,7 @@
                 </ul>
             </div>
             <div class="good-affect">
-                <span class="good-affect-text">Компания продвигается с помощью контекстной рекламы
+                <span class="good-affect-text section-sub-title">Компания продвигается с помощью контекстной рекламы
                         </span>
                 <ul class="good-affect-list">
                     <li class="good-affect-item"><p>Ваш сайт занимаем 1-4 места поисковой выдачи</p><img src="images/branding-diagramm-3.png"></li>
@@ -104,12 +104,12 @@
     <div class="container container-dev-stage container-dev-stage-contaxt">
         <div class="wrapper-title">
             <span class="dev-stage-title section-title">Процесс настройки и развития контекстной рекламы для сайта проходит в несколько этапов</span>
-            <span class="dev-stage-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
+            <span class="dev-stage-sub-title section-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
         </div>
         <ul class="dev-stage-list dev-stage-context-lost dev-stage-context">
-            <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">1</span><p class="dev-stage-text">Анализ и настройка</p></li>
-            <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">2</span><p class="dev-stage-text">Подготовка к запуску</p></li>
-            <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">3</span><p class="dev-stage-text">Запуск и развитие</p></li>
+            <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Анализ и настройка</p></li>
+            <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Подготовка к запуску</p></li>
+            <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">3</span><p class="dev-stage-text section-text">Запуск и развитие</p></li>
         </ul>
     </div>
 </section>
@@ -118,11 +118,11 @@
     <div class="container container-stage-setting">
         <h3 class="stage-settig-title section-title">Этапы настройки рекламной компании</h3>
         <div class="stage-setting-list">
-           <span class="stage-setting-item"><p class="stage-setting-item-text"> Анализ и настройка</p></span> 
+           <span class="stage-setting-item"><p class="stage-setting-item-text section-sub-title"> Анализ и настройка</p></span> 
             <ul class="stage-setting-text-list">
                 <li class="stage-setting-text-item">
-                    <h4 class="stage-setting-text-title">Анализ и постановка цеелй</h4>
-                    <span class="stage-setting-text-sub-title">Контекстная реклама «Яндекс.Директ» позволит вам за короткий срок увеличить доходы за счет прироста трафика. Наши специалисты проведут анализ предлагаемых вами
+                    <h4 class="stage-setting-text-title">Анализ и постановка целей</h4>
+                    <span class="stage-setting-text-sub-title section-text" >Контекстная реклама «Яндекс.Директ» позволит вам за короткий срок увеличить доходы за счет прироста трафика. Наши специалисты проведут анализ предлагаемых вами
                             товаров или оказываемых услуг, выявят ключевые запросы и составят семантическое ядро.
                     </span>
                 </li>
@@ -152,10 +152,10 @@
         <img src="./images/stage-setting-blot-2.png" class="paroller stage-setting__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-stage-setting">
         <div class="stage-setting-list">
-           <span class="stage-setting-item"><p class="stage-setting-item-text"> Подготовка к запуску</p></span> 
+           <span class="stage-setting-item"><p class="stage-setting-item-text section-sub-title"> Подготовка к запуску</p></span> 
             <ul class="stage-setting-text-list">
                 <li class="stage-setting-text-item">
-                    <h4 class="stage-setting-text-title">Анализ и постановка цеелй</h4>
+                    <h4 class="stage-setting-text-title section-sub-title">Анализ и постановка цеелй</h4>
                     <span class="stage-setting-text-sub-title">Контекстная реклама «Яндекс.Директ» позволит вам за короткий срок увеличить доходы за счет прироста трафика. Наши специалисты проведут анализ предлагаемых вами
                             товаров или оказываемых услуг, выявят ключевые запросы и составят семантическое ядро.
                     </span>
@@ -185,7 +185,7 @@
 <section class="stage-setting">
     <div class="container container-stage-setting">
         <div class="stage-setting-list">
-           <span class="stage-setting-item"><p class="stage-setting-item-text"> Запуск и развитие</p></span> 
+           <span class="stage-setting-item"><p class="stage-setting-item-text section-sub-title"> Запуск и развитие</p></span> 
             <ul class="stage-setting-text-list">
                 <li class="stage-setting-text-item">
                     <h4 class="stage-setting-text-title">Анализ и постановка цеелй</h4>
@@ -215,13 +215,13 @@
         <div class="wrapper-warranty">
             <h3 class="warranty-title section-title">Гарантировано</h3>
             <ul class="warranty-list">
-                <li class="warranty-item"><p class="warranty-list-text">
+                <li class="warranty-item"><p class="warranty-list-text section-text">
                     качественный подбор семантического ядра и грамотные настройки, которые позволяют даже молодым сайтам конкурировать с более известными представителями той же ниши.
                 </p></li>
-                <li class="warranty-item"><p class="warranty-list-text">прирост целевых посещений из поиская "Яндекса", которые частично конвертируются в продажи</p></li>
-                <li class="warranty-item"><p class="warranty-list-text">создание индивидуальной рекламной стратегии. учитывающей особенности конкретного проекта</p></li>
-                <li class="warranty-item"><p class="warranty-list-text">рациональное использование бюджета</p></li>
-                <li class="warranty-item"><p class="warranty-list-text">эффективное ведение рекламной компании</p></li>
+                <li class="warranty-item"><p class="warranty-list-text section-text">прирост целевых посещений из поиская "Яндекса", которые частично конвертируются в продажи</p></li>
+                <li class="warranty-item"><p class="warranty-list-text section-text">создание индивидуальной рекламной стратегии. учитывающей особенности конкретного проекта</p></li>
+                <li class="warranty-item"><p class="warranty-list-text section-text">рациональное использование бюджета</p></li>
+                <li class="warranty-item"><p class="warranty-list-text section-text">эффективное ведение рекламной компании</p></li>
             </ul>
         </div>
         <img class="warranty-img" src="images/warranty-img.png">
@@ -239,15 +239,15 @@
         <div class="wrapper-result-client">
             <img class="result-client-img" src="images/result-client-img.png">
             <div class="wrapper-result-client-content">
-                <h4 class="wrapper-result-client-title">Гарантировано</h4>
+                <h4 class="wrapper-result-client-title section-sub-title">Гарантировано</h4>
                 <ul class="warranty-list result-client-list">
-                    <li class="warranty-item"><p class="warranty-list-text">
+                    <li class="warranty-item"><p class="warranty-list-text section-text">
                         качественный подбор семантического ядра и грамотные настройки, которые позволяют даже молодым сайтам конкурировать с более известными представителями той же ниши.
                     </p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">прирост целевых посещений из поиская "Яндекса", которые частично конвертируются в продажи</p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">создание индивидуальной рекламной стратегии. учитывающей особенности конкретного проекта</p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">рациональное использование бюджета</p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">эффективное ведение рекламной компании</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text section-text">прирост целевых посещений из поиская "Яндекса", которые частично конвертируются в продажи</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text section-text">создание индивидуальной рекламной стратегии. учитывающей особенности конкретного проекта</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text section-text">рациональное использование бюджета</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text section-text">эффективное ведение рекламной компании</p></li>
                 </ul>
             </div>
         </div>

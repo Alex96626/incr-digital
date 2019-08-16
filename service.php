@@ -64,7 +64,7 @@
 <section class="land-services-list">
     <!-- <div class="container container-land-services-list"> -->
     <h2 class="section-title services__title">
-        <span class="services__title-text">
+        <span class="services__title-text section-title">
             Решения для вашего бизнеса
         </span>
     </h2>
@@ -80,8 +80,8 @@
             <div class="free-audit__content">
                 <div class="free-audit__info">
                     <h3 class="section-title free-audit__title">Заполни форму</h3>
-                    <p class="free-audit__text"> А мы проведем бесплатный аудит вашего бизнеса</p>
-                    <p class="free-audit__text">Предоставим коммерческое предложение с готовыми решениями и полным просчетом стоимости под вашу нишу </p>
+                    <p class="free-audit__text section-text"> А мы проведем бесплатный аудит вашего бизнеса</p>
+                    <p class="free-audit__text section-text">Предоставим коммерческое предложение с готовыми решениями и полным просчетом стоимости под вашу нишу </p>
                 </div>
                 <form action="" class="free-audit__form form">
                     <input type="text" name="name" class="free-audit__input form__input" placeholder="Имя">
