@@ -19,7 +19,7 @@
                 <div class="wrapper wrapper-service-about">
                     <div class="service">
                         <div class="wrapper-services">
-                            <span class="services-items-title">Брендинг</span>
+                            <span class="services-items-title ">Брендинг</span>
                             <span class="service-slogan">Имидж и отличительная черта вашего бизнеса</span>
                         </div>
                         <img  class="service-smal-img" src="images/branding-smal-img.png">

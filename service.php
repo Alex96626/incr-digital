@@ -19,8 +19,21 @@
         <img src="./images/services-blot-1.png" class="paroller header-bottom__paroller-3" data-paroller-factor="0.15" aria-hidden="true" alt="">
             <div class="header-bottom-info header-bottom-compr">
                 <span class="header-bottom-info__title ">Услуги increase</span>
-                <span class="header-bottom-info__subtitle header-bottom-info-subtitle-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распеч
-                        xатки образцов.Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                <span class="header-bottom-info__subtitle header-bottom-info-subtitle-text">Digital агентство Increase создает и внедряет инструменты для Вашего бизнеса.
+                 Мы умеем создавать:
+                 <ul>
+                 <li>полноценные сайты и сервисы различного уровня сложности, которые будут лицом Вашего бренда в Сети
+уникальный дизайн Вашего бренда</li>
+                 <li>фирменный стиль</li>
+                 <li> упаковку Вашего продукта или услуги</li>
+                 <li>оригинальный рекламный креатив
+Стратегии продвижения бизнеса</li>
+                 <li>повышение уровня продаж</li>
+                 <li>улучшения репутации и увеличение доли рынка</li>
+                 <li>проводить глубокую аналитику рекламных компаний
+Оказывать услуги траблшутинга</li>
+                 <li>автоматизации бизнес-процессов и техническую поддержку Вашего сайта или сервиса</li>
+                </span>
             </div>
             <div class="header-bottom__logo header-bottom__logo-compr">
                 <img src="./images/logo-big.png" alt="Increase" class="header-bottom__logo-comprheader-bottom__logo-img">

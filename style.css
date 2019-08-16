@@ -5962,6 +5962,14 @@ color: rgba(29, 15, 28, 255);
         font-size: 29px !important;
     }
 
+    .section-sub-title {
+        font-size: 27px !important;
+    }
+
+    .section-text {
+        font-size: 18px !important;
+    }
+
     .brand-dev {
         background: url(images/brand-dev-fon-3.png) no-repeat 70% 65%,       
                     url(images/brand-dev-fon-2.png) no-repeat 83% 24%,      
@@ -6217,6 +6225,16 @@ color: rgba(29, 15, 28, 255);
         font-size: 28px !important  ;
     }
 
+    .section-sub-title {
+        font-size: 26px !important;
+    }
+
+    .section-text {
+        font-size: 18px !important;
+    }
+
+    
+
     .sml-info-service-slogan {
         border-left: 3px solid blue;
         padding-left: 25px;
@@ -6387,13 +6405,7 @@ color: rgba(29, 15, 28, 255);
 
     
 
-    .section-sub-title {
-        font-size: 16px !important;
-    }
-
-    .section-text {
-        font-size: 14px !important;
-    }
+    
 
     .comp-branding-sub-title {
         width: auto;
@@ -6446,6 +6458,14 @@ color: rgba(29, 15, 28, 255);
 
     .components-branding {
         background: #01172c;
+    }
+
+    .section-title {
+        font-size: 24px !important;
+    }
+
+    .section-sub-title {
+        font-size: 22px !important;
     }
     
  }
@@ -6589,7 +6609,7 @@ color: rgba(29, 15, 28, 255);
     .outside-item:nth-child(3),
     .outside-item:nth-child(4) {
         background-position-x: 100%;
-    } */
+    } */    
 
     .outside-item:nth-child(1) {
         background-position: 100% 117%;
@@ -6662,6 +6682,15 @@ color: rgba(29, 15, 28, 255);
 
 @media (max-width: 1100px) {
 
+    .containere-what-service {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
     .what-service-img  {
         width: 50%;
     }
@@ -6671,10 +6700,7 @@ color: rgba(29, 15, 28, 255);
 
 @media (max-width: 900px) {
     
-.containere-what-service {
-    flex-direction: column-reverse;
-    align-items: center;
-}
+
 
 .analysis-title {
     margin-top: 15px;

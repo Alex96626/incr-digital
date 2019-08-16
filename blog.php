@@ -42,7 +42,7 @@
                     <img class="info-panel-top-img" src="images/info-panel-img.png">
                 </div>
                 <div class="contant-info-panel">
-                    <h4 class="contant-info-panel-title"><a href="#" class="info-panel-link">Как не стоит готовиться к ЕГЭ</a></h4>
+                    <h4 class="contant-info-panel-title"><a href="#" class="info-panel-link ">Как не стоит готовиться к ЕГЭ</a></h4>
                     <span class="contant-info-panel-text">Повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию
                             провести анализ обратной связи от пользователей отработать негативные отзывы 
                     </span>

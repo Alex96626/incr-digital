@@ -16,7 +16,7 @@
 <section class="about-us-digital">
     <div class="container container-about-us-digital">
         <h3 class="about-us-digital-title section-title">Создаем digital-продукты для лидеров рынка</h3>
-        <span class="about-us-digital-sub-title">Расширь границы своего бизнеса</span>
+        <span class="about-us-digital-sub-title section-sub-title">Расширь границы своего бизнеса</span>
         <img class="about-us-digital-img" src="images/about-us-digital-img.png">
     </div>
 </section>
@@ -24,8 +24,8 @@
     <div class="container container-agency">
         <img class="ablout-agency-img" src="images/about-agency-img.png">
         <div class="wrapper-content-agency">
-            <h3 class="about-agency-title">Об агентстве</h3>
-            <span class="about-agency-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</span>
+            <h3 class="about-agency-title section-title">Об агентстве</h3>
+            <span class="about-agency-sub-title section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и перешагнул в электронный дизайн. Его популяризации в новое время послужили публикация листов Letraset с образцами Lorem Ipsum в 60-х годах и, в более недавнее время, программы электронной вёрстки типа Aldus PageMaker, в шаблонах которых используется Lorem Ipsum.</span>
         </div>
 
     </div>
@@ -41,23 +41,23 @@
         <ul class="stat-list">
             <li class="stat-item">
                 <p class="stat-num more-less">1200</p>
-                <span class="stat-text">Решили 1200 задач</span>
+                <span class="stat-text section-text">Решили 1200 задач</span>
             </li>
             <li class="stat-item">
                 <p class="stat-num">470</p>
-                <span class="stat-text">Разработали 470 сайтов </span>
+                <span class="stat-text section-text">Разработали 470 сайтов </span>
             </li>
             <li class="stat-item">
                 <p class="stat-num">15</p>
-                <span class="stat-text">15 готелів на морі Різного рівня обслуговування і комфорту</span>
+                <span class="stat-text section-text">15 готелів на морі Різного рівня обслуговування і комфорту</span>
             </li>
             <li class="stat-item">
                 <p class="stat-num">2250</p>
-                <span class="stat-text">Лише 2250 гривен Мінімальна вартість відпочинку на 1 людину</span>
+                <span class="stat-text section-text">Лише 2250 гривен Мінімальна вартість відпочинку на 1 людину</span>
             </li>
             <li class="stat-item">
                 <p class="stat-num">15</p>
-                <span class="stat-text">15 готелів на морі Різного рівня обслуговування і комфорту</span>
+                <span class="stat-text section-text">15 готелів на морі Різного рівня обслуговування і комфорту</span>
             </li>
         </ul>
     </div>
@@ -77,7 +77,7 @@
         <div class="free-audit__content">
             <div class="free-audit__info">
                 <h3 class="section-title free-audit__title section-title">Мы проведем бесплатный аудит вашего бизнеса </h3>
-                <p class="free-audit__text">и подготовим для вас индивидуальное предложение</p>
+                <p class="free-audit__tex section-sub-title">и подготовим для вас индивидуальное предложение</p>
             </div>
             <form action="" class="free-audit__form form">
                 <input type="text" name="name" class="free-audit__input form__input" placeholder="Имя">
