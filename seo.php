@@ -79,7 +79,7 @@
     <div class="container container-dev-stage">
         <div class="wrapper-title">
             <span class="dev-stage-title section-title">Процесс настройки SEO для сайта проходит в несколько этапов</span>
-            <span class="dev-stage-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
+            <span class="dev-stage-sub-title section-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
         </div>
         <ul class="dev-stage-list">
             <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Технический анализ</p></li>
@@ -93,44 +93,48 @@
     <div class="container container-complex-analysis container-complex-analysis-seo">
         <div class="wrapper-analysis-title wrapper-analysis-title-seo">
             <span class="analysis-title section-title">Технический анализ</span>
-            <span class="analysis-text analysis-text-seo">Работы направленные на сбор информации обо всех
+            <span class="analysis-text analysis-text-seo section-text">Работы направленные на сбор информации обо всех
                     недостатках сайта с технической точки зрения для
                     дальнейшего их исправления. Очень часто на этом этапе мы
                     по объективным причинам предлагаем
             </span>
         </div>
-        <ul class="analysis-list">
-            <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
-        <ul class="analysis-list ">
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
+        <div class="wrapper-analisis-item">
+            <ul class="analysis-list">
+                <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+            <ul class="analysis-list ">
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+        </div>
     </div>
 <img src="./images/free-audit-blot.png" class="paroller complex-analysis-seo__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
 </section>
 <section class="complex-analysis complex-analysis-seo">
     <div class="container container-complex-analysis container-complex-analysis-seo">
-        <ul class="analysis-list">
-            <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
-        <ul class="analysis-list ">
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
+        <div class="wrapper-analisis-item">
+            <ul class="analysis-list">
+                <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+            <ul class="analysis-list ">
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+        </div>
         <div class="wrapper-analysis-title wrapper-analysis-title-seo">
             <span class="analysis-title section-title section-title">Анализ юзабилити</span>
-            <span class="analysis-text analysis-text-seo">На этом этапе мы проводим аналитику поведенческих факторов и собираем информацию о тех из них, которые мешают
+            <span class="analysis-text analysis-text-seo section-text">На этом этапе мы проводим аналитику поведенческих факторов и собираем информацию о тех из них, которые мешают
                     потенциальному клиенту принять решение о покупке на вашем
                     сайте. По результатам данного этапа может быть предложен
                     частичный или полный редизайн сайта
@@ -142,44 +146,48 @@
     <div class="container container-complex-analysis container-complex-analysis-seo">
         <div class="wrapper-analysis-title wrapper-analysis-title-seo ">
             <span class="analysis-title analysis-title-seo section-title">Внутренняя оптимизация и А\В - тестирование</span>
-            <span class="analysis-text analysis-text-seo">На данном этапе мы анализируем контент (тексты, фото, видео,
+            <span class="analysis-text analysis-text-seo section-text">На данном этапе мы анализируем контент (тексты, фото, видео,
                     распределение ключевых запросов по страницам) вашего сайта с точки зрения его пригодности для дальнейшего продвижения. 
                     При отсутствии необходимого количества уникального контента - мы дадим соответствующие рекомендации. Мы замеряем метрики до и после изменений, для того,
                     чтобыубедиться, что предложенные решения эффективней предыдущих. При необходимости вносятся дополнительные правки.
             </span>
         </div>
-        <ul class="analysis-list">
-            <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
-        <ul class="analysis-list ">
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
+        <div class="wrapper-analisis-item">
+            <ul class="analysis-list">
+                <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+            <ul class="analysis-list ">
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+        </div>
     </div>
     <img src="./images/big-info-blot-1.png" class="paroller complex-analysis-seo__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
 </section>
 <section class="complex-analysis complex-analysis-seo">
     <div class="container container-complex-analysis container-complex-analysis-seo">
-        <ul class="analysis-list">
-            <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
-        <ul class="analysis-list ">
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
-            <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
-        </ul>
+        <div class="wrapper-analisis-item ">
+            <ul class="analysis-list">
+                <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+            <ul class="analysis-list">
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
+                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
+            </ul>
+        </div>
         <div class="wrapper-analysis-title wrapper-analysis-title-seo">
             <span class="analysis-title section-title">Внешняя оптимизация</span>
-            <span class="analysis-text analysis-text-seo">На данном этапе проводятся работы по размещению информации о вашем сайте на внешних "трастовых" тематических ресурсов, с целью получения качественной ссылочной массы на сайт и увеличения целевого трафика.</span>
+            <span class="analysis-text analysis-text-seo section-text">На данном этапе проводятся работы по размещению информации о вашем сайте на внешних "трастовых" тематических ресурсов, с целью получения качественной ссылочной массы на сайт и увеличения целевого трафика.</span>
         </div>
     </div>
 </section>

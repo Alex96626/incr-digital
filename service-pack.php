@@ -27,9 +27,9 @@
                 </div>
                 <div class="wrapper-right">
                     <ul class="services-lists">
-                        <li class="services-items"><a href="branding_services.html" class="services-name">Брендинг</a></li>
-                        <li class="services-items"><a href="service-logo.html" class="services-name">Логотип</a></li>
-                        <li class="services-items"><a href="service-advertising.html" class="services-name">Рекламный креатив</a</li>
+                        <li class="services-items"><a href="branding_services.php" class="services-name">Брендинг</a></li>
+                        <li class="services-items"><a href="service-logo.php" class="services-name">Логотип</a></li>
+                        <li class="services-items"><a href="service-advertising.php" class="services-name">Рекламный креатив</a></li>
                         <li class="services-items "><a href="#" class="services-name">Ui / Ux дизайн</a></li>
                     </ul>
                     <div class="sml-info-service">

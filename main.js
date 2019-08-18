@@ -93,8 +93,6 @@ document.addEventListener('DOMContentLoaded', () => {
             arrows :true,
             prevArrow: $('.switch-back'),
             nextArrow: $('.switch-forward'),
-            // prevArrow : '<button class="switch switch-back"> < </button>',
-            // nextArrow : '<button class="switch switch-forward"> > </button>',
             responsive: [
 
             ]
@@ -110,18 +108,17 @@ document.addEventListener('DOMContentLoaded', () => {
             centerMode : true,
             initialSlide : 1,
             arrows :true,
-            // centerPadding: '100px',
             variableWidth : true,
+            prevArrow: $('.switch-back'),
+            nextArrow: $('.switch-forward'),
             responsive: [
-
-            
             {
                 breakpoint: 1921,
                 settings: 'unslick'
             },
 
             {
-                breakpoint: 1155,
+                breakpoint: 1201,
                 settings: 'slick'
                 
             },
@@ -129,7 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         $('.waterfall-bloks').slick({
-
             infinite: false,
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -157,13 +153,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         $('.wrapper-trust-us').slick({
 
-            infinite: false,
-            slidesToShow: 5,
+            infinite: true ,
+            // slidesToShow: 5,
             slidesToScroll: 1,
             centerMode : true,
             initialSlide : 1,
             arrows :true,
-            // centerPadding: '100px',
+            // centerPadding: '50px',
             variableWidth : true,
             prevArrow: $('.switch-back'),
             nextArrow: $('.switch-forward'),
@@ -172,6 +168,33 @@ document.addEventListener('DOMContentLoaded', () => {
             ]
 
         });
+
+        $('.wrapper-analisis-item').slick({
+            // infinite: false,
+            // slidesToShow: 1,
+            // slidesToScroll: 1,
+            // centerMode : true,
+            // initialSlide : 1,
+            arrows :false,
+            // centerPadding: '100px',
+            // variableWidth : true,
+            responsive: [
+
+            
+            {
+                breakpoint: 1921,
+                settings: 'unslick'
+            },
+
+            {
+                breakpoint: 701,
+                settings: 'slick'
+                
+            },
+        ]
+
+        });
+        
         
 
         

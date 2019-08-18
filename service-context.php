@@ -15,6 +15,7 @@
     </header>
     <section class="service-about service-context-about">
         <div class="container contaner-service-about contaner-service-context-about">
+            <img class="service-context-about-fon" src="images/service-context-fon.png">
             <div class="sml-info-service-text sml-info-service-context-text">
                 <div class="wrapper-sml-info-service">
                     <span class="sml-info-service-title">Контекстная реклама</span>

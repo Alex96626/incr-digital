@@ -27,9 +27,9 @@
                 </div>
                 <div class="wrapper-right">
                     <ul class="services-lists">
-                        <li class="services-items"><a href="service-pack.html" class="services-name">Упаковка</a></li>
-                        <li class="services-items"><a href="branding_services.html" class="services-name">Брендинг</a></li>
-                        <li class="services-items"><a href="service-advertising.html" class="services-name">Рекламный креатив</a</li>
+                        <li class="services-items"><a href="service-pack.php" class="services-name">Упаковка</a></li>
+                        <li class="services-items"><a href="branding_services.php" class="services-name">Брендинг</a></li>
+                        <li class="services-items"><a href="service-advertising.php" class="services-name">Рекламный креатив</a></li>
                         <li class="services-items "><a href="#" class="services-name">Ui / Ux дизайн</a></li>
                     </ul>
                     <div class="sml-info-service">
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </div>
-    <img src="./images/our-projects-blot-2.png" class="separoller rvice-about__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
+    <img src="./images/our-projects-blot-2.png" class="paroller rvice-about__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     </section>
     <section class="big-info-service">
         <div class="container container-big-info-service container-big-info-service-logo ">
@@ -127,18 +127,20 @@
                 <span class="analysis-sub-title">Ваш торговый знак должен быть актуальным</span>
                 <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
-            <ul class="analysis-list">
-                <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
-                <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
-                <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
-                <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
-            </ul>
-            <ul class="analysis-list ">
-                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
-                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
-                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
-                 <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
-            </ul>
+            <div class="wrapper-analisis-item">
+                <ul class="analysis-list">
+                    <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
+                    <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
+                    <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
+                    <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
+                </ul>
+                <ul class="analysis-list ">
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
+                </ul>
+            </div>
         </div>
     </section>
     <section class="logo-concept">

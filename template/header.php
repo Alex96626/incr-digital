@@ -31,6 +31,9 @@
         <a href="index.php" class="header-mobile-logo">
             <img src="./images/logo-small.png" class=" header-mobile-logo__img" alt="Increase - веб-агенство">
         </a>
+        <a href="tel:79780070306" class="header-mobile__phone header-mobile-actions__item">
+            <span class="sr-only">Позвонить по номеру: 79780070306</span>
+        </a>
     </section>
     <section class="mobile-menu ">
         <div class="mobile-menu-header">

@@ -14,6 +14,7 @@
 <img src="./images/free-audit-blot.png" class="paroller header__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
 </header>
 <section class="service-about service-smm-about">
+    <img class="service-smm-about-fon" src="images/smm-about-fon.png">
     <div class="container contaner-service-about contaner-service-smm-about">
         <div class="sml-info-service-text sml-info-service-smm-text">
             <div class="wrapper-sml-info-service">

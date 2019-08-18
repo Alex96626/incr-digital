@@ -63,7 +63,7 @@
     </div>
 </section>
 <section class="land-services-list">
-    <div class="container container-land-services-list">
+    <div class="container-land-services-list">
         <h3 class="land-services-list-title section-title">Чем мы можем вам помочь?</h3>
         <?php include('template/services.php') ?>
     </div>
