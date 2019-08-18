@@ -51,8 +51,8 @@
     <section class="pack-shape">
         <div class="container container-pack-shape">
             <div class="wrapper-pack-shape">
-                <h3 class="pack-shape-title">Упаковка формирует</h3>
-                <span class="pack-shape-sub-title">привильные ассоциаци у потребителя</span>
+                <h3 class="pack-shape-title section-title">Упаковка формирует</h3>
+                <span class="pack-shape-sub-title section-sub-title">привильные ассоциаци у потребителя</span>
                 <button class="show-cases show-cases-pack">Показать наши кейсы</button>
             </div>
             <img class="pack-shape-img" src="images/pack-shape-img.png">
@@ -64,17 +64,17 @@
             <span class="how-affect-text section-title">Как брендинг влияет на имидж компании:</span>
             <div class="wrapper-affect">
                 <div class="bad-affect">
-                    <span class="bad-affect-text">Устаревшая упаковка</span>
+                    <span class="bad-affect-text section-sub-title" >Устаревшая упаковка</span>
                     <ul class="bad-affect-list">
-                        <li class="bad-affect-item"><p>Вызывает положительные ассоциации</p><img src="images/branding-diagramm-1.png"></li>
-                        <li class="bad-affect-item"><p>Выделяется среди конкурентов</p><img src="images/branding-diagramm-2.png"></li>
+                        <li class="bad-affect-item"><p class="section-text">Вызывает положительные ассоциации</p><img src="images/branding-diagramm-1.png"></li>
+                        <li class="bad-affect-item"><p class="section-text">Выделяется среди конкурентов</p><img src="images/branding-diagramm-2.png"></li>
                     </ul>
                 </div>
                 <div class="good-affect">
-                    <span class="good-affect-text">Продуманная и современная упаковка</span>
+                    <span class="good-affect-text section-sub-title">Продуманная и современная упаковка</span>
                     <ul class="good-affect-list">
-                        <li class="good-affect-item"><p>Вызывает положительные ассоциации</p><img src="images/branding-diagramm-3.png"></li>
-                        <li class="good-affect-item"><p>Выделяется среди конкурентов</p><img src="images/branding-diagramm-4.png"></li>
+                        <li class="good-affect-item"><p class="section-text">Вызывает положительные ассоциации</p><img src="images/branding-diagramm-3.png"></li>
+                        <li class="good-affect-item"><p class="section-text">Выделяется среди конкурентов</p><img src="images/branding-diagramm-4.png"></li>
                     </ul>
                 </div>
             </div>  
@@ -84,13 +84,13 @@
         <div class="container container-dev-stage">
             <div class="wrapper-title">
                 <span class="dev-stage-title section-title">Процесс разработки упаковки проходит  в несколько этапов</span>
-                <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
+                <span class="dev-stage-sub-title section-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
             </div>
             <ul class="dev-stage-list">
-                <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Комплексный анализ</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text">Определение ценности</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text">Разработка упаковки</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text">Презентация клиенту</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Комплексный анализ</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Определение ценности</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text section-text">Разработка упаковки</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text section-text">Презентация клиенту</p></li>
             </ul>
         </div>
     </section>
@@ -98,8 +98,8 @@
         <div class="container container-complex-analysis">
              <div class="wrapper-analysis-title">
                 <span class="analysis-title section-title">Комплексный анализ</span>
-                <span class="analysis-sub-title">Мы изучаем целевую аудиторию товара</span>
-                <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                <span class="analysis-sub-title section-sub-title">Мы изучаем целевую аудиторию товара</span>
+                <span class="analysis-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
             <ul class="analysis-list analysis-list-pack ">
                 <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
@@ -119,7 +119,7 @@
         <div class="container container-mommyjob">
             <div class="wrapper-mommyjob">
                 <h3 class="mommyjob-title section-title">Три секунды</h3>
-                <span class="mommyjob-sub-title">Нужно в среднем покупателю,чтобы сформировать первое впечатление о продукте</span>
+                <span class="mommyjob-sub-title section-text">Нужно в среднем покупателю,чтобы сформировать первое впечатление о продукте</span>
                 <button class="mommyjob-bnt">проект MOMMYJOY</button>
             </div>
             <!-- <img class="mommyjob-img" src="images/mommyjob-img.png"> -->
@@ -131,7 +131,7 @@
         <div class="container container-present-client">
             <div class="wrapper-present-client">
                 <h3 class="present-client-title section-title">Презентация клиенту</h3>
-                <span class="present-client-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                <span class="present-client-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
             </div>
             <img class="present-client-img" src="images/service-pack-big-img.png">
 

@@ -25,10 +25,17 @@
                 </div>
                 <div class="wrapper-right">
                     <ul class="services-lists">
+<<<<<<< HEAD
                         <li class="services-items"><a href="branding_services.php" class="services-name">Брендинг</a></li>
                         <li class="services-items"><a href="service-logo.php" class="services-name">Логотип</a></li>
                         <li class="services-items"><a href="#" class="services-name">UI/UX design</a></li>
                         <li class="services-items "><a href="service-pack.php" class="services-name">Упаковка</a></li>
+=======
+                        <li class="services-items"><a href="branding_services.html" class="services-name">Брендинг</a></li>
+                        <li class="services-items"><a href="service-logo.html" class="services-name">Логотип</a></li>
+                        <li class="services-items"><a href="#" class="services-name">UI/UX design</a></li>
+                        <li class="services-items "><a href="service-pack.html" class="services-name">Упаковка</a></li>
+>>>>>>> 2226877733ac538659a5bd0507ceed725938b0dc
                     </ul>
                     <div class="sml-info-service">
                             <div class="sml-info-service-text">

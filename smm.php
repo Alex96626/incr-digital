@@ -18,9 +18,9 @@
     <div class="container contaner-service-about contaner-service-smm-about">
         <div class="sml-info-service-text sml-info-service-smm-text">
             <div class="wrapper-sml-info-service">
-                <span class="sml-info-service-title sml-info-service-smm-title">Social Media Marketing</span>
-                <span class="sml-info-service-slogan sml-info-service-context-slogan">Формирование лояльности в социальных медиа и дополнительные продажи</span>
-                <div class="sml-info-service-we-top sml-info-service-context-we-top">Кто владеет информацией — владеет миром, а кто владеет свежими данными в digital — владеет рынком</div>
+                <span class="sml-info-service-title sml-info-service-smm-title ">Social Media Marketing</span>
+                <span class="sml-info-service-slogan sml-info-service-context-slogan section-titke">Формирование лояльности в социальных медиа и дополнительные продажи</span>
+                <div class="sml-info-service-we-top sml-info-service-context-we-top section-text">Кто владеет информацией — владеет миром, а кто владеет свежими данными в digital — владеет рынком</div>
             </div>
             <button class="cost">Подробнее</button>
         </div>
@@ -31,17 +31,17 @@
         <div class="container containere-what-service containere-what-service-smm">
             <img class="what-service-smm-img" src="images/what-service-smm-img.png">
             <div class="what-service-content">
-                <h3 class="what-service-title">Что такое SMM?</h3>
-                <span class="what-service-text"><b>Social Media Marketing</b> - это комплекс инструментов. позволяющий найти и привлчечь внимание целевой аудитории.</span>
-                <span class="what-service-text">Основная цель SMM повысить лояльность бренда перед вашей аудиторией. что неизменно повысит узнаваемость и принесет дополнительные продажи.</span> 
-                <span class="what-service-text">Построим стратегию. которая позволит:</span>
+                <h3 class="what-service-title section-title">Что такое SMM?</h3>
+                <span class="what-service-text section-text"><b>Social Media Marketing</b> - это комплекс инструментов. позволяющий найти и привлчечь внимание целевой аудитории.</span>
+                <span class="what-service-text section-text">Основная цель SMM повысить лояльность бренда перед вашей аудиторией. что неизменно повысит узнаваемость и принесет дополнительные продажи.</span> 
+                <span class="what-service-text section-text">Построим стратегию. которая позволит:</span>
                 <ul class="what-service-text-list">
-                    <li class="what-service-text what-service-text-item">Повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда</li>
-                    <li class="what-service-text what-service-text-item">проинформировать аудиторию</li>
-                    <li class="what-service-text what-service-text-item">провести анализ обратной связи от пользоателей</li>
-                    <li class="what-service-text what-service-text-item">отработать негативные отзывы и собрать положительные</li>
+                    <li class="what-service-text what-service-text-item section-text">Повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда</li>
+                    <li class="what-service-text what-service-text-item section-text">проинформировать аудиторию</li>
+                    <li class="what-service-text what-service-text-item section-text">провести анализ обратной связи от пользоателей</li>
+                    <li class="what-service-text what-service-text-item section-text">отработать негативные отзывы и собрать положительные</li>
                 </ul>
-                <span class="what-service-text">Для продвижения бренда используем такие площадки, как
+                <span class="what-service-text section-text">Для продвижения бренда используем такие площадки, как
                      <a href="#" class="what-service-text-link">ВКонтакте</a>
                      <a href="#" class="what-service-text-link">Facebook</a>
                      <a href="#" class="what-service-text-link">instagram</a>
@@ -51,7 +51,7 @@
                      <a href="#" class="what-service-text-link">YouTube</a>
                      и др.
                 </span>
-                <span class="what-service-text">Секрет нашего успеха в индивидуальном подходе</span>
+                <span class="what-service-text section-text">Секрет нашего успеха в индивидуальном подходе</span>
             </div>
         </div>
     <img src="./images/what-service--blot-1.png" class="paroller what-service__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
@@ -59,8 +59,8 @@
 <section class="why-seo">
     <!-- <img src="images/left-fon.png" class="why-seo-fon"> -->
     <div class="container container-why-seo">
-        <h3 class="why-seo-title">Почему Вашему бизнесу нужен SMM?</h3>
-        <span class="why-seo-sub-title">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
+        <h3 class="why-seo-title section-title">Почему Вашему бизнесу нужен SMM?</h3>
+        <span class="why-seo-sub-title section-text">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
         <div class="why-seo-list">
             <div class="why-seo-item why-smm-item">
                 <img src="images/why-seo-img-1.png" class="why-seo-item-img">
@@ -78,10 +78,10 @@
     <img src="./images/big-info-blot-1.png" class="paroller how-affect__paroller-2" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <img src="./images/our-projects-blot-1.png" class="paroller how-affect__paroller-3" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-how-affect">
-        <span class="how-affect-text">Как стратегическое присутствие Вашего бизнеса в социальных медиа влияет на позиционирование Вашего бизнеса</span>
+        <span class="how-affect-text section-title">Как стратегическое присутствие Вашего бизнеса в социальных медиа влияет на позиционирование Вашего бизнеса</span>
         <div class="wrapper-affect">
             <div class="bad-affect">
-                <span class="bad-affect-text">Нет в соцмедиа</span>
+                <span class="bad-affect-text section-sub-title">Нет в соцмедиа</span>
                 <ul class="bad-affect-list">
                     <li class="bad-affect-item"><p>Узнаваемость бренда</p><img src="images/branding-diagramm-1.png"></li>
                     <li class="bad-affect-item"><p>Уровень лояльности аудитории бренда</p><img src="images/branding-diagramm-2.png"></li>
@@ -89,7 +89,7 @@
                 </ul>
             </div>
             <div class="good-affect">
-                <span class="good-affect-text">Бренд продвигается с соцмедиа</span>
+                <span class="good-affect-text section-sub-title">Бренд продвигается с соцмедиа</span>
                 <ul class="good-affect-list">
                     <li class="good-affect-item"><p>Узнаваемость бренда</p><img src="images/branding-diagramm-3.png"></li>
                     <li class="good-affect-item"><p>Уровень лояльности аудитории бренда</p><img src="images/branding-diagramm-4.png"></li>
@@ -102,10 +102,10 @@
 <section class="dev-stage-smm">
     <div class="container container-dev-stage">
         <div class="wrapper-title">
-            <span class="dev-stage-title dev-stage-title-seo">Как мы работаем</span>
+            <span class="dev-stage-title dev-stage-title-seo section-title">Как мы работаем</span>
         </div>
         <ul class="dev-stage-list dev-stage-list-seo">
-            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">1</span><p class="dev-stage-text">Технический анализ</p>
+            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Технический анализ</p>
                 <span class="dev-stage-item-text">повысить рост лояльности текущих и потенциальных клиентов
                     сформирование имиджа бренда
                     проинформировать аудиторию
@@ -113,7 +113,7 @@
                     отработать негативные отзывы 
                 </span>
             </li>
-            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">2</span><p class="dev-stage-text">Анализ юзабилити</p>
+            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Анализ юзабилити</p>
                 <span class="dev-stage-item-text">повысить рост лояльности текущих и потенциальных клиентов
                     сформирование имиджа бренда
                     проинформировать аудиторию
@@ -121,7 +121,7 @@
                     отработать негативные отзывы 
                 </span>
             </li>
-            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">3</span><p class="dev-stage-text">Внутренняя оптимизация и А\В - тестирование</p>
+            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">3</span><p class="dev-stage-text section-text">Внутренняя оптимизация и А\В - тестирование</p>
                 <span class="dev-stage-item-text">повысить рост лояльности текущих и потенциальных клиентов
                     сформирование имиджа бренда
                     проинформировать аудиторию
@@ -129,7 +129,7 @@
                     отработать негативные отзывы 
                 </span>
             </li>
-            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">4</span><p class="dev-stage-text">Внешняя оптимизация</p>
+            <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">4</span><p class="dev-stage-text section-text">Внешняя оптимизация</p>
                 <span class="dev-stage-item-text">повысить рост лояльности текущих и потенциальных клиентов
                     сформирование имиджа бренда
                     проинформировать аудиторию
@@ -221,15 +221,15 @@
         <div class="wrapper-result-client">
             <img class="result-client-img" src="images/result-client-img.png">
             <div class="wrapper-result-client-content">
-                <h4 class="wrapper-result-client-title">Гарантировано</h4>
+                <h4 class="wrapper-result-client-title section-sub-title">Гарантировано</h4>
                 <ul class="warranty-list result-client-list">
-                    <li class="warranty-item"><p class="warranty-list-text">
+                    <li class="warranty-item"><p class="warranty-list-text section-text">
                         качественный подбор семантического ядра и грамотные настройки, которые позволяют даже молодым сайтам конкурировать с более известными представителями той же ниши.
                     </p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">прирост целевых посещений из поиская "Яндекса", которые частично конвертируются в продажи</p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">создание индивидуальной рекламной стратегии. учитывающей особенности конкретного проекта</p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">рациональное использование бюджета</p></li>
-                    <li class="warranty-item"><p class="warranty-list-text">эффективное ведение рекламной компании</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text section-text">прирост целевых посещений из поиская "Яндекса", которые частично конвертируются в продажи</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text section-text">создание индивидуальной рекламной стратегии. учитывающей особенности конкретного проекта</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text section-text">рациональное использование бюджета</p></li>
+                    <li class="warranty-item"><p class="warranty-list-text ">эффективное ведение рекламной компании</p></li>
                 </ul>
             </div>
         </div>

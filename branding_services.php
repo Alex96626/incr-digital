@@ -53,7 +53,7 @@
                 <div class="services-this">
                     <div class="wrapper-service-this">
                         <span class="service-this-text">Брендинг - это</span>
-                        <span class="service-this-definition">Формирование образа в глазах портребителя</span>
+                        <span class="service-this-definition section-sub-title">Формирование образа в глазах портребителя</span>
                     </div>
                     <button class="show-cases">Показать наши кейсы</button>
                 </div>
@@ -61,11 +61,11 @@
                 <div class="service-why">
                     <span class="service-why-text">Брендинг нужен:</span>
                     <ul class="service-why-list">
-                        <li class="service-why-items"><p class="service-why-items-text">Финансы</p></li>
-                        <li class="service-why-items"><p class="service-why-items-text">Услуги</p></li>
-                        <li class="service-why-items"><p class="service-why-items-text">Путишествия</p></li>
-                        <li class="service-why-items"><p class="service-why-items-text">Питание и продукты</p></li>
-                        <li class="service-why-items"><p class="service-why-items-text">Красос и здоровье</p></li>
+                        <li class="service-why-items"><p class="service-why-items-text section-text">Финансы</p></li>
+                        <li class="service-why-items"><p class="service-why-items-text section-text">Услуги</p></li>
+                        <li class="service-why-items"><p class="service-why-items-text section-text">Путишествия</p></li>
+                        <li class="service-why-items"><p class="service-why-items-text section-text">Питание и продукты</p></li>
+                        <li class="service-why-items"><p class="service-why-items-text section-text">Красос и здоровье</p></li>
                     </ul>
                 </div>
             </div>
@@ -78,15 +78,15 @@
                     <div class="bad-affect">
                         <span class="bad-affect-text">Слабый бренд</span>
                         <ul class="bad-affect-list">
-                            <li class="bad-affect-item"><p>Привлечение внимания</p><img src="images/branding-diagramm-1.png"></li>
-                            <li class="bad-affect-item"><p>Доверие, лояльность</p><img src="images/branding-diagramm-2.png"></li>
+                            <li class="bad-affect-item"><p class="section-text">Привлечение внимания</p><img src="images/branding-diagramm-1.png"></li>
+                            <li class="bad-affect-item"><p class="section-text">Доверие, лояльность</p><img src="images/branding-diagramm-2.png"></li>
                         </ul>
                     </div>
                     <div class="good-affect">
                         <span class="good-affect-text">Сильный бренд</span>
                         <ul class="good-affect-list">
-                            <li class="good-affect-item"><p>Привлечение внимания</p><img src="images/branding-diagramm-3.png"></li>
-                            <li class="good-affect-item"><p>Доверие, лояльность</p><img src="images/branding-diagramm-4.png"></li>
+                            <li class="good-affect-item"><p class="section-text">Привлечение внимания</p><img src="images/branding-diagramm-3.png"></li>
+                            <li class="good-affect-item"><p class="section-text">Доверие, лояльность</p><img src="images/branding-diagramm-4.png"></li>
                         </ul>
                     </div>
                 </div>
@@ -96,17 +96,17 @@
             <div class="container container-dev-stage">
                 <div class="wrapper-title">
                     <span class="dev-stage-title section-title">Этапы разработки вашего бренда</span>
-                    <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
+                    <span class="dev-stage-sub-title section-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
                 </div>
                 <ul class="dev-stage-list">
 
                 <!-- <button class="switch switch-back"> < </button>
                 <button class="switch switch-forward"> > </button> -->
 
-                    <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Комплексный анализ</p></li>
-                    <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text">Составляющие брендинга</p></li>
-                    <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text">Разработка бренда</p></li>
-                    <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text">Презентация клиенту</p></li>
+                    <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Комплексный анализ</p></li>
+                    <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Составляющие брендинга</p></li>
+                    <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text section-text">Разработка бренда</p></li>
+                    <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text section-text">Презентация клиенту</p></li>
                 </ul>
             </div>
             <img src="./images/dev-stage-blot-1.png" class="paroller dev-stage__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
@@ -115,12 +115,12 @@
             <div class="container container-complex-analysis">
                 <div class="wrapper-analysis-title">
                     <span class="analysis-title section-title">Комплексный анализ</span>
-                    <span class="analysis-sub-title">Ваш торговый знак должен быть актуальным</span>
-                    <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                    <span class="analysis-sub-title sesction-sub-title">Ваш торговый знак должен быть актуальным</span>
+                    <span class="analysis-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
                 <div class="wrapper-analysis-list">
                     <ul class="analysis-list">
-                        <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
+                        <li class="analysis-item"><p class="analysis-item-text ">Портрет клиента</p></li>
                         <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
                         <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
                         <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
@@ -137,19 +137,19 @@
         <section class="components-branding">
             <div class="container container-comp-branding">
                 <span class="comp-branding-title section-title">Состовляющие брендинга</span>
-                <span class="comp-branding-sub-title">положительный отклик <br> у потребителя, делает товар более узнаваемым</span>
+                <span class="comp-branding-sub-title section-sub-title">положительный отклик <br> у потребителя, делает товар более узнаваемым</span>
                 <ul class="comp-branding-list">
-                    <li class="comp-branding-items"><p class="comp-branding-items-text">Нейминг и логотип</p></li>
-                    <li class="comp-branding-items"><p class="comp-branding-items-text">Упаковка и фирменный стиль</p></li>
-                    <li class="comp-branding-items"><p class="comp-branding-items-text">Веб-сайт и маркетинг-кит</p></li>
-                    <li class="comp-branding-items"><p class="comp-branding-items-text">Брендбук и гайдлайн</p></li>
+                    <li class="comp-branding-items"><p class="comp-branding-items-text section-text">Нейминг и логотип</p></li>
+                    <li class="comp-branding-items"><p class="comp-branding-items-text section-text">Упаковка и фирменный стиль</p></li>
+                    <li class="comp-branding-items"><p class="comp-branding-items-text section-text">Веб-сайт и маркетинг-кит</p></li>
+                    <li class="comp-branding-items"><p class="comp-branding-items-text section-text">Брендбук и гайдлайн</p></li>
                 </ul>
             </div>
         </section>
         <section class="brand-dev">
             <div class="container container-brand-dev">
                 <span class="brand-dev-title section-title">Разработка бренда</span>
-                <span class="brand-dev-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                <span class="brand-dev-sub-title section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 <!-- <button class="aspins">проект aspins</button> -->
                 <img class="brand-dev-img-1" src="images/brand-dev-fon-4.png">
                 <!-- <img class="brand-dev-img-2" src="images/brand-dev-fon-2.png"> -->
@@ -164,7 +164,7 @@
                         <img class="show-client-item-img" src="images/show-client-item-1.png">
                         <div class="wrapper-show-client-content">
                             <span class="show-client-item-title">Презентация</span>
-                            <span class="show-client-item-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                            <span class="show-client-item-sub-title section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                             <ul class="show-clietn-list">
                                 <li class="show-client-sub-items"><p>Философия и концепция</p></li>
                                 <li class="show-client-sub-items"><p>Преимущества бренда</p></li>
@@ -176,7 +176,7 @@
                         <img class="show-client-item-img" src="images/show-client-item-2.png">
                         <div class="wrapper-show-client-content">
                             <span class="show-client-item-title">Исходные файлы</span>
-                            <span class="show-client-item-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                            <span class="show-client-item-sub-title section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                             <ul class="show-clietn-list">
                                 <li class="show-client-sub-items"><p>Философия и концепция</p></li>
                                 <li class="show-client-sub-items"><p>Преимущества бренда</p></li>
@@ -188,7 +188,7 @@
                         <img class="show-client-item-img" src="images/show-client-item-3.png">
                         <div class="wrapper-show-client-content">
                             <span class="show-client-item-title">Поддержка команды</span>
-                            <span class="show-client-item-sub-title">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                            <span class="show-client-item-sub-title section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                             <ul class="show-clietn-list">
                                 <li class="show-client-sub-items"><p>Философия и концепция</p></li>
                                 <li class="show-client-sub-items"><p>Преимущества бренда</p></li>

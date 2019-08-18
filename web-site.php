@@ -18,8 +18,8 @@
         <div class="container container-small-info-service container-small-info-service-web-site">
             <div class="small-info-service-about">
                 <h3 class="smal-info-service-title section-title">Веб-сайты</h3>
-                <span class="small-info-service-cub-title">Digital-сервис для вашего бизнесса</span>
-                <span class="small-info-service-text">Простые и эффективные решения  для сложных систем</span>
+                <span class="small-info-service-cub-title section-sub-title">Digital-сервис для вашего бизнесса</span>
+                <span class="small-info-service-text section-text">Простые и эффективные решения  для сложных систем</span>
             </div>
             <img class="small-info-service-img small-info-service-web-site-img" src="images/small-info-service-fon.png">
         </div>
@@ -51,27 +51,27 @@
             <span class="how-affect-text section-title">Как брендинг влияет на имидж компании:</span>
             <div class="wrapper-affect wrapper-affect-3col ">
                 <div class="bad-affect">
-                    <span class="bad-affect-text">Отсуствие веб-сайтад</span>
+                    <span class="bad-affect-text section-sub-title">Отсуствие веб-сайта</span>
                     <ul class="bad-affect-list">
-                        <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png" ></li> 
-                        <li class="bad-affect-item"><p>Доверие клиентов</p><img src="images/branding-diagramm-1.png" ></li>
-                        <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
+                        <li class="bad-affect-item"><p class="section-text">Идентификация компании</p><img src="images/branding-diagramm-2.png" ></li> 
+                        <li class="bad-affect-item"><p class="section-text">Доверие клиентов</p><img src="images/branding-diagramm-1.png" ></li>
+                        <li class="bad-affect-item"><p class="section-text">Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
                     </ul>
                 </div>
                 <div class="bad-affect">
-                        <span class="bad-affect-text">Слабый бренд</span>
+                        <span class="bad-affect-text section-sub-title">Слабый бренд</span>
                         <ul class="bad-affect-list">
-                            <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png" ></li> 
-                            <li class="bad-affect-item"><p>Доверие клиентов</p><img src="images/branding-diagramm-1.png" ></li>
-                            <li class="bad-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
+                            <li class="bad-affect-item"><p class="section-text">Идентификация компании</p><img src="images/branding-diagramm-2.png" ></li> 
+                            <li class="bad-affect-item"><p class="section-text">Доверие клиентов</p><img src="images/branding-diagramm-1.png" ></li>
+                            <li class="bad-affect-item"><p class="section-text">Идентификация компании</p><img src="images/branding-diagramm-2.png"></li>
                         </ul>
                     </div>
                 <div class="good-affect good-affect-3col">
-                    <span class="good-affect-text">Сильный бренд</span>
+                    <span class="good-affect-text section-sub-title">Сильный бренд</span>
                     <ul class="good-affect-list">
-                        <li class="good-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-3.png"></li>
-                        <li class="good-affect-item"><p>Доверие клиентов</p><img src="images/branding-diagramm-4.png"></li>
-                        <li class="good-affect-item"><p>Идентификация компании</p><img src="images/branding-diagramm-3.png"></li>
+                        <li class="good-affect-item"><p class="section-text">Идентификация компании</p><img src="images/branding-diagramm-3.png"></li>
+                        <li class="good-affect-item"><p class="section-text">Доверие клиентов</p><img src="images/branding-diagramm-4.png"></li>
+                        <li class="good-affect-item"><p class="section-text">Идентификация компании</p><img src="images/branding-diagramm-3.png"></li>
                     </ul>
                 </div>
             </div>
@@ -123,13 +123,13 @@
         <div class="container container-dev-stage">
             <div class="wrapper-title">
                 <span class="dev-stage-title section-title">Мы внимательно подходим к задаче запуска сайта</span>
-                <span class="dev-stage-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
+                <span class="dev-stage-sub-title section-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
             </div>
             <ul class="dev-stage-list">
-                <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Комплексный анализ</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text">Проектирование</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text">Разработка сайта</p></li>
-                <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text">Запуск сайта</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Комплексный анализ</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Проектирование</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text section-text">Разработка сайта</p></li>
+                <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text section-text">Запуск сайта</p></li>
             </ul>
         </div>
         <img src="./images/dev-stage-blot-1.png" class="paroller dev-stage__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
@@ -138,8 +138,8 @@
         <div class="container container-complex-analysis">
             <div class="wrapper-analysis-title">
                 <span class="analysis-title section-title">Комплексный анализ</span>
-                <span class="analysis-sub-title">Мы изучаем целевую аудиторию товара</span>
-                <span class="analysis-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
+                <span class="analysis-sub-title section-sub-title">Мы изучаем целевую аудиторию товара</span>
+                <span class="analysis-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
             <ul class="analysis-list">
                 <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
@@ -160,13 +160,13 @@
         <div class="container container-structure-design">
             <div class="wrapper-structure-design">
                 <h3 class="structure-design-title section-title">Проектирование структуры</h3>
-                <span class="structure-design-sub-title">Мы учитываем потребности посетителей, проектируем все страницы и блоки сайта на основе контента клиента.</span>
+                <span class="structure-design-sub-title section-sub-title">Мы учитываем потребности посетителей, проектируем все страницы и блоки сайта на основе контента клиента.</span>
                 <ul class="structure-design-work-list">
-                    <li class="structure-design-work-item"><p class="structure-design-work-text">Собираем информацио от клиента<p></li>
-                    <li class="structure-design-work-item"><p class="structure-design-work-text">Информационное наполнение страниц<p></li>
-                    <li class="structure-design-work-item"><p class="structure-design-work-text">Разработка структуры сайта<p></li>
-                    <li class="structure-design-work-item"><p class="structure-design-work-text">Схематическое отображение содержимого<p></li>
-                    <li class="structure-design-work-item"><p class="structure-design-work-text">Интеративный онйлан-протатип для текста<p></li>           
+                    <li class="structure-design-work-item"><p class="structure-design-work-text section-text">Собираем информацио от клиента<p></li>
+                    <li class="structure-design-work-item"><p class="structure-design-work-text section-text">Информационное наполнение страниц<p></li>
+                    <li class="structure-design-work-item"><p class="structure-design-work-text section-text">Разработка структуры сайта<p></li>
+                    <li class="structure-design-work-item"><p class="structure-design-work-text section-text">Схематическое отображение содержимого<p></li>
+                    <li class="structure-design-work-item"><p class="structure-design-work-text section-text">Интеративный онйлан-протатип для текста<p></li>           
                 </ul>
             </div>  
             <img class="structure-design-img" src="images/structure-design-fon.png">
@@ -175,7 +175,7 @@
     <section class="work-design-site">
         <div class="container container-work-design-site">
             <div class="wrapper-work-design-site">
-                <h3 class="work-design-site-title section-title" >Затем мы делаем дизайн сайта</h3>
+                <h3 class="work-design-site-title section-title">Затем мы делаем дизайн сайта</h3>
                 <img class="work-design-site-small-img" src="images/work-design-site-small-img.png">
                 <button class="progect-factory">проект Factory</button>
             </div>
@@ -186,7 +186,7 @@
         <div class="container container-mob-adapt">
             <div class="wrapper-mob-adart">
                 <h3 class="mob-adapt-titel section-title">Адаптация под мобильные устройства</h3>
-                <span class="mob-adapt-sub-title">Все наши сайты адаптированы под использование на мобильных и планшетных устройствах</span>
+                <span class="mob-adapt-sub-title section-sub-title">Все наши сайты адаптированы под использование на мобильных и планшетных устройствах</span>
             </div>
             <img class="mob-adapt-img" src="images/mob-adapt-img.png">
         </div>
@@ -196,7 +196,7 @@
         <div class="container container-dev-site">
             <div class="wrapper-dev-site">
                 <h3 class="dev-site-title section-title">Разработка сайта и подготовка к запуску</h3>
-                <span class="dev-site-sub-title">Мы учитываем потребности посетителей, проектируем все страницы и блоки сайта на основе контента клиента.</span>
+                <span class="dev-site-sub-title section-sub-title">Мы учитываем потребности посетителей, проектируем все страницы и блоки сайта на основе контента клиента.</span>
             </div>
             <img class="dev-site-img" src="images/dev-site-img.png">
         </div>
@@ -207,12 +207,12 @@
             <img class="run-site-img" src="images/run-site-img.png">
             <div class="wrapper-run-site">
                 <h3 class="run-site-title section-title">Запуск сайта</h3>
-                <span class="run-site-sub-title">Все наши сайты адаптированы под использование на мобильных и планшетных устройствах</span>
+                <span class="run-site-sub-title section-sub-title">Все наши сайты адаптированы под использование на мобильных и планшетных устройствах</span>
                 <ul class="good-site-list">
-                    <li class="good-site-item"><p class="good-site-text">Сайт наполнен контентом</p></li>
-                    <li class="good-site-item"><p class="good-site-text">Сайт быстро загружается</p></li>
-                    <li class="good-site-item"><p class="good-site-text">Отображается на увсех устройства корректно</p></li>
-                    <li class="good-site-item"><p class="good-site-text">На сайте работает отправка формы для отбратной связи</p></li>
+                    <li class="good-site-item"><p class="good-site-text section-text">Сайт наполнен контентом</p></li>
+                    <li class="good-site-item"><p class="good-site-text section-text">Сайт быстро загружается</p></li>
+                    <li class="good-site-item"><p class="good-site-text section-text">Отображается на увсех устройства корректно</p></li>
+                    <li class="good-site-item"><p class="good-site-text section-text">На сайте работает отправка формы для отбратной связи</p></li>
                 </ul>
             </div>
         </div>  

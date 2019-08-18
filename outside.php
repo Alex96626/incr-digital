@@ -16,26 +16,26 @@
 <section class="outside">
     <div class="container container-outside">
         <h3 class="outside-title section-title">Продвижение</h3>
-        <span class="outside-sub-title">Расширь границы своего бизнеса</span>
+        <span class="outside-sub-title section-sub0title">Расширь границы своего бизнеса</span>
         <div class="outside-list">
             <div class="outside-item">
                 <div class="wrapper-outside-item">
                     <h4 class="outside-item-title section-title">SEO</h4>
-                    <span class="outside-item-sub-title">Выводим сайт на первые позиции органической выдачи</span>
+                    <span class="outside-item-sub-title section-text">Выводим сайт на первые позиции органической выдачи</span>
                 </div>
                 <button class=" cost-outside">Подробнее</button>
             </div>
             <div class="outside-item">
                 <div class="wrapper-outside-item">
                     <h4 class="outside-item-title section-title">SMM</h4>
-                    <span class="outside-item-sub-title">Создаем, ведем и поддерживаем присутствие вашего бренда в социальных сетях</span>
+                    <span class="outside-item-sub-title section-text">Создаем, ведем и поддерживаем присутствие вашего бренда в социальных сетях</span>
                 </div>
                 <button class=" cost-outside">Подробнее</button>
             </div>
             <div class="outside-item">
                 <div class="wrapper-outside-item">
                     <h4 class="outside-item-title section-title">Контекстная реклама</h4>
-                    <span class="outside-item-sub-title">Быстро и агрессивно приводим новых клиентов на сайт</span>
+                    <span class="outside-item-sub-title section-text">Быстро и агрессивно приводим новых клиентов на сайт</span>
                 </div>
                 <button class=" cost-outside">Подробнее</button>
             </div>

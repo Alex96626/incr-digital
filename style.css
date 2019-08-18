@@ -6022,7 +6022,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .section-sub-title {
-        font-size: 27px !important;
+        font-size: 25px !important;
     }
 
     .section-text {
@@ -6207,6 +6207,7 @@ color: rgba(29, 15, 28, 255);
     .analysis-list {
         flex-direction: column;
         height: 300px;
+        margin-top: 25px;
     }
     
     /* .analysis-item {
@@ -6298,7 +6299,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .section-sub-title {
-        font-size: 26px !important;
+        font-size: 24px !important;
     }
 
     .section-text {
@@ -7170,6 +7171,10 @@ color: rgba(29, 15, 28, 255);
     
     .contaoner-final-work-logo {
         padding-top: 40px;
+    }
+
+    .wrapper-logo-concept-text {
+        margin-left: 0;
     }
 
 }

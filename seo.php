@@ -28,9 +28,9 @@
     <div class="container containere-what-service">
         <div class="what-service-content what-service-seo-content">
             <h3 class="what-service-title section-title">Что такое SEO?</h3>
-            <span class="what-service-text what-service-seo-text">SEO - это комплекс действий. выводящих ваш сайт в топ органической выдачи поисковых систем</span>
-            <span class="what-service-text what-service-seo-text">Органическая выдача - та часть выдачи поисковых систем, которая является не рекламной, а естественной, то есть выводится поисковой машиной в соответствии с релевантностью контента по запросу пользователя</span>
-            <span class="what-service-text what-service-seo-text">На данном этапе развития поисковых систем существует более 500 факторов учитываемых, например Яндексом. при ранжировании сайтов в выдаче</span>
+            <span class="what-service-text what-service-seo-text section-text">SEO - это комплекс действий. выводящих ваш сайт в топ органической выдачи поисковых систем</span>
+            <span class="what-service-text what-service-seo-text section-text">Органическая выдача - та часть выдачи поисковых систем, которая является не рекламной, а естественной, то есть выводится поисковой машиной в соответствии с релевантностью контента по запросу пользователя</span>
+            <span class="what-service-text what-service-seo-text section-text">На данном этапе развития поисковых систем существует более 500 факторов учитываемых, например Яндексом. при ранжировании сайтов в выдаче</span>
         </div>
         <img class="what-service-img what-service-seo-img" src="images/what-service-img-2.png">
     </div>
@@ -42,10 +42,10 @@
         <div class="what-service-content">
             <h3 class="what-service-title section-title">Почему Вашему бизнесу нужен SEO?</h3>
             <ul class="what-service-content-list">
-                <li class="what-service-content-item"><p class="what-service-content-text">Улучшает эффективность сайта</p></li>
-                <li class="what-service-content-item"><p class="what-service-content-text">Повышает конверсию сайта за счет усовершенствования поведенческого фактора</p></li>
-                <li class="what-service-content-item"><p class="what-service-content-text">Выводит сайт вашего бизнеса в топ Хорошее месторасположение привлекает гараздо болшее число посетителей. На сайты, расположенные в первых десяти позициях (ТОП-10, т.е первая страница выдачи), обратят внимаение более 95-ти (!) процентов пользователей. Если же поисковая система выдает сайт фирмы на четвертой странице и дальше. то менее чем у 2-ух процентов пользователей хватит терпения долистать до это страницы</p></li>
-                <li class="what-service-content-item"><p class="what-service-content-text">Перспективней контекстной рекламы</p></li>
+                <li class="what-service-content-item"><p class="what-service-content-text section-text">Улучшает эффективность сайта</p></li>
+                <li class="what-service-content-item"><p class="what-service-content-text section-text">Повышает конверсию сайта за счет усовершенствования поведенческого фактора</p></li>
+                <li class="what-service-content-item"><p class="what-service-content-text section-text">Выводит сайт вашего бизнеса в топ Хорошее месторасположение привлекает гараздо болшее число посетителей. На сайты, расположенные в первых десяти позициях (ТОП-10, т.е первая страница выдачи), обратят внимаение более 95-ти (!) процентов пользователей. Если же поисковая система выдает сайт фирмы на четвертой странице и дальше. то менее чем у 2-ух процентов пользователей хватит терпения долистать до это страницы</p></li>
+                <li class="what-service-content-item"><p class="what-service-content-text section-text">Перспективней контекстной рекламы</p></li>
             </ul>
         </div>
     </div>
@@ -59,17 +59,17 @@
             <div class="bad-affect">
                 <span class="bad-affect-text">Отсуствие SEO</span>
                 <ul class="bad-affect-list">
-                    <li class="bad-affect-item"><p>Ваш сайт в топе выдачи</p><img src="images/branding-diagramm-2.png" ></li> 
-                    <li class="bad-affect-item"><p>Переход целевой аудитории  на сайт</p><img src="images/branding-diagramm-1.png" ></li>
-                    <li class="bad-affect-item"><p>Доверие к Вшей компании</p><img src="images/branding-diagramm-2.png"></li>
+                    <li class="bad-affect-item"><p class="section-text">Ваш сайт в топе выдачи</p><img src="images/branding-diagramm-2.png" ></li> 
+                    <li class="bad-affect-item"><p class="section-text">Переход целевой аудитории  на сайт</p><img src="images/branding-diagramm-1.png" ></li>
+                    <li class="bad-affect-item"><p class="section-text">Доверие к Вшей компании</p><img src="images/branding-diagramm-2.png"></li>
                 </ul>
             </div>
             <div class="good-affect">
                 <span class="good-affect-text">Сайт продвигается по SEO</span>
                 <ul class="good-affect-list">
-                    <li class="good-affect-item"><p>Переход целевой аудитории на сайт</p><img src="images/branding-diagramm-3.png"></li>
-                    <li class="good-affect-item"><p>Переход целевой аудитории на сайт</p><img src="images/branding-diagramm-4.png"></li>
-                    <li class="good-affect-item"><p>Доверие к Вшей компании</p><img src="images/branding-diagramm-3.png"></li>
+                    <li class="good-affect-item"><p class="section-text">Переход целевой аудитории на сайт</p><img src="images/branding-diagramm-3.png"></li>
+                    <li class="good-affect-item"><p class="section-text">Переход целевой аудитории на сайт</p><img src="images/branding-diagramm-4.png"></li>
+                    <li class="good-affect-item"><p class="section-text">Доверие к Вшей компании</p><img src="images/branding-diagramm-3.png"></li>
                 </ul>
             </div>
         </div>
@@ -82,10 +82,10 @@
             <span class="dev-stage-sub-title section-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
         </div>
         <ul class="dev-stage-list">
-            <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text">Технический анализ</p></li>
-            <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text">Анализ юзабилити </p></li>
-            <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text">Внутренняя оптимизация и А\В - тестирование</p></li>
-            <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text">Внешняя оптимизация</p></li>
+            <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Технический анализ</p></li>
+            <li class="dev-stage-items"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Анализ юзабилити </p></li>
+            <li class="dev-stage-items"><span class="number-dev-stage">3</span><p class="dev-stage-text section-text">Внутренняя оптимизация и А\В - тестирование</p></li>
+            <li class="dev-stage-items"><span class="number-dev-stage">4</span><p class="dev-stage-text section-text">Внешняя оптимизация</p></li>
         </ul>
     </div>
 </section>
