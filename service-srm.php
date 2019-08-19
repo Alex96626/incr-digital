@@ -27,7 +27,7 @@
     <div class="wrapper-section-title">
         <h4 class="section-title what-cmm-title">Что такое amoCRM?</h4>
     </div>
-    <video  controls="controls" poster="1.png" class="crm-video">
+    <video  controls="controls" poster="images/poster.png" class="crm-video">
         <source src="video/amoCRM-video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' >
     </video>
 </div>
