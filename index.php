@@ -126,7 +126,6 @@
 
     <section class="budget">
         <div class="container">
-<<<<<<< HEAD
             <div class="wrapper-budget">
                 <h3 class="section-title budget__title ">Мы умеем подстраиваться под любой бюджет</h3>
                 <!-- <div class="wrapper-budgest-list"> -->
@@ -135,10 +134,7 @@
                     <button class="switch switch-forward"> > </button>
                 </div>
             </div>
-=======
-            <h3 class="section-title budget__title">Мы умеем подстраиваться под любой бюджет</h3>
             <!-- <div class="wrapper-budgest-list"> -->
->>>>>>> 2226877733ac538659a5bd0507ceed725938b0dc
                 <div class="budget-list">
                     <div class="budget-list__item">
                         <div class="wrapper-budget-list__item">

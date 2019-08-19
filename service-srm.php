@@ -12,18 +12,24 @@
 <header class="header header-srm">
 <?php include('template/header.php') ?>
     <div class="container">
-        <section class="header-bottom">
+        <section class="header-bottom header-bottom-crm"> 
         <div class="small-info-service-about small-info-service-seo-about">
             <h3 class="smal-info-service-title smal-info-service-seo-title smal-info-service-srm-title">Получайте максимум от своего бизнеса с <img class="srm-text" src="images/crm-text.png"></h3>
             <div class="sml-info-service-we-top sml-info-service-seo-we-top sml-info-service-srm-we-top">amoCRM – полный комплекс инструментов, направленных на раскрытие потенциала вашего отдела продаж и повышение его эффективности</div>
             <button class="btn-more-service-seo btn-more-service-srm">Подробнее</button>
         </div>
+        <img class="crm-header-fon" src="images/header-srm-fon-1.png" alt="">
         </section>
     </div>
 </header>   
 <section class="what-cmm">
 <div class="container container-what-smm">
-    <img class="wtah-smm-video" src="">
+    <div class="wrapper-section-title">
+        <h4 class="section-title what-cmm-title">Что такое amoCRM?</h4>
+    </div>
+    <video  controls="controls" poster="1.png" class="crm-video">
+        <source src="video/amoCRM-video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' >
+    </video>
 </div>
 </section>
 <section class="amoCrm-helper">
@@ -32,7 +38,7 @@
         <img class="amoCrm-helper-img" src="images/crm-helper-fon.png">
         <div class="wrapper-amoCrm-helper">
             <span class="amoCrm-helper-sub-title section-sub-title">Клиент в центре внимания</span>
-            <span class="amoCrm-helper-text section-title">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
+            <span class="amoCrm-helper-text section-text">Social Media Marketing - это комплекс инструментов, позволяющий найти и привлечь внимание целевой аудитории. Основная цель SMM повысить лояльность бренда перед вашей аудиторий, что неизменно повысит узнаваемость и принесет дополнительные продажи. Построим стратегию, которая позволит: повысить рост лояльности текущих и потенциальных клиентов сформирование имиджа бренда проинформировать аудиторию провести анализ обратной связи от пользователей отработать негативные отзывы и собрать положительные Для продвижения бренда используем такие площадки, как ВКонтакте, Facebook, Instagram, Одноклассники, LinkedIn, Twitter, YouTube и др. Секрет нашего успеха в индивидуальном подходе</span>
             <button class="btn-more-service-seo btn-more-service-srm">Подробнее</button>
         </div>
     <div>
@@ -75,7 +81,7 @@
 </section>
 <section class="smm-info-2">
 <div class="container container-smm-info-1 container-smm-info-2">
-    <div class="wrapper-smm-info-1">
+    <div class="wrapper-smm-info-1 wrapper-smm-info-4 ">
     <img class="smm-info-4-img" src="images/crm-info-4-img.jpg">
         <div class="wrapper-smm-info-1-text wrapper-smm-info-2-text">
             <h4 class="title smm-info-1-title section-title">Ваша атмосфера и телефония в одной связке</h4>
