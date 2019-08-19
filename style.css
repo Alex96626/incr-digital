@@ -4559,11 +4559,6 @@ margin-bottom: 11px;
 
 }
 
-  
-
-
-
-
 /* stat! */
 
 /* trust-us */
@@ -4811,9 +4806,6 @@ color: rgba(29, 15, 28, 255);
     font-size: 18px;
     color: rgba(29, 15, 28, 255);
 }
-
-
-
 
 /* outside! */
 
@@ -5422,6 +5414,146 @@ color: rgba(29, 15, 28, 255);
 /* crm-price! */
 /* SRM! */
 
+/* AUTOMATION */
+
+/* automation-about */
+
+.automation-about {
+    position: relative;
+    background-image: url(images/automation-about-fon-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.automation-about-fon-2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.container-automation-about {
+    padding: 200px 15px 209px 15px;
+}
+
+.automation-about-title {
+    display: block;
+    margin-bottom: 232px;
+    font-family: 'Stolzl Book';
+    font-size: 40px;
+}
+
+.automation-about-title-img {
+    width: 47%;
+}
+
+.small-info-service-automation-about {
+    width: 506px;
+    max-width: 100%;
+}
+
+.sml-info-service-automation-we-top {
+    display: block;
+    margin: 42px 0 30px 0;
+    border-left: 3px solid #1d0f1c;
+    font-size: 18pt;
+}
+
+/* automation-about! */
+
+/* automation-info */
+
+.automation-info:nth-child(2n+1) {
+    background: #f5f7f8 url(images/left-fon.png) no-repeat 0px;
+}
+
+.automation-info:nth-child(2n) {
+    background: url(images/right-fon.png) no-repeat 100%;
+}
+
+.container-automation-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 64px 15px 40px;
+}
+
+.automation-info-title-img {
+    width: 50%;
+}
+
+.wrapper-automation-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.automation-info-text {
+    display: block;
+    margin-top: 25px;
+    font-family: 'Stolzl Light';
+    font-size: 16px;
+    color: rgba(120, 120, 120, 255);
+    line-height: 1.5em;
+}
+
+.automation-info-title-list {
+    display: block;
+    margin: 25px 0;
+    font-family: 'Stolzl Book';
+    font-size: 16px;
+}
+
+.automation-info-list {
+    list-style:none;
+    margin-bottom: 32px;
+}
+
+.automation-info-item {
+    position: relative;
+    display: block;
+    margin: 10px 0;
+    padding-left: 25px;
+    font-family: 'Stolzl Light';
+    font-size: 16px;
+    color: rgba(120, 120, 120, 255);
+}
+
+.automation-info-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 17px;
+    height: 1px;
+    background: #4b3aef;
+}
+
+.automation-info-title-img-2 {
+    width: 18%;
+}
+
+.one-c-text {
+
+    margin-bottom: 32px;    
+
+}
+
+.automation-info-title {
+    display: block;
+    margin-bottom: 27px;
+    font-family: 'Stolzl Book';
+    font-size: 26px;
+}
+
+.voip-text {
+    display: block;
+    margin-bottom: 32px;
+}
+
+
+
+/* automation-info! */
+
+/* AUTOMATION! */
 
 /* ADAPTIP */
 
