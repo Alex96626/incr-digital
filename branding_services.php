@@ -118,7 +118,11 @@
                     <span class="analysis-sub-title sesction-sub-title">Ваш торговый знак должен быть актуальным</span>
                     <span class="analysis-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
-                <div class="wrapper-analysis-list">
+                <div class="wrapper-switch switch-analisis-item">
+                    <button class="switch switch-back"> < </button>
+                    <button class="switch switch-forward"> > </button>
+                </div>
+                <div class="wrapper-analysis-list wrapper-analisis-item">
                     <ul class="analysis-list">
                         <li class="analysis-item"><p class="analysis-item-text ">Портрет клиента</p></li>
                         <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>

@@ -100,19 +100,25 @@
                 <span class="analysis-title section-title">Комплексный анализ</span>
                 <span class="analysis-sub-title section-sub-title">Мы изучаем целевую аудиторию товара</span>
                 <span class="analysis-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
-                </div>
-            <ul class="analysis-list analysis-list-pack ">
-                <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
-                <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
-                <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
-                <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
-            </ul>
-            <ul class="analysis-list ">
-                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
-                 <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
-                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
-                <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
-            </ul>
+            </div>
+            <div class="wrapper-switch switch-analisis-item">
+                <button class="switch switch-back"> < </button>
+                <button class="switch switch-forward"> > </button>
+            </div>
+            <div class="wrapper-analisis-item">
+                <ul class="analysis-list analysis-list-pack ">
+                    <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
+                    <li class="analysis-item"><p class="analysis-item-text">Карта репутации</p></li>
+                    <li class="analysis-item"><p class="analysis-item-text">Фокус группа</p></li>
+                    <li class="analysis-item"><p class="analysis-item-text">Систематизируем данные</p></li>
+                </ul>
+                <ul class="analysis-list ">
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Портрет клиента</p></li>
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Карта репутации</p></li>
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Фокус группа</p></li>
+                    <li class="analysis-item analysis-item-right"><p class="analysis-item-text">Систематизируем данные</p></li>
+                </ul>
+            </div>
         </div>
     </section>
     <section class="mommyjob">

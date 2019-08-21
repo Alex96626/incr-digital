@@ -119,7 +119,7 @@
     <div class="container container-stage-setting">
         <h3 class="stage-settig-title section-title">Этапы настройки рекламной компании</h3>
         <div class="stage-setting-list">
-           <span class="stage-setting-item"><p class="stage-setting-item-text section-sub-title"> Анализ и настройка</p></span> 
+           <span class="stage-setting-item stage-setting-item-1"><p class="stage-setting-item-text section-sub-title"> Анализ и настройка</p></span> 
             <ul class="stage-setting-text-list">
                 <li class="stage-setting-text-item">
                     <h4 class="stage-setting-text-title">Анализ и постановка целей</h4>
@@ -153,7 +153,7 @@
         <img src="./images/stage-setting-blot-2.png" class="paroller stage-setting__paroller-1" data-paroller-factor="0.2" aria-hidden="true" alt="" style="transform: translate(0px, 21px); transition: transform 0.1s ease 0s; will-change: transform;">
     <div class="container container-stage-setting">
         <div class="stage-setting-list">
-           <span class="stage-setting-item"><p class="stage-setting-item-text section-sub-title"> Подготовка к запуску</p></span> 
+           <span class="stage-setting-item stage-setting-item-2"><p class="stage-setting-item-text section-sub-title"> Подготовка к запуску</p></span> 
             <ul class="stage-setting-text-list">
                 <li class="stage-setting-text-item">
                     <h4 class="stage-setting-text-title section-sub-title">Анализ и постановка цеелй</h4>
@@ -186,7 +186,7 @@
 <section class="stage-setting">
     <div class="container container-stage-setting">
         <div class="stage-setting-list">
-           <span class="stage-setting-item"><p class="stage-setting-item-text section-sub-title"> Запуск и развитие</p></span> 
+           <span class="stage-setting-item stage-setting-item-3"><p class="stage-setting-item-text section-sub-title"> Запуск и развитие</p></span> 
             <ul class="stage-setting-text-list">
                 <li class="stage-setting-text-item">
                     <h4 class="stage-setting-text-title">Анализ и постановка цеелй</h4>

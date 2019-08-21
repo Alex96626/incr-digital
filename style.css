@@ -1939,6 +1939,10 @@ button:focus{
     padding: 50px 15px
 }
 
+.switch-analisis-item {
+    display: none;
+}
+
 .wrapper-analysis-title {
  flex: 2.3;
  display: flex;
@@ -1970,7 +1974,9 @@ margin-bottom: 11px;
 }
 
 .analysis-list {
-    flex: 1.5;
+    /* flex: 1.5; */
+    width: 400px;
+    max-width: 100%;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -1980,6 +1986,7 @@ margin-bottom: 11px;
 
 .wrapper-analisis-item {
     display: flex;
+    max-width: 100%;
     
 }
 
@@ -3585,28 +3592,61 @@ margin-bottom: 11px;
     width: 300px;
     height: 89px;
     margin-top: 31px;
-    padding-left: 127px;
+    padding-left: 165px;
     display: flex;
     align-items: center;
     font-family: 'Stolzl Book';
     font-size: 18px;
 }
 
-.stage-setting .stage-setting-item::before {
-    content: counter(stage-setting);
-    counter-increment: stage-setting;
+ .stage-setting-item-1::before {
+    content: '';
     position: absolute;
+    left:0; 
+    width: 143px;
+    height: 89px;
+    background-image: url(images/stage-setting-item-1.png);
+    background-repeat: no-repeat;
+}
+
+.stage-setting-item-2::before {
+    content: '';
+    position: absolute;
+    left:0; 
+    width: 143px;
+    height: 89px;
+    background-image: url(images/stage-setting-item-2.png);
+    background-repeat: no-repeat;
+}
+
+.stage-setting-item-3::before {
+    content: '';
+    position: absolute;
+    left:0; 
+    width: 143px;
+    height: 89px;
+    background-image: url(images/stage-setting-item-3.png);
+    background-repeat: no-repeat;
+}
+
+ .stage-setting-item:nth-child(1)::before {
+    /* content: ''; */
+    /* counter-increment: stage-setting; */
+    /* position: absolute;
+    left:0; 
     width: 109px;
     height: 89px;
-    /* background-image: url(images/stage-setting-item-1.png); */
-    left:0;
-    font-size: 85.25px;
+        background-image: url(images/stage-setting-item-1.png); */
+    /* font-size: 85.25px;
     font-family: "Stolzl";
-    color: rgb(29, 15, 28);
-    line-height: 0.23;
+    color: rgb(29, 15, 28);*/
+    /* font-size: 85.25px;
+    font-family: "Stolzl";
+    color: rgb(29, 15, 28); */
+    /* line-height: 0.23;
     -moz-transform: matrix( 1.41236472268103,0,0,1.43108136781913,0,0);
     -webkit-transform: matrix( 1.41236472268103,0,0,1.43108136781913,0,0);
-    -ms-transform: matrix( 1.41236472268103,0,0,1.43108136781913,0,0);
+    -ms-transform: matrix( 1.41236472268103,0,0,1.43108136781913,0,0); */
 }
 
 
@@ -3648,6 +3688,7 @@ margin-bottom: 11px;
 
 .stage-setting-list {
     display: flex;
+    counter-reset: 01; 
 }
 
 .stage-setting-text-list {
@@ -6222,7 +6263,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .wrapper-analisis-item {
-        order: 1;
+        /* order: 1; */
     }
 
     .wrapper-analysis-title {
@@ -6574,6 +6615,15 @@ color: rgba(29, 15, 28, 255);
 
     .show-client-item:last-child {
         margin: 15px;
+    }
+
+    .container-complex-analysis {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .switch-analisis-item {
+        display: block;
     }
  }
 
@@ -7231,7 +7281,7 @@ color: rgba(29, 15, 28, 255);
     }
 
     .stage-setting-item {
-        padding-left: 0;
+        padding-bottom: 50px;
     }
 
     .how-affect-text {
@@ -7447,8 +7497,8 @@ color: rgba(29, 15, 28, 255);
     }
 
     .projects-list__item {
-            width: auto;
-            margin-bottom: 20px;
+            /* width: auto; */
+            /* margin-bottom: 20px; */
     }
 
     .projects-list__item-img {

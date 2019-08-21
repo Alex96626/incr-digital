@@ -95,6 +95,15 @@ document.addEventListener('DOMContentLoaded', () => {
             nextArrow: $('.switch-forward'),
             responsive: [
 
+                {
+                    breakpoint: 1101,
+                    settings: {
+                        variableWidth: false,
+                    }
+                
+                    
+                },
+
             ]
 
 
@@ -128,8 +137,8 @@ document.addEventListener('DOMContentLoaded', () => {
         $('.waterfall-bloks').slick({
             infinite: false,
             slidesToShow: 2,
-            slidesToScroll: 1,
-            centerMode : true,
+            slidesToScroll: 2,
+            // centerMode : true,
             initialSlide : 1,
             arrows :true,
             // centerPadding: '100px',
@@ -170,14 +179,16 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         $('.wrapper-analisis-item').slick({
-            // infinite: false,
-            // slidesToShow: 1,
-            // slidesToScroll: 1,
-            // centerMode : true,
+            infinite :false,
+            slidesToShow: 1,
+            // slidesToScroll: 1,  
             // initialSlide : 1,
-            arrows :false,
+            arrows :true,
             // centerPadding: '100px',
             // variableWidth : true,
+            speed: 300,
+            prevArrow: $('.switch-back'),
+            nextArrow: $('.switch-forward'),
             responsive: [
 
             
