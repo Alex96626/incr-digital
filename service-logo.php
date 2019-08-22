@@ -108,8 +108,8 @@
                 <span class="dev-stage-sub-title section-sub-title">Процесс разработки включает в себя несколько важных этапов.</span>
             </div>
             <div class="wrapper-switch wrapper-switch-logo">
-                <button class="switch switch-back"> < </button>
-                <button class="switch switch-forward"> > </button>
+                <button class="switch switch-back dev-stage_switch-back"> < </button>
+                <button class="switch switch-forward dev-stage_switch-forward"> > </button>
             </div>
             <ul class="dev-stage-list">
                 <li class="dev-stage-items"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Комплексный анализ</p></li>
@@ -128,8 +128,8 @@
                 <span class="analysis-text section-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</span>
                 </div>
                 <div class="wrapper-switch switch-analisis-item">
-                    <button class="switch switch-back"> < </button>
-                    <button class="switch switch-forward"> > </button>
+                    <button class="switch switch-back complex-analysis_switch-back"> < </button>
+                    <button class="switch switch-forward complex-analysis_switch-forward"> > </button>
                 </div>
                 <div class="wrapper-analisis-item">
                     <ul class="analysis-list">

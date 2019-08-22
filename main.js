@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
             initialSlide : 1,
             arrows :true,
             // adaptiveHeight : true,
-            prevArrow: $('.switch-back'),
-            nextArrow: $('.switch-forward'),
+            prevArrow: $('.dev-stage_switch-back'),
+            nextArrow: $('.dev-stage_switch-forward'),
             responsive: [
                 
                 {
@@ -60,8 +60,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 {
                     breakpoint: 1101,
                     settings: 'slick'
-                
-                    
                 },
 
                 {
@@ -69,10 +67,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     settings: {
                     centerPadding: '40px',
                     slidesToShow: 2 ,
-
                     }
                 },
-
                 {
                     breakpoint: 500,
                     settings: {
@@ -179,8 +175,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // centerPadding: '100px',
             // variableWidth : true,
             speed: 300,
-            prevArrow: $('.switch-back'),
-            nextArrow: $('.switch-forward'),
+            prevArrow: $('.complex-analysis_switch-back'),
+            nextArrow: $('.complex-analysis_switch-forward'),
             responsive: [
 
             

@@ -107,7 +107,10 @@
             <span class="dev-stage-title section-title">Процесс настройки и развития контекстной рекламы для сайта проходит в несколько этапов</span>
             <span class="dev-stage-sub-title section-sub-title">Финальный результат должен привлекать покупателя и отражать ключевые преимущества продукта</span>
         </div>
-        
+        <div class="wrapper-switch wrapper-switch-logo">
+            <button class="switch switch-back dev-stage_switch-back"> < </button>
+            <button class="switch switch-forward dev-stage_switch-forward"> > </button>
+        </div>
         <ul class="dev-stage-list dev-stage-context-lost dev-stage-context">
             <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Анализ и настройка</p></li>
             <li class="dev-stage-items dev-stage-item-context"><span class="number-dev-stage">2</span><p class="dev-stage-text section-text">Подготовка к запуску</p></li>

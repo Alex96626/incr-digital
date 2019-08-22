@@ -99,22 +99,22 @@
             </div>
             <ul class="services-sub">
                 <li class="services-sub__item">
-                    <a href="#" class="services-sub__item-link">amoCRM</a>
+                    <a href="automation.php" class="services-sub__item-link">amoCRM</a>
                 </li>
                 <li class="services-sub__item">
-                    <a href="#" class="services-sub__item-link">Bitrix24</a>
+                    <a href="automation.php" class="services-sub__item-link">Bitrix24</a>
                 </li>
                 <li class="services-sub__item">
-                    <a href="#" class="services-sub__item-link">1C</a>
+                    <a href="automation.php" class="services-sub__item-link">1C</a>
                 </li>
                 <li class="services-sub__item">
-                    <a href="#" class="services-sub__item-link">Roistat</a>
+                    <a href="automation.php" class="services-sub__item-link">Roistat</a>
                 </li>
                 <li class="services-sub__item">
-                    <a href="#" class="services-sub__item-link">Ip-телефония</a>
+                    <a href="automation.php" class="services-sub__item-link">Ip-телефония</a>
                 </li>
             </ul>
-            <a href="#" class="services-list__item-link">Подробнее</a>
+            <a href="automation.php" class="services-list__item-link">Подробнее</a>
         </div>
         <div class="services-list__item">
             <div class="wrapper-item-top">

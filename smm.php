@@ -104,6 +104,10 @@
         <div class="wrapper-title">
             <span class="dev-stage-title dev-stage-title-seo section-title">Как мы работаем</span>
         </div>
+        <div class="wrapper-switch wrapper-switch-logo">
+            <button class="switch switch-back dev-stage_switch-back"> < </button>
+            <button class="switch switch-forward dev-stage_switch-forward"> > </button>
+        </div>
         <ul class="dev-stage-list dev-stage-list-seo">
             <li class="dev-stage-items dev-stage-items-smm"><span class="number-dev-stage">1</span><p class="dev-stage-text section-text">Технический анализ</p>
                 <span class="dev-stage-item-text">повысить рост лояльности текущих и потенциальных клиентов
