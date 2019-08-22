@@ -89,25 +89,18 @@ document.addEventListener('DOMContentLoaded', () => {
             slidesToScroll: 1,
             centerMode : true,
             // initialSlide : 1,
-            variableWidth: true,
+            variableWidth: false,
             arrows :true,
-            prevArrow: $('.switch-back'),
-            nextArrow: $('.switch-forward'),
+            prevArrow: $('.switch-back_project'),
+            nextArrow: $('.switch-forward_project'),
             responsive: [
-
                 {
                     breakpoint: 1101,
                     settings: {
                         variableWidth: false,
                     }
-                
-                    
                 },
-
             ]
-
-
-
         });
 
         $('.budget-list').slick({
@@ -118,46 +111,45 @@ document.addEventListener('DOMContentLoaded', () => {
             initialSlide : 1,
             arrows :true,
             variableWidth : true,
-            prevArrow: $('.switch-back'),
-            nextArrow: $('.switch-forward'),
+            prevArrow: $('.budget-list-switch-back'),
+            nextArrow: $('.budget-list-switch-forward'),
             responsive: [
-            {
-                breakpoint: 1921,
-                settings: 'unslick'
-            },
+                {
+                    breakpoint: 1921,
+                    settings: 'unslick'
+                },
 
-            {
-                breakpoint: 1201,
-                settings: 'slick'
-                
-            },
-        ]
+                {
+                    breakpoint: 1201,
+                    settings: 'slick'
+                    
+                },
+            ]
         });
 
         $('.waterfall-bloks').slick({
             infinite: false,
-            slidesToShow: 2,
-            slidesToScroll: 2,
+            slidesToShow: 1,
+            slidesToScroll: 1,
             // centerMode : true,
-            initialSlide : 1,
+            initialSlide : 0,
             arrows :true,
+            // autoHeight: true,
             // centerPadding: '100px',
             variableWidth : true,
+            centerPadding: '50px',
             responsive: [
+                {
+                    breakpoint: 1921,
+                    settings: 'unslick'
+                },
 
-            
-            {
-                breakpoint: 1921,
-                settings: 'unslick'
-            },
-
-            {
-                breakpoint: 1201,
-                settings: 'slick'
-                
-            },
-        ]
-
+                {
+                    breakpoint: 1201,
+                    settings: 'slick'
+                    
+                },
+            ]
         });
 
         $('.wrapper-trust-us').slick({

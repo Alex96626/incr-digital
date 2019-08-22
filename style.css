@@ -950,11 +950,11 @@ button:focus{
 
 .rotated-block {
     position: relative;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
     width: 250px;
-    height: 250px;
+    height: 250px !important;
     margin-bottom: -172.5px;
     text-align: center;
 }
@@ -6245,6 +6245,7 @@ color: rgba(29, 15, 28, 255);
 
     .section-text {
         font-size: 18px !important;
+
     }
 
     .brand-dev {
@@ -7775,6 +7776,16 @@ color: rgba(29, 15, 28, 255);
     .how-we-works__content {
         flex-direction: column;
         align-items: center;
+    }
+
+    .waterfall-bloks {
+        margin-left: 0;
+    }
+
+    .waterfall__text {
+        width: auto;
+        background-color: rgba(255, 255, 255, 0.4);;
+
     }
 
     .rotated-block:nth-child(odd),

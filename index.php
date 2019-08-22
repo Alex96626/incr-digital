@@ -62,8 +62,8 @@
         <div class="container wrapper-project">
             <h2 class="section-title projects__title section-title">Наши работы</h2>
             <div class="wrapper-switch">
-                <button class="switch switch-back"> < </button>
-                <button class="switch switch-forward"> > </button>
+                <button class="switch switch-back switch-back_project"> < </button>
+                <button class="switch switch-forward switch-forward_project"> > </button>
             </div>
         </div>
         <div class="projects-list">
@@ -130,8 +130,8 @@
                 <h3 class="section-title budget__title ">Мы умеем подстраиваться под любой бюджет</h3>
                 <!-- <div class="wrapper-budgest-list"> -->
                 <div class="wrapper-switch switch-budget">
-                    <button class="switch switch-back"> < </button>
-                    <button class="switch switch-forward"> > </button>
+                    <button class="switch switch-back budget-list-switch-back"> < </button>
+                    <button class="switch switch-forward budget-list-switch-forward"> > </button>
                 </div>
             </div>
             <!-- <div class="wrapper-budgest-list"> -->
@@ -195,36 +195,36 @@
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
                     </p>
                     <div class="waterfall-bloks rotated-blocks">
-                        <div class="waterfall-bloks__item rotated-block">
-                            <div class="wrapper-waterfall-bloks__item">
-                                <span class="rotated-block__text">
-                                    Формулируем требования к конечному продукту.
-                                </span>
+                            <div class="waterfall-bloks__item rotated-block">
+                                <div class="wrapper-waterfall-bloks__item">
+                                    <span class="rotated-block__text">
+                                        Формулируем требования к конечному продукту.
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="waterfall-bloks__item rotated-block">
-                            <div class="wrapper-waterfall-bloks__item">
-                                <span class="rotated-block__text">
-                                    Пишем детальное ТЗ (на основе вашего или с нуля).
-                                </span>
+                            <div class="waterfall-bloks__item rotated-block">
+                                <div class="wrapper-waterfall-bloks__item">
+                                    <span class="rotated-block__text">
+                                        Пишем детальное ТЗ (на основе вашего или с нуля).
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="waterfall-bloks__item rotated-block">
-                            <div class="wrapper-waterfall-bloks__item">
-                                <span class="rotated-block__text">
-                                    Строим график работ.
-                                </span>
+                            <div class="waterfall-bloks__item rotated-block">
+                                <div class="wrapper-waterfall-bloks__item">
+                                    <span class="rotated-block__text">
+                                        Строим график работ.
+                                    </span>
+                                </div>
                             </div>
-                        </div>
-                        <div class="waterfall-bloks__item rotated-block">
-                            <div class="wrapper-waterfall-bloks__item">
-                                <span class="rotated-block__text">
-                                    Работаем по нему.
-                                </span>
+                            <div class="waterfall-bloks__item rotated-block">
+                                <div class="wrapper-waterfall-bloks__item">
+                                    <span class="rotated-block__text">
+                                        Работаем по нему.
+                                    </span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 <div class="agile">
                     <img src="./images/agile.png" class="agile__img" alt="Agile">
                     <h5 class="agile__title">Agile</h5>
