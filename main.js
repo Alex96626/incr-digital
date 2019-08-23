@@ -133,7 +133,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // autoHeight: true,
             // centerPadding: '100px',
             variableWidth : true,
-            centerPadding: '50px',
+            // centerPadding: '50px',
+            prevArrow: $('.waterfall_switch-back'),
+            nextArrow: $('.waterfall_switch-forward'),
             responsive: [
                 {
                     breakpoint: 1921,
@@ -147,6 +149,36 @@ document.addEventListener('DOMContentLoaded', () => {
                 },
             ]
         });
+
+
+        $('.agile-bloks').slick({
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            // centerMode : true,
+            initialSlide : 0,
+            arrows :true,
+            // autoHeight: true,
+            // centerPadding: '100px',
+            variableWidth : true,
+            // centerPadding: '50px',
+            prevArrow: $('.agile_switch-back'),
+            nextArrow: $('.agile_switch-forward'),
+            responsive: [
+                {
+                    breakpoint: 1921,
+                    settings: 'unslick'
+                },
+
+                {
+                    breakpoint: 1201,
+                    settings: 'slick'
+                    
+                },
+            ]
+        });
+
+         
 
         $('.wrapper-trust-us').slick({
 
@@ -175,8 +207,8 @@ document.addEventListener('DOMContentLoaded', () => {
             // centerPadding: '100px',
             // variableWidth : true,
             speed: 300,
-            prevArrow: $('.complex-analysis_switch-back'),
-            nextArrow: $('.complex-analysis_switch-forward'),
+            // prevArrow: $('.complex-analysis_switch-back'),
+            // nextArrow: $('.complex-analysis_switch-forward'),
             responsive: [
 
             

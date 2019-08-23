@@ -194,6 +194,10 @@
                     <p class="waterfall__text section-text">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
                     </p>
+                    <div class="wrapper-switch wrapper-switch-waterfall">
+                        <button class="switch  waterfall_switch-back"> < </button>
+                        <button class="switch  waterfall_switch-forward"> > </button>
+                     </div>
                     <div class="waterfall-bloks rotated-blocks">
                             <div class="waterfall-bloks__item rotated-block">
                                 <div class="wrapper-waterfall-bloks__item">
@@ -230,7 +234,11 @@
                     <h5 class="agile__title">Agile</h5>
                     <p class="agile__text section-text">
                         Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.
-                    </p>                    
+                    </p>  
+                    <div class="wrapper-switch wrapper-switch-waterfall">
+                        <button class="switch  agile_switch-back"> < </button>
+                        <button class="switch  agile_switch-forward"> > </button>
+                     </div>                  
                     <div class="agile-bloks rotated-blocks">
                         <div class="agile-bloks__item rotated-block">
                             <span class="rotated-block__text">

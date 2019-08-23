@@ -913,6 +913,10 @@ button:focus{
     background: url(./images/waterfall.png) no-repeat calc(100% - 55px) 80px;
 }
 
+.wrapper-switch-waterfall {
+    display: none;
+}
+
 .waterfall__title,
 .agile__title {
     margin-bottom: 20px;
@@ -1863,6 +1867,7 @@ button:focus{
 
     .wrapper-switch-logo {
         display: flex;
+        width: 100%;
     }
 
 }
@@ -1943,6 +1948,41 @@ button:focus{
     display: none;
 }
 
+.wrapper-analisis-item .slick-arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    width: 38px;
+    height: 38px;
+    border: 0px;
+    border-radius: 20px;
+    background: #f3f3f3;
+    color: #8e8e8e;
+    font-size: 0;
+    display: block;
+    /* background: #fff; */
+}
+
+.wrapper-analisis-item .slick-arrow::before {
+    width: 4px;
+    height: 3px;
+    color: black;
+    font-size: 16px;
+}
+
+.wrapper-analisis-item .slick-prev::before {
+    content: '<';
+}
+
+.wrapper-analisis-item .slick-next::before {
+    content: '>';
+}
+
+.wrapper-analisis-item .slick-prev {
+    right: 44px;
+}
+
 .wrapper-analysis-title {
  flex: 2.3;
  display: flex;
@@ -1985,6 +2025,8 @@ margin-bottom: 11px;
 }
 
 .wrapper-analisis-item {
+    position: relative;
+    padding-top: 45px;
     display: flex;
     max-width: 100%;
     
@@ -7299,7 +7341,8 @@ color: rgba(29, 15, 28, 255);
 
     .dev-stage-context {
         flex-direction: column;
-        width: 320px;
+        /* width: 320px; */
+        width: 100%;
         height: auto;
     }
 
@@ -7778,8 +7821,49 @@ color: rgba(29, 15, 28, 255);
         align-items: center;
     }
 
-    .waterfall-bloks {
-        margin-left: 0;
+    .waterfall-bloks,
+    .agile-bloks  {
+        margin-left: 88px;
+    }
+
+    .waterfall {
+        background: url(./images/waterfall.png) no-repeat calc(100% - 202px) 150px;
+    }
+
+    .waterfall-bloks .draggable,
+    .agile-bloks .draggable
+    {
+        padding: 50px;
+    }
+
+    .wrapper-switch-waterfall {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .agile {
+        width: 570px;
+        max-width: 100%;
+    }
+
+    .agile__text {
+        width: auto;
+    }
+
+    .agile-bloks {
+        margin-top: 100px;
+    }
+
+    .agile_switch-back,
+    .agile_switch-forward,
+    .waterfall_switch-back,
+    .waterfall_switch-forward {
+        margin: 0 3px;
+    }
+
+    .waterfall-bloks__item,
+    .agile-bloks__item {
+        margin: 0 65px;
     }
 
     .waterfall__text {
