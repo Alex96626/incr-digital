@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             centerMode : true,
             initialSlide : 1,
             arrows :true,
-            // adaptiveHeight : true,
+            adaptiveHeight : true,
             prevArrow: $('.dev-stage_switch-back'),
             nextArrow: $('.dev-stage_switch-forward'),
             responsive: [

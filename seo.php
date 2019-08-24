@@ -103,10 +103,6 @@
                     по объективным причинам предлагаем
             </span>
         </div>
-        <div class="wrapper-switch switch-analisis-item">
-            <button class="switch switch-back complex-analysis_switch-back"> < </button>
-            <button class="switch switch-forward complex-analysis_switch-forward"> > </button>
-        </div>
         <div class="wrapper-analisis-item">
             <ul class="analysis-list">
                 <li class="analysis-item"><p class="analysis-item-text">Портрет клиента</p></li>
