@@ -4,10 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     //adapt-menu
-
+    
     let selector = selector => document.querySelector(selector);
     let selectorAll = selector => document.querySelectorAll(selector);
-
+    const mobileSubmenuNavitem = selector('.mobile-sub-menu-nav-item');
+    
     if(document.documentElement.clientWidth <= 1100) {
         initMobileMenu();
     }
@@ -17,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeMenuBtn = selector('.close-menu-btn');
         const mobileMenu = selector('.mobile-menu');
         const mobileMenuOverlay = selector('.mobile-menu-overlay');
+        
 
         openMenuBtn.addEventListener('click', ()=> {
             menuToggleClasses();
@@ -35,8 +37,24 @@ document.addEventListener('DOMContentLoaded', () => {
             mobileMenuOverlay.classList.toggle('mobile-menu-overlay_active');
             document.body.classList.toggle('no-overflow');
         }
+
+        mobileSubmenuNavitem.addEventListener('click', ()=>{
+            if(mobileSubmenuNavitem.classList.contains('open-mobile-sub-menu-nav-item')){
+                mobileSubmenuNavitem.classList.remove('open-mobile-sub-menu-nav-item');
+            }else {
+                mobileSubmenuNavitem.classList.add('open-mobile-sub-menu-nav-item');
+            }
+            
+            
+
+        });
+
+
         
     }
+    
+
+    
 
     // slaider
 

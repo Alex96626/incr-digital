@@ -21,6 +21,7 @@
             <div class="sml-info-service-we-top sml-info-service-seo-we-top">Выведем Ваш сайт в топ 5 От 24 дней</div>
             <button class="btn-more-service-seo">Подробнее</button>
         </div>
+        <img src="images\seo-header-img.png" alt="" class="seo-header-img">
     </div>
 </section>
 <section class="what-service">

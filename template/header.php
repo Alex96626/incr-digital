@@ -51,7 +51,7 @@
                                 <span class="mobile-menu-nav-item__link-text">ГЛАВНАЯ</span>
                             </a>
                         </li>
-                        <li class="mobile-menu-nav-item">
+                        <li class="mobile-menu-nav-item mobile-sub-menu-nav-item">
                             <a href="service.php" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">УСЛУГИ</span>
                             </a>
