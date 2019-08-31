@@ -51,10 +51,17 @@
                                 <span class="mobile-menu-nav-item__link-text">ГЛАВНАЯ</span>
                             </a>
                         </li>
-                        <li class="mobile-menu-nav-item mobile-sub-menu-nav-item">
+                        <li class="mobile-menu-nav-item mobile-sub-menu-nav-item-visible">
                             <a href="service.php" class="mobile-menu-nav-item__link">
                                 <span class="mobile-menu-nav-item__link-text">УСЛУГИ</span>
                             </a>
+                            <ul class="mobile-sub-menu-nav-item">
+                                <li class="mobile-sub-menu-nav-item__link">Bla Bla Bla</li>
+                                <li class="mobile-sub-menu-nav-item__link">Bla Bla Bla</li>
+                                <li class="mobile-sub-menu-nav-item__link">Bla Bla Bla</li>
+                                <li class="mobile-sub-menu-nav-item__link">Bla Bla Bla</li>
+                                <li class="mobile-sub-menu-nav-item__link">Bla Bla Bla</li>
+                            </ul>
                         </li>
                         <li class="mobile-menu-nav-item">
                             <a href="about_us.php" class="mobile-menu-nav-item__link">

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     let selector = selector => document.querySelector(selector);
     let selectorAll = selector => document.querySelectorAll(selector);
-    const mobileSubmenuNavitem = selector('.mobile-sub-menu-nav-item');
+    const mobileSubmenuNavitemVisible = selector('.mobile-sub-menu-nav-item-visible');
     
     if(document.documentElement.clientWidth <= 1100) {
         initMobileMenu();
@@ -38,11 +38,11 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.classList.toggle('no-overflow');
         }
 
-        mobileSubmenuNavitem.addEventListener('click', ()=>{
-            if(mobileSubmenuNavitem.classList.contains('open-mobile-sub-menu-nav-item')){
-                mobileSubmenuNavitem.classList.remove('open-mobile-sub-menu-nav-item');
+        mobileSubmenuNavitemVisible.addEventListener('click', ()=>{
+            if(mobileSubmenuNavitemVisible.classList.contains('open-mobile-sub-menu-nav-item-visible')){
+                mobileSubmenuNavitemVisible.classList.remove('open-mobile-sub-menu-nav-item-visible');
             }else {
-                mobileSubmenuNavitem.classList.add('open-mobile-sub-menu-nav-item');
+                mobileSubmenuNavitemVisible.classList.add('open-mobile-sub-menu-nav-item-visible');
             }
             
             
