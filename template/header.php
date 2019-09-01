@@ -52,8 +52,8 @@
                             </a>
                         </li>
                         <li class="mobile-menu-nav-item mobile-sub-menu-nav-item-visible">
-                            <a href="service.php" class="mobile-menu-nav-item__link">
-                                <span class="mobile-menu-nav-item__link-text">УСЛУГИ</span>
+                            <a href="service.php" class="mobile-menu-nav-item__link ">
+                                <span class="mobile-menu-nav-item__link-text ">УСЛУГИ</span>
                             </a>
                             <ul class="mobile-sub-menu-nav-item">
                                 <li class="mobile-sub-menu-nav-item__link">Bla Bla Bla</li>

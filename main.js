@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let selector = selector => document.querySelector(selector);
     let selectorAll = selector => document.querySelectorAll(selector);
     const mobileSubmenuNavitemVisible = selector('.mobile-sub-menu-nav-item-visible');
+    const mobileSubMenuNavitem = selector('.mobile-sub-menu-nav-item');
+    console.log(mobileSubMenuNavitem);
     
     if(document.documentElement.clientWidth <= 1100) {
         initMobileMenu();
@@ -41,12 +43,13 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileSubmenuNavitemVisible.addEventListener('click', ()=>{
             if(mobileSubmenuNavitemVisible.classList.contains('open-mobile-sub-menu-nav-item-visible')){
                 mobileSubmenuNavitemVisible.classList.remove('open-mobile-sub-menu-nav-item-visible');
+                mobileSubMenuNavitem.classList.remove('visible-mobile-sub-menu-nav-item');
+
             }else {
                 mobileSubmenuNavitemVisible.classList.add('open-mobile-sub-menu-nav-item-visible');
-            }
-            
-            
+                mobileSubMenuNavitem.classList.add('visible-mobile-sub-menu-nav-item');
 
+            }
         });
 
 
